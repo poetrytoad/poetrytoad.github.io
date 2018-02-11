@@ -3,8 +3,8 @@ layout: default
 title: home
 ---
 
-This is a test.
+This is a test.  
 Second line.
 
-New para.
+New para.  
 Fourth line.
