@@ -1,0 +1,9 @@
+body {
+    max-width: 32em;
+    font-family: 'Palatino';
+    padding: 4em 2em;
+}
+
+pre {
+    font-family: inherit;
+}
