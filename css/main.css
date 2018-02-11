@@ -1,9 +1,14 @@
 body {
     max-width: 32em;
-    font-family: 'Palatino';
+    font-family: 'Lato';
     padding: 4em 2em;
+    margin: 0 auto;
+    font-size: 13px;
+    line-height: 1.33;
 }
 
-pre {
-    font-family: 'Palatino';
+pre, code {
+    font-family: 'Lato';
 }
+
+h1, h2 { font-family: 'EB Garamond'; }
