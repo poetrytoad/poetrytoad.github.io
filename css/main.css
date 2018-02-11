@@ -8,7 +8,11 @@ body {
 }
 
 pre, code {
+<<<<<<< HEAD
     font-family: 'Lato';
+=======
+    font-family: 'Palatino';
+>>>>>>> 65d1b68cc977937b4c0ee5e642e3a92b7152d232
 }
 
 h1, h2 { font-family: 'EB Garamond'; }
