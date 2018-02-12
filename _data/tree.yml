@@ -1,13 +1,14 @@
-- name: 'Alpha'
-  children: 
-    - name: 'AlphaAlpha'
-    - name: 'AlphaBeta'
-- name: 'Beta'
+- name: Alpha
+  spouse: Spouse 1
   children:
-    - name: 'BetaAlpha'
+    - name: AlphaAlpha
+    - name: AlphaBeta
+- name: Beta
+  children:
+    - name: BetaAlpha
+      spouse: Spouse 2
       children:
-        - name: 'BetaAlphaAlpha'
-        - name: 'BetaAlphaBeta'
-    - name: 'BetaBeta'
-- name: 'Gamma'
-        
+        - name: BetaAlphaAlpha
+        - name: BetaAlphaBeta
+    - name: BetaBeta
+- name: Gamma

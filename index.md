@@ -11,14 +11,18 @@ title: home
       {% for p3 in p2.children %}
       {% if forloop.first %}<ul>{% endif %}
       <li>{{ p3.name }}
-      {% for p4 in p3.children %}
+        {% for p4 in p3.children %}
         {% if forloop.first %}<ul>{% endif %}
         <li>{{ p4.name }}
         </li>
         {% if forloop.last %}</ul>{% endif %}
+        {% endfor %}
       </li>
       {% if forloop.last %}</ul>{% endif %}
+      {% endfor %}
     </li>
     {% if forloop.last %}</ul>{% endif %}
+    {% endfor %}
   </li>
+  {% endfor %}
 </ul>
