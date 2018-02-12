@@ -2,13 +2,23 @@
 layout: default
 title: home
 ---
-
-This is a test.  
-Second line.
-
-New para.  
-Fourth line.
-
-{% for post in site.posts %}
-* [{{ post.title }}]({{ post.url }})
-{% endfor %}
+<ul>
+{% for p1 in site.data.toc_jekyll %}
+  <li>{{ p1.name }}
+    {% for p2 in p1.children %}
+    {% if forloop.first %}<ul>{% endif %}
+    <li>{{ p2.name }}
+      {% for p3 in p2.children %}
+      {% if forloop.first %}<ul>{% endif %}
+      <li>{{ p3.name }}
+      {% for p4 in p3.children %}
+        {% if forloop.first %}<ul>{% endif %}
+        <li>{{ p4.name }}
+        </li>
+        {% if forloop.last %}</ul>{% endif %}
+      </li>
+      {% if forloop.last %}</ul>{% endif %}
+    </li>
+    {% if forloop.last %}</ul>{% endif %}
+  </li>
+</ul>
