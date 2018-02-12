@@ -3,7 +3,7 @@ layout: default
 title: home
 ---
 <ul>
-{% for p1 in site.data.toc_jekyll %}
+{% for p1 in site.data.tree %}
   <li>{{ p1.name }}
     {% for p2 in p1.children %}
     {% if forloop.first %}<ul>{% endif %}
