@@ -1,6 +1,7 @@
 body {
     max-width: 32em;
     font-family: 'Source Sans Pro';
+    font-weight: 300;
     padding: 4em 2em;
     margin: 0 auto;
     font-size: 13px;
@@ -9,6 +10,8 @@ body {
 
 pre, code {
     font-family: 'Source Sans Pro';
+    font-weight: 300;
 }
 
-h1, h2 { font-family: inherit; }
+h1, h2 { font-family: inherit;
+font-weight: 200;}
