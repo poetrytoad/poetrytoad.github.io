@@ -1,6 +1,6 @@
 body {
     max-width: 32em;
-    font-family: 'Roboto';
+    font-family: 'Source Sans Pro';
     padding: 4em 2em;
     margin: 0 auto;
     font-size: 13px;
@@ -8,7 +8,7 @@ body {
 }
 
 pre, code {
-    font-family: 'Roboto';
+    font-family: 'Source Sans Pro';
 }
 
-h1, h2 { font-family: 'EB Garamond'; }
+h1, h2 { font-family: inherit; }
