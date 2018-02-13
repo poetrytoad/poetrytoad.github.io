@@ -192,10 +192,6 @@ p {
     margin: 0 0;
 }
 
-article, nav {
-    margin-left: 0;
-}
-
 .bd {
     font-weight: normal;
     font-size: .8em;
