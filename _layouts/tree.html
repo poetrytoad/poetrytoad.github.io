@@ -18,7 +18,7 @@
     {% for p1 in site.data.[page.family] %}
     {% if forloop.first %}<ul>{% endif %}
         <li>
-            {% include loop.liquid p=p2 %}
+            {% include loop.liquid p=p1 %}
                         {% for p2 in p1.children %}
                         {% if forloop.first %}<ul>{% endif %}
                             <li>
