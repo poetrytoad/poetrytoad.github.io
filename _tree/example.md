@@ -1,9 +1,5 @@
 ---
 title: tree
-id: Ancestor
-path:
-  - name: Ancestor 1
-  - Ancestor 2
 ---
 
 # Additional notes
