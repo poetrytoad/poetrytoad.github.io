@@ -15,8 +15,8 @@ ul {
     margin-left: 2em;
 }
 
-article, nav {
-    margin: 0 0 3rem 5rem;
+article {
+    margin: 0 0 3rem 0;
 }
 
 article>ul {
@@ -204,4 +204,8 @@ ol {
 
 p {
     margin: 0 0;
+}
+
+article, nav {
+  margin-left: 0;
 }
