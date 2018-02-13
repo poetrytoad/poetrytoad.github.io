@@ -1,67 +1,60 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{{ page:collection }}{% if page.title %}: {{ page.title }}{% endif %}</title>
+<head>
 
-    <!--[if lt IE 9]>
+  <title>{{ page:collection }}{% if page.title %}: {{ page.title }}{% endif %}</title>
+  <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/tree.css" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/tree.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
-  </head>
+</head>
 <body>
 
-<nav>
+  <nav>
     <h1>
       <a href="#" class="path">&larr;</a>
       {{ page:collection }}
     </h1>
-</nav>
+  </nav>
 
-<article>
-      {% for h in site.data.[page.title].head %}
+  <article>
+    {% for h in site.data.[page.title].head %}
       <h1>
         {% include loop.liquid p=h %}
       </h1>
-      {% endfor %}
+    {% endfor %}
 
-{% for p1 in site.data.[page.title].family %}
-  {% if forloop.first %}<ul>{% endif %}
-    <li>
-      {% include loop.liquid p=p1 %}
-            {% for p2 in p1.children %}
-            {% if forloop.first %}<ul>{% endif %}
+    {% for p1 in site.data.[page.title].family %} {% if forloop.first %}
+    <ul>{% endif %}
+      <li>
+        {% include loop.liquid p=p1 %} {% for p2 in p1.children %} {% if forloop.first %}
+        <ul>{% endif %}
+          <li>
+            {% include loop.liquid p=p2 %} {% for p3 in p2.children %} {% if forloop.first %}
+            <ul>{% endif %}
               <li>
-                {% include loop.liquid p=p2 %}
-                    {% for p3 in p2.children %}
-                    {% if forloop.first %}<ul>{% endif %}
-                      <li>
-                        {% include loop.liquid p=p3 %}
-                              {% for p4 in p3.children %}
-                              {% if forloop.first %}<ul>{% endif %}
-                                <li>
-                                  {% include loop.liquid p=p4%}
-                                </li>
-                              {% if forloop.last %}</ul>{% endif %}
-                              {% endfor %}
-                      </li>
-                    {% if forloop.last %}</ul>{% endif %}
-                    {% endfor %}
+                {% include loop.liquid p=p3 %} {% for p4 in p3.children %} {% if forloop.first %}
+                <ul>{% endif %}
+                  <li>
+                    {% include loop.liquid p=p4%}
+                  </li>
+                  {% if forloop.last %}</ul>{% endif %} {% endfor %}
               </li>
-            {% if forloop.last %}</ul>{% endif %}
-            {% endfor %}
-    </li>
-  {% if forloop.last %}</ul>{% endif %}
-{% endfor %}
-</article>
+              {% if forloop.last %}</ul>{% endif %} {% endfor %}
+          </li>
+          {% if forloop.last %}</ul>{% endif %} {% endfor %}
+      </li>
+      {% if forloop.last %}</ul>{% endif %} {% endfor %}
+  </article>
 
-<script src="{{ site.baseurl }}/js/fold.js"></script>
+  <script src="{{ site.baseurl }}/js/fold.js"></script>
 
-<article>
-  {{ content }}
-</article>
+  <article>
+    {{ content }}
+  </article>
 
 </body>
 </html>
