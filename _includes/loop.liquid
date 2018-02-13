@@ -1,7 +1,15 @@
 {% if include.p.children %}<a style="cursor:pointer;">{% endif %}
     <span {% if include.p.gen %} class="{{ include.p.gen }}" {% endif %}>{{ include.p.name }}</span>
     {% if include.p.sur %}<span class="sur">{{ include.p.sur }}</span>{% endif %}
-    {% if include.p.born %}<span class="bd">b.{{ include.p.born }}</span>{% endif %}
+
+    {% if include.p.born %}<span class="bd">{{ include.p.born }}
+        {% if include.p.died %}–{{ include.p.died }} {% else %}—{% endif %}
+        </span>
+    {% elsif include.p.died %}
+        <span class="bd">†{{ include }}</span>
+    {% endif %}
+
+
     {% if include.p.spouse %}
       <span class="spouse">
             {% if include.p.spouse.link %}<a href="{{include.p.spouse.link}}">{% endif %}

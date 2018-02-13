@@ -54,7 +54,7 @@ ul li:before {
 .M::after, .F::after {
     font-size: .8em;
     font-weight: bold;
-    margin: 0 .33em;
+    margin: 0 0 0 .33em;
 }
 
 .M::after {
