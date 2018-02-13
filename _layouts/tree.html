@@ -32,26 +32,10 @@
                 {% endif %}
             </a>
 
-                        {% for p2 in p1.children %}
-                        {% if forloop.first %}<ul>{% endif %}
-                            <li>
-                                <a>
-                                    <span class="{{ p2.gen }}">{{ p2.name }}</span>
-                                    {% if p2.sur %}<span class="sur">{{ p2.sur }}</span>{% endif %}
-                                    {% if p2.born %}<span class="bd">b.{{ p2.born }}</span>{% endif %}
-                                    {% if p2.spouse %}
-                                        <span class="spouse">
-                                        {% if p2.spouse.link %}<a href="{{p2.spouse.link}}">{% endif %}
-                                            <span class="{{ p2.spouse.gen }}">{{ p2.spouse.name }}</span>
-                                        {% if p2.spouse.sur %}<span class="sur">{{ p2.spouse.sur }}</span>{% endif %}
-                                        {% if p2.spouse.born %}<span class="bd">b.{{ p2.spouse.born }}</span>{% endif %}
-                                        {% if p2.spouse.link %}</a>{% endif %}
-                                    {% endif %}
-                                </a>
+                        {% include loop.liquid elem=p2 set=p1 %}
 
 
-
-                            </li>
+                        </li>
                         {% if forloop.last %}</ul>{% endif %}
                         {% endfor %}
 

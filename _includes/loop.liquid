@@ -1,0 +1,16 @@
+{% for {{include.elem}} in {{include.set}} %}
+{% if forloop.first %}<ul>{% endif %}
+    <li>
+        <a>
+            <span class="{{ elem.gen }}">{{ elem.name }}</span>
+            {% if elem.sur %}<span class="sur">{{ elem.sur }}</span>{% endif %}
+            {% if elem.born %}<span class="bd">b.{{ elem.born }}</span>{% endif %}
+            {% if elem.spouse %}
+                <span class="spouse">
+                {% if elem.spouse.link %}<a href="{{elem.spouse.link}}">{% endif %}
+                    <span class="{{ elem.spouse.gen }}">{{ elem.spouse.name }}</span>
+                {% if elem.spouse.sur %}<span class="sur">{{ elem.spouse.sur }}</span>{% endif %}
+                {% if elem.spouse.born %}<span class="bd">b.{{ elem.spouse.born }}</span>{% endif %}
+                {% if elem.spouse.link %}</a>{% endif %}
+            {% endif %}
+        </a>
