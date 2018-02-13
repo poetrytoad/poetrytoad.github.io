@@ -29,7 +29,7 @@
 
 <article>
     <h1>
-      {% include loop.liquid p=site.data.[page.title].head %}
+      {% include loop.liquid p=[site.data.[page.title].head] %}
     </h1>
 
 {% for p1 in site.data.[page.title].family %}
