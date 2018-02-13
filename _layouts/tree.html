@@ -10,11 +10,29 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/tree.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
+    <style>
+        {% if ! page.id %}
+        article, nav {
+            margin-left: 0;
+        }
+    </style>
+
   </head>
 <body>
 
+
+<nav>
+    <h1>
+        {{ :collection }}
+    </h1>
+</nav>
+
 <article>
-    {% for p1 in site.data.[page.family] %}
+    <h1>
+        {% include loop.liquid p=site.data.[page.title].head %}
+    </h1>
+
+    {% for p1 in site.data.[page.title].family %}
     {% if forloop.first %}<ul>{% endif %}
         <li>
             {% include loop.liquid p=p1 %}

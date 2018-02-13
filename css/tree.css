@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono|Fira+Sans:300,300i,600,600i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext');
-
 html {
     font-size: 13px;
 }
@@ -105,7 +104,27 @@ ul li:before {
     display: none;
 }
 
+h1 .path {
+    padding-top: .5rem;
+}
+
 h1 {
+    font-size: 1.2rem;
+    margin: 0 0 0 0;
+}
+
+h1 a {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+h1 a::before {
+    content: '<';
+    padding: 0 .25em;
+    color: #ccc;
+}
+
+h2, nav h1 {
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -114,31 +133,11 @@ h1 {
     color: #999;
 }
 
-h1 a.path {
+nav h1 a.path {
     font-size: 2em;
     line-height: 1;
     padding: 0 0;
     margin: 0 0;
-}
-
-h2 .path {
-    padding-top: .5rem;
-}
-
-h2 {
-    font-size: 1.2rem;
-    margin: 0 0 0 0;
-}
-
-h2 a {
-    font-weight: normal;
-    font-size: 1rem;
-}
-
-h2 a::before {
-    content: '<';
-    padding: 0 .25em;
-    color: #ccc;
 }
 
 a:hover>.path, a.path:hover {
@@ -181,8 +180,7 @@ nav a:not(:last-of-type)::after {
     color: #ccc;
 }
 
-ul a:link:hover,
-nav a:link:hover span {
+ul a:link:hover, nav a:link:hover span {
     background: #def;
 }
 
@@ -191,7 +189,7 @@ ul :not(sup) a:link, nav a:link span {
 }
 
 sup {
-    padding:0 1px;
+    padding: 0 1px;
     line-height: 1;
 }
 

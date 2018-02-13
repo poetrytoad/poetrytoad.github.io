@@ -1,4 +1,4 @@
-<a>
+{% if include.p.children} <a> {% endif %}
     <span class="{{ include.p.gen }}">{{ include.p.name }}</span>
     {% if include.p.sur %}<span class="sur">{{ include.p.sur }}</span>{% endif %}
     {% if include.p.born %}<span class="bd">b.{{ include.p.born }}</span>{% endif %}
@@ -10,4 +10,4 @@
         {% if include.p.spouse.born %}<span class="bd">b.{{ include.p.spouse.born }}</span>{% endif %}
         {% if include.p.spouse.link %}</a>{% endif %}
     {% endif %}
-</a>
+{% if include.p.children} </a> {% endif %}
