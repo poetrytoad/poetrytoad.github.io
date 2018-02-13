@@ -1,7 +1,9 @@
 head:
     name: Papaji
     gen: M
-    spouse: Mamaji
+    spouse:
+        name: Mamaji
+        gen: F
 
 family:
     - name: Dilbagh
