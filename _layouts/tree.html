@@ -20,15 +20,15 @@
         <li>
             <a>
                 <span class="{{ p1.gen }}">{{ p1.name }}</span>
-                {% if sur in p1 %}<span class="sur">{{ p1.sur }}</span>{% endif %}
-                {% if born in p1 %}<span class="bd">b.{{ p1.born }}</span>{% endif %}
-                {% if spouse in p1 %}
+                {% if p1.sur %}<span class="sur">{{ p1.sur }}</span>{% endif %}
+                {% if p1.born %}<span class="bd">b.{{ p1.born }}</span>{% endif %}
+                {% if p1.spouse %}
                     <span class="spouse">
-                    {% if link in p1.spouse %}<a href="{{p1.spouse.link}}">{% endif %}
+                    {% if p1.spouse.link %}<a href="{{p1.spouse.link}}">{% endif %}
                         <span class="{{ p1.spouse.gen }}">{{ p1.spouse.name }}</span>
-                    {% if sur in p1.spouse %}<span class="sur">{{ p1.spouse.sur }}</span>{% endif %}
-                    {% if born in p1.spouse %}<span class="bd">b.{{ p1.spouse.born }}</span>{% endif %}
-                    {% if link in p1.spouse %}</a>{% endif %}
+                    {% if p1.spouse.sur %}<span class="sur">{{ p1.spouse.sur }}</span>{% endif %}
+                    {% if p1.spouse.born %}<span class="bd">b.{{ p1.spouse.born }}</span>{% endif %}
+                    {% if p1.spouse.link %}</a>{% endif %}
                 {% endif %}
 
                             {% for p2 in p1.children %}
