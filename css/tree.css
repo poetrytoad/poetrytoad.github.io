@@ -1,106 +1,110 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono|Fira+Sans:300,300i,600,600i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext');
 html {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 body {
-    font-family: 'Fira Sans', sans;
-    line-height: 2;
-    margin: 2em 3em;
-    -ms-text-size-adjust: none;
-    -moz-text-size-adjust: none;
-    -o-text-size-adjust: none;
-    -webkit-text-size-adjust: none;
+  font-family: 'Fira Sans', sans;
+  line-height: 2;
+  margin: 2em 3em;
+  -ms-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+}
+
+ol, ul {
+  font-size: inherit;
 }
 
 ul {
-    list-style: none;
-    padding: 0 0;
-    margin-left: 2em;
+  list-style: none;
+  padding: 0 0;
+  margin-left: 2em;
 }
 
 article {
-    margin: 0 0 3rem 0;
+  margin: 0 0 3rem 0;
 }
 
 article>ul {
-    margin: 0 0;
+  margin: 0 0;
 }
 
 ul ul {
-    border: 1px solid black;
-    border-width: 0 0 0 1px;
+  border: 1px solid black;
+  border-width: 0 0 0 1px;
 }
 
 ul li {
-    padding: 0 0;
-    white-space: nowrap;
+  padding: 0 0;
+  white-space: nowrap;
 }
 
 ul li:before {
-    display: inline-block;
-    width: .5em;
-    height: 0;
-    vertical-align: middle;
-    margin: 0em .5em 0 0;
-    padding: 0 0 0 .5em;
-    content: '';
-    border-top: 1px solid black;
+  display: inline-block;
+  width: .5em;
+  height: 0;
+  vertical-align: middle;
+  margin: 0em .5em 0 0;
+  padding: 0 0 0 .5em;
+  content: '';
+  border-top: 1px solid black;
 }
 
 .spouse::before {
-    content: '+';
-    margin: 0 .1em;
-    color: #c60;
-    font-weight: bold;
+  content: '+';
+  margin: 0 .1em;
+  color: #c60;
+  font-weight: bold;
 }
 
 .M::after, .F::after {
-    font-size: .8em;
-    font-weight: bold;
-    margin: 0 0 0 .33em;
+  font-size: .8em;
+  font-weight: bold;
+  margin: 0 0 0 .33em;
 }
 
 .M::after {
-    color: #abc;
-    content: "S";
+  color: #abc;
+  content: "S";
 }
 
 .F::after {
-    color: #cab;
-    content: "K";
+  color: #cab;
+  content: "K";
 }
 
 .path {
-    position: absolute;
-    left: 2rem;
-    width: 5rem;
-    display: inline-block;
-    text-align: left;
-    font-family: 'Fira Mono';
-    font-weight: 100;
-    font-size: .8rem;
-    padding-top: .25rem;
-    vertical-align: middle;
-    letter-spacing: 1px;
-    color: #bbb;
+  position: absolute;
+  left: 2rem;
+  width: 5rem;
+  display: inline-block;
+  text-align: left;
+  font-family: 'Fira Mono';
+  font-weight: 100;
+  font-size: .8rem;
+  padding-top: .25rem;
+  vertical-align: middle;
+  letter-spacing: 1px;
+  color: #bbb;
 }
 
 .fold a:not(:link) {
-    border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .fold>ul {
-    display: none;
+  display: none;
 }
 
 h1 .path {
-    padding-top: .5rem;
+  padding-top: .5rem;
 }
 
 h1 {
-    font-size: 1.2rem;
-    margin: 0 0 0 0;
+  font-size: 1.2rem;
+  margin: 0 0 0 0;
 }
 
 h1 .path a {}
@@ -114,102 +118,103 @@ h1 .path a {}
 } */
 
 h2, nav h1 {
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin: 0 0;
-    font-weight: normal;
-    color: #999;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0;
+  font-weight: normal;
+  color: #999;
 }
 
 nav h1 a.path {
-    font-size: 2em;
-    line-height: 1;
-    padding: 0 0;
-    margin: 0 0;
+  font-size: 2em;
+  line-height: 1;
+  padding: 0 0;
+  margin: 0 0;
 }
 
 a:hover>.path, a.path:hover {
-    color: black
+  color: black
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .spouse::before {
-    border: none;
+  border: none;
 }
 
 q {
-    color: #777;
+  color: #777;
 }
 
 q::before {
-    content: '‘';
+  content: '‘';
 }
 
 q::after {
-    content: '’';
+  content: '’';
 }
 
 nav {
-    margin: 1em 0;
+  margin: 1em 0;
 }
 
 nav a::before {
-    content: none;
-    border: none;
+  content: none;
+  border: none;
 }
 
 nav a:not(:last-of-type)::after {
-    content: '>';
-    margin: 0 0 0 .25em;
-    color: #ccc;
+  content: '>';
+  margin: 0 0 0 .25em;
+  color: #ccc;
 }
 
 ul a:link:hover, nav a:link:hover span {
-    background: #def;
+  background: #def;
 }
 
 ul :not(sup) a:link, nav a:link span {
-    border-bottom: 1px dotted #abc;
+  border-bottom: 1px dotted #abc;
 }
 
 sup {
-    padding: 0 1px;
-    line-height: 1;
+  padding: 0 1px;
+  line-height: 1;
 }
 
 footer {
-    margin: 2rem 0;
-    font-size: .88em;
+  margin: 2rem 0;
+  font-size: .88em;
 }
 
 ol {
-    padding: 1em;
+  padding: 1em;
 }
 
 p {
-    margin: 0 0;
+  margin: 0 0;
 }
 
 .bd {
-    font-weight: normal;
-    font-size: .8em;
-    color: #999;
+  font-weight: normal;
+  font-size: .8em;
+  color: #999;
 }
 
 .bd::before {
-    content: "(";
+  content: "(";
 }
 
 .bd::after {
-    content: ")";
+  content: ")";
 }
 
 /* this is to make space for path */
+
 article, nav {
   margin-left: 5rem;
 }
