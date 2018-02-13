@@ -116,13 +116,13 @@ h1 {
 h1 .path a {
 }
 
-h1 a::before {
+/* h1 a::before {
     font-weight: normal;
     font-size: 1rem;
     content: '<';
     padding: 0 .25em;
     color: #ccc;
-}
+} */
 
 h2, nav h1 {
     font-size: 1rem;
