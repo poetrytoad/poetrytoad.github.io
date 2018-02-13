@@ -1,9 +1,8 @@
 head:
-  - name: Papaji
-    id: 111111
+  - name: Balwant
     gen: M
     spouse:
-      name: Mamaji
+      name: Pal
       gen: F
     anc:
       - name: Great Great
@@ -40,3 +39,44 @@ family:
         gen: M
       - name: Jai
         gen: M
+  - name: Ajit
+    gen: F
+    spouse:
+      name: Avtar
+      gen: M
+      sur: Reehal
+    children:
+      - name: Kelly
+        gen: F
+      - name: Harvey
+        gen: M
+        spouse: 
+          - name: Maddy
+          - gen: F
+      - name: Nicky
+        gen: F
+        children: 
+          - name: Jamie
+  - name: Kuldip
+    gen: F
+    spouse:
+      name: Sahib
+      sur: Ahluwalia
+      gen: M
+    children:
+      - name: Anoop
+        gen: M
+      - name: Jasleen
+        gen: F
+  - name: Amrik
+    gen: M
+    spouse:
+      - name: Ritu
+        sur: Bakshi
+        gen: F
+    children:
+      - name: Simran
+        gen: F
+        
+    
+  
