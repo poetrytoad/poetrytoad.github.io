@@ -1,4 +1,4 @@
-{% if include.p.children %}<a>{% endif %}
+{% if include.p.children %}<a style="cursor:pointer;">{% endif %}
     <span {% if include.p.gen %} class="{{ include.p.gen }}" {% endif %}>{{ include.p.name }}</span>
     {% if include.p.sur %}<span class="sur">{{ include.p.sur }}</span>{% endif %}
     {% if include.p.born %}<span class="bd">b.{{ include.p.born }}</span>{% endif %}
