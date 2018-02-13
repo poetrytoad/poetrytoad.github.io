@@ -7,7 +7,7 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/tree.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,600,600i|Lato:400,400i,900,900i&amp;subset=greek,greek-ext,latin-ext" rel="stylesheet">
 
@@ -31,6 +31,31 @@
                     {% if p1.spouse.link %}</a>{% endif %}
                 {% endif %}
             </a>
+
+                        {% for p2 in p1.children %}
+                        {% if forloop.first %}<ul>{% endif %}
+                            <li>
+                                <a>
+                                    <span class="{{ p2.gen }}">{{ p2.name }}</span>
+                                    {% if p2.sur %}<span class="sur">{{ p2.sur }}</span>{% endif %}
+                                    {% if p2.born %}<span class="bd">b.{{ p2.born }}</span>{% endif %}
+                                    {% if p2.spouse %}
+                                        <span class="spouse">
+                                        {% if p2.spouse.link %}<a href="{{p2.spouse.link}}">{% endif %}
+                                            <span class="{{ p2.spouse.gen }}">{{ p2.spouse.name }}</span>
+                                        {% if p2.spouse.sur %}<span class="sur">{{ p2.spouse.sur }}</span>{% endif %}
+                                        {% if p2.spouse.born %}<span class="bd">b.{{ p2.spouse.born }}</span>{% endif %}
+                                        {% if p2.spouse.link %}</a>{% endif %}
+                                    {% endif %}
+                                </a>
+
+
+
+                            </li>
+                        {% if forloop.last %}</ul>{% endif %}
+                        {% endfor %}
+
+
 
         </li>
     {% if forloop.last %}</ul>{% endif %}
