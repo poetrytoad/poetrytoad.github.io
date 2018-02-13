@@ -32,7 +32,7 @@
         {{ site.data.[page.title].head.name }}
     </h1>
 
-    {% for p1 in site.data.[page.title].family %}
+{% for p1 in site.data.[page.title].family %}
     {% if forloop.first %}<ul>{% endif %}
         <li>
             {% include loop.liquid p=p1 %}
@@ -59,7 +59,7 @@
                         {% endfor %}
         </li>
     {% if forloop.last %}</ul>{% endif %}
-    {% endfor %}
+{% endfor %}
 </article>
 
 <script src="{{ site.baseurl }}/js/fold.js""></script>
