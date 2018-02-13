@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono|Fira+Sans:300,300i,600,600i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext');
+
 html {
     font-size: 13px;
 }
@@ -86,7 +88,7 @@ ul li:before {
     width: 5rem;
     display: inline-block;
     text-align: left;
-    font-family: Iosevka;
+    font-family: 'Fira Mono';
     font-weight: 100;
     font-size: .8rem;
     padding-top: .25rem;
