@@ -28,9 +28,11 @@
 </nav>
 
 <article>
-    <h1>
-      {{ site.data.[page.title].head.name }}
-    </h1>
+      {% for h in site.data.[page.title].head %}
+      <h1>
+        {% include loop.liquid p=h %}
+      </h1>
+      {% endfor %}
 
 {% for p1 in site.data.[page.title].family %}
   {% if forloop.first %}<ul>{% endif %}
