@@ -1,10 +1,10 @@
 head:
-  id: 11111
-  name: Papaji
-  gen: M
-  spouse:
-    name: Mamaji
-    gen: F
+  - name: Papaji
+    id: 11111
+    gen: M
+    spouse:
+      name: Mamaji
+      gen: F
 
 family:
   - name: Dilbagh
