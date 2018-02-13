@@ -36,7 +36,7 @@ ul ul {
   border-width: 0 0 0 1px;
 }
 
-ul li:last-child ul {
+ul li:last-child>ul {
   border:none
 }
 
