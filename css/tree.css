@@ -60,12 +60,12 @@ ul li:before {
 
 .M::after {
     color: #abc;
-    content: "S" attr(data-sur);
+    content: "S";
 }
 
 .F::after {
     color: #cab;
-    content: "K" attr(data-sur);
+    content: "K";
 }
 
 .path {
