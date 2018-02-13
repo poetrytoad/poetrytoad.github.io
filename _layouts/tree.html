@@ -23,13 +23,13 @@
 
 <nav>
     <h1>
-        {{ :collection }}
+        {{ page:collection }}
     </h1>
 </nav>
 
 <article>
     <h1>
-        {% include loop.liquid p=site.data.[page.title].head %}
+        {{ site.data.[page.title].head.name }}
     </h1>
 
     {% for p1 in site.data.[page.title].family %}
