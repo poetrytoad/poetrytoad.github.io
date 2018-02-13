@@ -4,7 +4,7 @@ title: home
 family: tree
 ---
 <ul>
-{% for p1 in site.data.[family] %}
+{% for p1 in site.data.[page.family] %}
   <li>{{ p1.name }}
     {% for p2 in p1.children %}
     {% if forloop.first %}<ul>{% endif %}
