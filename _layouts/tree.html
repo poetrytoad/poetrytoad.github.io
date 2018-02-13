@@ -29,36 +29,36 @@
 
 <article>
     <h1>
-        {{ site.data.[page.title].head.name }}
+        {{ page.title }}
     </h1>
 
-{% for p1 in site.data.[page.title].family %}
-    {% if forloop.first %}<ul>{% endif %}
-        <li>
-            {% include loop.liquid p=p1 %}
-                        {% for p2 in p1.children %}
-                        {% if forloop.first %}<ul>{% endif %}
-                            <li>
-                                {% include loop.liquid p=p2 %}
-                                            {% for p3 in p2.children %}
-                                            {% if forloop.first %}<ul>{% endif %}
-                                                <li>
-                                                    {% include loop.liquid p=p3 %}
-                                                                {% for p4 in p3.children %}
-                                                                {% if forloop.first %}<ul>{% endif %}
-                                                                    <li>
-                                                                        {% include loop.liquid p=p4%}
-                                                                    </li>
-                                                                {% if forloop.last %}</ul>{% endif %}
-                                                                {% endfor %}
-                                                </li>
-                                            {% if forloop.last %}</ul>{% endif %}
-                                            {% endfor %}
-                            </li>
-                        {% if forloop.last %}</ul>{% endif %}
-                        {% endfor %}
-        </li>
-    {% if forloop.last %}</ul>{% endif %}
+{% for p1 in site.data.[page.title] %}
+  {% if forloop.first %}<ul>{% endif %}
+    <li>
+      {% include loop.liquid p=p1 %}
+            {% for p2 in p1.children %}
+            {% if forloop.first %}<ul>{% endif %}
+              <li>
+                {% include loop.liquid p=p2 %}
+                    {% for p3 in p2.children %}
+                    {% if forloop.first %}<ul>{% endif %}
+                      <li>
+                        {% include loop.liquid p=p3 %}
+                              {% for p4 in p3.children %}
+                              {% if forloop.first %}<ul>{% endif %}
+                                <li>
+                                  {% include loop.liquid p=p4%}
+                                </li>
+                              {% if forloop.last %}</ul>{% endif %}
+                              {% endfor %}
+                      </li>
+                    {% if forloop.last %}</ul>{% endif %}
+                    {% endfor %}
+              </li>
+            {% if forloop.last %}</ul>{% endif %}
+            {% endfor %}
+    </li>
+  {% if forloop.last %}</ul>{% endif %}
 {% endfor %}
 </article>
 

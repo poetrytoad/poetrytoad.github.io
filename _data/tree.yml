@@ -1,36 +1,28 @@
-head:
-    name: Papaji
-    gen: M
-    spouse:
-        name: Mamaji
-        gen: F
-
-family:
-    - name: Dilbagh
-      gen: M
+- name: Dilbagh
+  gen: M
+  spouse:
+    name: Surjit
+    gen: F
+  children:
+    - name: Urminder
+      gen: F
+      born: 1955
       spouse:
-        name: Surjit
-        gen: F
+        name: Karanjit
+        sur: Rai
+        gen: M
+        born: 1953
+        link: otherpage
       children:
-        - name: Urminder
+        - name: Jeevan
+          gen: M
+          sur: Chana Rai
+          born: 1987
+        - name: Sajan
           gen: F
-          born: 1955
-          spouse:
-            name: Karanjit
-            sur: Rai
-            gen: M
-            born: 1953
-            link: otherpage
-          children:
-            - name: Jeevan
-              gen: M
-              sur: Chana Rai
-              born: 1987
-            - name: Sajan
-              gen: F
-              sur: Chana Rai
-              born: 1990
-        - name: Iqbal
-          gen: M
-        - name: Jai
-          gen: M
+          sur: Chana Rai
+          born: 1990
+    - name: Iqbal
+      gen: M
+    - name: Jai
+      gen: M
