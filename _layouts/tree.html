@@ -32,11 +32,13 @@
                 {% endif %}
             </a>
 
-                        {% include loop.liquid elem=p2 set=p1 %}
-                        </li>
+                        {% for p2 in p1.children %}
+                        {% if forloop.first %}<ul>{% endif %}
+                            <li>
+                                {% include loop.liquid p=p2 %}
+                            </li>
                         {% if forloop.last %}</ul>{% endif %}
                         {% endfor %}
-
 
 
         </li>
