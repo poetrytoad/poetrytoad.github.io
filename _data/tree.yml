@@ -1,15 +1,28 @@
-- name: Alpha
-  spouse: Spouse 1
+- name: Dilbagh
+  gen: M
+  spouse:
+    name: Surjit
+    gen: F
   children:
-    - name: AlphaAlpha
-    - name: AlphaBeta
-- name: Beta
-  children:
-    - name: BetaAlpha
-      spouse: Spouse 2
+    - name: Urminder
+      gen: F
+      born: 1955
+      spouse:
+        name: Karanjit
+        sur: Rai
+        gen: M
+        born: 1953
+        link: otherpage
       children:
-        - name: BetaAlphaAlpha
-        - name: BetaAlphaBeta
-        - name: BetaAlphaGamma
-    - name: BetaBeta
-- name: Gamma
+        - name: Jeevan
+          gen: M
+          sur: Chana Rai
+          born: 1987
+        - name: Sajan
+          gen: F
+          sur: Chana Rai
+          born: 1990
+    - name: Iqbal
+      gen: M
+    - name: Jai
+      gen: M

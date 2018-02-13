@@ -51,18 +51,18 @@ ul li:before {
     font-weight: bold;
 }
 
-.m::after, .f::after {
+.M::after, .F::after {
     font-size: .8em;
     font-weight: bold;
     margin: 0 .33em;
 }
 
-.m::after {
+.M::after {
     color: #abc;
     content: "S" attr(data-sur);
 }
 
-.f::after {
+.F::after {
     color: #cab;
     content: "K" attr(data-sur);
 }
