@@ -1,9 +1,10 @@
 ---
 layout: default
 title: home
+family: tree
 ---
 <ul>
-{% for p1 in site.data.tree %}
+{% for p1 in site.data.[family] %}
   <li>{{ p1.name }}
     {% for p2 in p1.children %}
     {% if forloop.first %}<ul>{% endif %}

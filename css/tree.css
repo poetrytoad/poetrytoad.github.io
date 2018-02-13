@@ -1,0 +1,207 @@
+html {
+    font-size: 13px;
+}
+
+body {
+    font-family: 'Fira Sans', sans;
+    line-height: 2;
+    margin: 2em 2em;
+}
+
+ul {
+    list-style: none;
+    padding: 0 0;
+    margin-left: 2em;
+}
+
+article {
+    margin: 0 0 3rem 5rem;
+}
+
+article>ul {
+    margin: 0 0;
+}
+
+ul ul {
+    border: 1px solid black;
+    border-width: 0 0 0 1px;
+}
+
+ul li {
+    padding: 0 0;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+ul li:before {
+    display: inline-block;
+    width: .5em;
+    height: 0;
+    vertical-align: middle;
+    margin: 0em .5em 0 0;
+    padding: 0 0 0 .5em;
+    content: '';
+    border-top: 1px solid black;
+}
+
+.spouse::before {
+    content: '+';
+    margin: 0 .1em;
+    color: #c60;
+    font-weight: bold;
+}
+
+.m::after, .f::after {
+    font-size: .8em;
+    font-weight: bold;
+    margin: 0 .33em;
+}
+
+.m::after {
+    color: #abc;
+    content: "S" attr(data-sur);
+}
+
+.f::after {
+    color: #cab;
+    content: "K" attr(data-sur);
+}
+
+.bd {
+    font-size: .8em;
+    color: #999;
+}
+
+.bd::before {
+    content: "(";
+}
+
+.bd::after {
+    content: ")";
+}
+
+.path {
+    position: absolute;
+    left: 2rem;
+    width: 5rem;
+    display: inline-block;
+    text-align: left;
+    font-family: Iosevka;
+    font-weight: 100;
+    font-size: .8rem;
+    padding-top: .25rem;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    color: #bbb;
+}
+
+.fold a:not(:link) {
+    border-bottom: 1px solid black;
+}
+
+.fold>ul {
+    display: none;
+}
+
+h1 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 0;
+    font-weight: normal;
+    color: #999;
+}
+
+h1 a.path {
+    font-size: 2em;
+    line-height: 1;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+h2 .path {
+    padding-top: .5rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin: 0 0 0 0;
+}
+
+h2 a {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+h2 a::before {
+    content: '<';
+    padding: 0 .25em;
+    color: #ccc;
+}
+
+a:hover>.path, a.path:hover {
+    color: black
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.spouse::before {
+    border: none;
+}
+
+q {
+    color: #777;
+}
+
+q::before {
+    content: '‘';
+}
+
+q::after {
+    content: '’';
+}
+
+nav {
+    margin: 1em 0;
+}
+
+nav a::before {
+    content: none;
+    border: none;
+}
+
+nav a:not(:last-of-type)::after {
+    content: '>';
+    margin: 0 0 0 .25em;
+    color: #ccc;
+}
+
+ul a:link:hover,
+nav a:link:hover span {
+    background: #def;
+}
+
+ul :not(sup) a:link, nav a:link span {
+    border-bottom: 1px dotted #abc;
+}
+
+sup {
+    padding:0 1px;
+    line-height: 1;
+}
+
+footer {
+    margin: 2rem 0;
+    font-size: .88em;
+}
+
+ol {
+    padding: 1em;
+}
+
+p {
+    margin: 0 0;
+}
