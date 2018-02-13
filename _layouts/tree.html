@@ -11,7 +11,7 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <style>
-      {% if site.data.[page.title].head.id }
+      {% if site.data.[page.title].head.id %}
         article, nav {
           margin-left: 5em;
         }
@@ -29,7 +29,7 @@
 
 <article>
     <h1>
-      {% page.title %}
+      {% include loop.liquid p=site.data.[page.title].head %}
     </h1>
 
 {% for p1 in site.data.[page.title].family %}
