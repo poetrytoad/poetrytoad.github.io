@@ -31,9 +31,12 @@ article>ul {
   margin: 0 0;
 }
 
-ul ul :not(:last-child) {
+ul ul {
   border: 1px solid black;
   border-width: 0 0 0 1px;
+}
+ul:last-child ul {
+  border:none
 }
 
 ul li {
