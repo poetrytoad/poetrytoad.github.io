@@ -7,6 +7,10 @@ body {
     font-family: 'Fira Sans', sans;
     line-height: 2;
     margin: 2em 3em;
+    -ms-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
 }
 
 ul {
