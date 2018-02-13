@@ -30,27 +30,6 @@
                     {% if p1.spouse.born %}<span class="bd">b.{{ p1.spouse.born }}</span>{% endif %}
                     {% if p1.spouse.link %}</a>{% endif %}
                 {% endif %}
-
-                            {% for p2 in p1.children %}
-                            {% if forloop.first %}<ul>{% endif %}
-                                <li>
-                                    <a>
-                                        <span class="{{ p2.gen }}">{{ p2.name }}</span>
-                                        {% if sur in p2 %}<span class="sur">{{ p2.sur }}</span>{% endif %}
-                                        {% if born in p2 %}<span class="bd">b.{{ p2.born }}</span>{% endif %}
-                                        {% if spouse in p2 %}
-                                            <span class="spouse">
-                                            {% if link in p2.spouse %}<a href="{{p2.spouse.link}}">{% endif %}
-                                                <span class="{{ p2.spouse.gen }}">{{ p2.spouse.name }}</span>
-                                            {% if sur in p2.spouse %}<span class="sur">{{ p2.spouse.sur }}</span>{% endif %}
-                                            {% if born in p2.spouse %}<span class="bd">b.{{ p2.spouse.born }}</span>{% endif %}
-                                            {% if link in p2.spouse %}</a>{% endif %}
-                                        {% endif %}
-                                    </a>
-                                </li>
-                            {% if forloop.last %}</ul>{% endif %}
-                            {% endfor %}
-
             </a>
 
         </li>
