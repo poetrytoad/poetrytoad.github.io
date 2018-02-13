@@ -6,7 +6,7 @@ html {
 body {
     font-family: 'Fira Sans', sans;
     line-height: 2;
-    margin: 2em 2em;
+    margin: 2em 3em;
 }
 
 ul {
@@ -68,19 +68,6 @@ ul li:before {
     content: "K" attr(data-sur);
 }
 
-.bd {
-    font-size: .8em;
-    color: #999;
-}
-
-.bd::before {
-    content: "(";
-}
-
-.bd::after {
-    content: ")";
-}
-
 .path {
     position: absolute;
     left: 2rem;
@@ -113,8 +100,7 @@ h1 {
     margin: 0 0 0 0;
 }
 
-h1 .path a {
-}
+h1 .path a {}
 
 /* h1 a::before {
     font-weight: normal;
@@ -207,5 +193,19 @@ p {
 }
 
 article, nav {
-  margin-left: 0;
+    margin-left: 0;
+}
+
+.bd {
+    font-weight: normal;
+    font-size: .8em;
+    color: #999;
+}
+
+.bd::before {
+    content: "(";
+}
+
+.bd::after {
+    content: ")";
 }
