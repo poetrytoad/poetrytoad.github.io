@@ -10,5 +10,6 @@
       children:
         - name: BetaAlphaAlpha
         - name: BetaAlphaBeta
+        - name: BetaAlphaGamma
     - name: BetaBeta
 - name: Gamma
