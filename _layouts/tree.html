@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{ page.family }}{% if page.title %}: {{ page.title }}{% endif %}</title>
+    <title>{{ page:collection }}{% if page.title %}: {{ page.title }}{% endif %}</title>
 
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -9,14 +9,6 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/tree.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
-    <style>
-      {% if site.data.[page.title].head.id %}
-        article, nav {
-          margin-left: 5em;
-        }
-      {% endif %}
-    </style>
 
   </head>
 <body>

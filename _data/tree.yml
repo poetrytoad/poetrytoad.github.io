@@ -5,6 +5,11 @@ head:
     spouse:
       name: Mamaji
       gen: F
+    anc:
+      - name: Great Great
+        gen: M
+      - name: Great Great
+        gen: M
 
 family:
   - name: Dilbagh

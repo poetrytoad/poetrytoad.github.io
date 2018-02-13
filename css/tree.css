@@ -209,3 +209,8 @@ article, nav {
 .bd::after {
     content: ")";
 }
+
+/* this is to make space for path */
+article, nav {
+  margin-left: 5em;
+}

@@ -1,11 +1,13 @@
 {% if include.p.sur %}<a>{% endif %}
-    <span class="{{ include.p.gen }}">{{ include.p.name }}</span>
+    <span {% if include.p.gen %} class="{{ include.p.gen }}" {% endif %}>{{ include.p.name }}</span>
     {% if include.p.sur %}<span class="sur">{{ include.p.sur }}</span>{% endif %}
     {% if include.p.born %}<span class="bd">b.{{ include.p.born }}</span>{% endif %}
     {% if include.p.spouse %}
       <span class="spouse">
             {% if include.p.spouse.link %}<a href="{{include.p.spouse.link}}">{% endif %}
-              <span class="{{ include.p.spouse.gen }}">{{ include.p.spouse.name }}</span>
+              <span {% if include.p.spouse.gen %} class="{{ include.p.spouse.gen }}" {% endif %}>
+                {{ include.p.spouse.name }}
+                </span>
               {% if include.p.spouse.sur %}<span class="sur">{{ include.p.spouse.sur }}</span>{% endif %}
               {% if include.p.spouse.born %}<span class="bd">b.{{ include.p.spouse.born }}</span>{% endif %}
             {% if include.p.spouse.link %}</a>{% endif %}
