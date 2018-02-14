@@ -56,6 +56,19 @@ ul li:before {
   border-top: 1px solid black;
 }
 
+ul li:before {
+    display: inline-block;
+    width: .33em;
+    height: .33em;
+    vertical-align: middle;
+    margin: -.33em 0em 0 .5em;
+    padding: 0 0 0 0em;
+    content: '';
+    border: 1px solid black;
+    border-width: 0 0 1px 1px;
+}
+
+
 .spouse::before {
   content: '+';
   margin: 0 .1em;
