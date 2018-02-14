@@ -18,6 +18,11 @@
       <a href="#" class="path">&larr;</a>
       {{ page:collection }}
     </h1>
+      {% for h in site.data.[page.title].head %}
+        {% for a in h.anc reversed %}
+        <a href="{{ a.ref }}"><span class="{{ a.gen }}">{{ a.ref }}</span></a>
+        {% endfor %}
+      {% endfor %}
   </nav>
 
   <article>
