@@ -2,7 +2,7 @@
 <html>
 <head>
 
-  <title>{{ page:collection }}: {{ site.data.[page.title].head.name }}</title>
+  <title>{{ page:collection }}:{% for h in site.data.[page.title].head %} {{ h.name }}{% endfor %}</title>
   <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
