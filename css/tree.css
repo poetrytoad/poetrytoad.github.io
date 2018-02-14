@@ -18,18 +18,18 @@ ol, ul {
 }
 
 ul {
-  list-style: none;
-  padding: 0 0;
-  margin-left: 2em;
+    list-style: none;
+    padding: 0 0 0 1.33em ; /* change LEFT */
+    margin: 0 0 0 -1.33em; /* change LEFT */
 }
 
 article {
   margin: 0 0 3rem 0;
 }
 
-article>ul {
+/* article>ul {
   margin: 0 0;
-}
+} */
 
 ul li ul {
   border: 1px dashed black;
@@ -41,11 +41,13 @@ ul li:last-child>ul {
 }
 
 ul li {
-  padding: 0 0;
-  white-space: nowrap;
+    padding: 0 0;
+    margin-left: 1.33em; /* change LEFT */
+    cursor: pointer;
+    /* white-space: nowrap; */
 }
 
-ul li:before {
+/* ul li:before {
   display: inline-block;
   width: .5em;
   height: 0;
@@ -66,8 +68,19 @@ ul li:before {
     content: '';
     border: 1px solid black;
     border-width: 0 0 1px 1px;
-}
+} */
 
+ul li:not(.remarry):before {
+    display: inline-block;
+    width: .67em;
+    height: .33em;
+    vertical-align: middle;
+    margin: -.5em .33em 0 -1.33em; /* change LEFT */
+    padding: 0 0 0 0em;
+    content: '';
+    border: 1px solid black;
+    border-width: 0 0 1px 1px;
+}
 
 .spouse::before {
   content: '+';
