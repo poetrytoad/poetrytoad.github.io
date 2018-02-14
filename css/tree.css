@@ -107,7 +107,7 @@ ul li:before {
   color: #bbb;
 }
 
-.fold a:not(:link) {
+:not(nav) .fold a:not(:link) {
   border-bottom: 1px solid black;
 }
 
