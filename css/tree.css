@@ -58,10 +58,10 @@ ul li:before {
 
 ul li:before {
     display: inline-block;
-    width: 1em;
+    width: .67em;
     height: .33em;
     vertical-align: middle;
-    margin: -.5em 0em 0 2em;
+    margin: -.5em .33em 0 2em;
     padding: 0 0 0 0em;
     content: '';
     border: 1px solid black;
