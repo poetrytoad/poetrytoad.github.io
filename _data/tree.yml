@@ -71,9 +71,9 @@ family:
   - name: Amrik
     gen: M
     spouse:
-      - name: Ritu
-        sur: Bakshi
-        gen: F
+      name: Ritu
+      sur: Bakshi
+      gen: F
     children:
       - name: Simran
         gen: F

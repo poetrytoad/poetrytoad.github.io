@@ -12,10 +12,8 @@
     {% if include.p.spouse %}
         <span class="spouse">
             {% if include.p.spouse.link %}<a href="{{include.p.spouse.link}}">{% endif %}
-                <span {% if include.p.spouse.gen %} class="{{ include.p.spouse.gen }}" {% endif %}>
-                    {{ include.p.spouse.name }}
-                    </span>
-                {% if include.p.spouse.sur %}<span class="sur">{{ include.p.spouse.sur }}</span>{% endif %}
+                <span {% if include.p.spouse.gen %} class="{{ include.p.spouse.gen }}" {% endif %}>{{ include.p.spouse.name }}</span>
+{% if include.p.spouse.sur %}<span class="sur">{{ include.p.spouse.sur }}</span>{% endif %}
                 {% if include.p.spouse.born %}<span class="bd">{{ include.p.spouse.born }}
                     {% if include.p.spouse.died %}–{{ include.p.spouse.died }} {% else %}—{% endif %}
                     </span>
