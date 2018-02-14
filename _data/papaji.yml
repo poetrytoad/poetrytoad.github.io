@@ -53,8 +53,8 @@ family:
       - name: Harvey
         gen: M
         spouse:
-          - name: Maddy
-          - gen: F
+          name: Maddy
+          gen: F
       - name: Nicky
         gen: F
         children:
