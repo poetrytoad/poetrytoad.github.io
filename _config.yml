@@ -3,7 +3,7 @@
 collections:
     chana:
         output: true
-        permalink: /:collection/:path/
+        permalink: /:collection/:path
 
 defaults:
     - scope:
