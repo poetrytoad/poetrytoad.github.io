@@ -22,8 +22,8 @@
         {% for a in h.anc reversed %}
         <a href="{{ a.ref }}"><span class="{{ a.gen }}">{{ a.ref }}</span></a>
         {% endfor %}
+        <a><span class="{{ a.gen }}">{{ h.name }}</span></a>
       {% endfor %}
-      <a>{{ h.name }}</a>
   </nav>
 
   <article>
