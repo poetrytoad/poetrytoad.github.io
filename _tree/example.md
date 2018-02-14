@@ -4,7 +4,4 @@ title: tree
 
 # Additional notes
 
-Some text. Some more text.  
-Another line.
-
-Another paragraph.
+More text — i.e. biographical paragraphs — can be added here.

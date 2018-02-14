@@ -5,9 +5,9 @@ head:
       name: Pal
       gen: F
     anc:
-      - name: Great Great
+      - ref: Isher
         gen: M
-      - name: Great Great
+      - ref: Sawan
         gen: M
 
 family:
@@ -50,12 +50,12 @@ family:
         gen: F
       - name: Harvey
         gen: M
-        spouse: 
+        spouse:
           - name: Maddy
           - gen: F
       - name: Nicky
         gen: F
-        children: 
+        children:
           - name: Jamie
   - name: Kuldip
     gen: F
@@ -77,6 +77,3 @@ family:
     children:
       - name: Simran
         gen: F
-        
-    
-  
