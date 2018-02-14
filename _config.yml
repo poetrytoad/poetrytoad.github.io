@@ -1,13 +1,13 @@
 #
 
 collections:
-    chanas:
+    chana:
         output: true
         permalink: /:collection/:path/
 
 defaults:
     - scope:
         path: ""
-        type: chanas
+        type: chana
       values:
           layout: tree
