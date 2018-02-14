@@ -76,9 +76,9 @@ family:
             sur: Bange
         children:
           - name: Aman
-          gen: M
+            gen: M
           - name: Arjun
-          gen: M
+            gen: M
   - name: Amrik
     gen: M
     spouse:
