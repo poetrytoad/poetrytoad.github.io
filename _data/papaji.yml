@@ -1,15 +1,13 @@
-head:
-  - name: Balwant
-    gen: M
-    spouse:
-      name: Pal
-      gen: F
-    anc:
-      - ref: Isher
-        gen: M
-      - ref: Sawan
-        gen: M
-
+name: Balwant
+gen: M
+spouse:
+  name: Pal
+  gen: F
+  anc:
+    - ref: Isher
+      gen: M
+    - ref: Sawan
+      gen: M
 family:
   - name: Dilbagh
     gen: M
@@ -53,8 +51,8 @@ family:
       - name: Harvey
         gen: M
         spouse:
-          - name: Maddy
-          - gen: F
+          name: Maddy
+          gen: F
       - name: Nicky
         gen: F
         children:

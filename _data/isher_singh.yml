@@ -1,6 +1,5 @@
-head: 
-  - name: Isher
-    gen: M
+name: Isher
+gen: M
 
 family:
   - name: Balwant
