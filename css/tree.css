@@ -4,8 +4,8 @@ html {
 }
 
 body {
-  font-family: 'Fira Sans', sans;
-  line-height: 2;
+  font-family: 'Source Sans Pro', 'Fira Sans', sans;
+  line-height: 1.33;
   margin: 2em 3em;
   -ms-text-size-adjust: none;
   -moz-text-size-adjust: none;
@@ -41,9 +41,9 @@ ul li:last-child>ul {
 }
 
 ul li {
-    padding: 0 0;
+    padding: .5em 0 0 0;
     margin-left: 1.33em; /* change LEFT */
-    cursor: pointer;
+    /* cursor: pointer; */
     /* white-space: nowrap; */
 }
 
@@ -73,9 +73,9 @@ ul li:before {
 ul li:not(.remarry):before {
     display: inline-block;
     width: .67em;
-    height: .33em;
+    height: .67em;
     vertical-align: middle;
-    margin: -.5em .33em 0 -1.33em; /* change LEFT */
+    margin: -.67em .33em 0 -1.33em; /* change LEFT */
     padding: 0 0 0 0em;
     content: '';
     border: 1px solid black;
