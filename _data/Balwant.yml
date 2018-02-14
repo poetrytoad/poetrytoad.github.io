@@ -46,6 +46,8 @@ family:
       gen: M
       sur: Reehal
     children:
+      - name: Ravinder
+        gen: F
       - name: Kelly
         gen: F
       - name: Harvey
@@ -68,6 +70,15 @@ family:
         gen: M
       - name: Jasleen
         gen: F
+        spouse:
+          name: Mahesh
+          gen: M
+          sur: Bange
+        children:
+          - name: Aman
+            gen: M
+          - name: Arjun
+            gen: M
   - name: Amrik
     gen: M
     spouse:
@@ -77,3 +88,5 @@ family:
     children:
       - name: Simran
         gen: F
+
+

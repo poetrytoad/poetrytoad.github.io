@@ -1,0 +1,13 @@
+head: 
+  - name: Isher
+    gen: M
+
+family:
+  - name: Balwant
+    gen: M
+  - name: Lachhman
+    gen: M
+  - name: Niranjan
+    gen: M
+  - name: Rattan
+    gen: F
