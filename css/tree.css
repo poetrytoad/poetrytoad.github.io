@@ -18,6 +18,7 @@ ol, ul {
 }
 
 ul {
+    line-height: 1.1;
     list-style: none;
     padding: 0 0 0 1.33em ; /* change LEFT */
     margin: 0 0 0 -1.33em; /* change LEFT */
@@ -41,7 +42,7 @@ ul li:last-child>ul {
 }
 
 ul li {
-    padding: .33em 0 0 0;
+    padding: .67em 0 0 0;
     margin-left: 1.33em; /* change LEFT */
     /* cursor: pointer; */
     /* white-space: nowrap; */
