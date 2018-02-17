@@ -1,7 +1,7 @@
 {% assign q=include.p %}
 {% assign f=include.p.family %}
-{% if f.children %}<a style="cursor:pointer;">
-{% else %}<span style="display:inline-block;">
+{% if f.children %}<a style="cursor:pointer; display:inline-block; margin-right:.33em">
+{% else %}<span style="display:inline-block; margin-right:.33em">
 {% endif %}
     <span {% if q.gen %} class="{{ q.gen }}" {% endif %}>{{ q.name }}</span>
     {% if q.sur %}<span class="sur">{{ q.sur }}</span>{% endif %}
@@ -16,7 +16,7 @@
     {% else %}</span>
     {% endif %}
 
-    {% if f.spouse %}    
+    {% if f.spouse %}
         <span class="spouse">
             {% if f.spouse.link %}<a href="{{f.spouse.link}}">{% endif %}
                 <span {% if f.spouse.gen %} class="{{ f.spouse.gen }}" {% endif %}>{{ f.spouse.name }}</span>

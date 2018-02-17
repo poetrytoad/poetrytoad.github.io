@@ -89,7 +89,6 @@ ul li:not(.remarry):before {
 
 .spouse::before {
   content: '+';
-  margin: 0 .1em;
   color: #c60;
   font-weight: bold;
 }
@@ -175,9 +174,6 @@ a:hover>.path, a.path:hover {
 a {
   text-decoration: none;
   color: inherit;
-}
-
-.spouse::before {
 }
 
 q {
