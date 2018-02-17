@@ -54,13 +54,20 @@ family:
             gen: F
           - name: Harvey
             gen: M
-            spouse:
-              name: Maddy
-              gen: F
+            family:
+              spouse:
+                name: Maddy
+                gen: F
+              children:
+                - name: Josie
+                  gen: F
+                - name: Nyona
+                  gen: F
           - name: Nicky
             gen: F
-            children:
-              - name: Jamie
+            family:
+              children:
+                - name: Jamie
 
     - name: Kuldip
       gen: F
