@@ -26,7 +26,8 @@
 
   <article>
       <h1>
-        {% include loop.liquid p=site.data.[page.title] %}
+        {% assign h=site.data.[page.title] %}
+        {% include loop.liquid p=h %}
       </h1>
 
     {% for p1 in site.data.[page.title].family %} {% if forloop.first %}
