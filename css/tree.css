@@ -41,7 +41,7 @@ ul li:last-child>ul {
 }
 
 ul li {
-    padding: .5em 0 0 0;
+    padding: .33em 0 0 0;
     margin-left: 1.33em; /* change LEFT */
     /* cursor: pointer; */
     /* white-space: nowrap; */
@@ -80,6 +80,11 @@ ul li:not(.remarry):before {
     content: '';
     border: 1px solid black;
     border-width: 0 0 1px 1px;
+}
+
+.spouse {
+  opacity: .5;
+  display: inline-block;
 }
 
 .spouse::before {
@@ -233,6 +238,7 @@ p {
   font-weight: normal;
   font-size: .8em;
   color: #999;
+  display: inline-block;
 }
 
 .bd::before {
