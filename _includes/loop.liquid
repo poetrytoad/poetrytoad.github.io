@@ -1,28 +1,31 @@
-{% if include.p.children %}<a style="cursor:pointer;">
+{% if include.p.name %} {% assign q=include.p %}
+{% else %} {% assign q=site.data.[include.p] %} {% endif %}
+
+{% if q.children %}<a style="cursor:pointer;">
 {% else %}<span style="display:inline-block;">
 {% endif %}
-    <span {% if include.p.gen %} class="{{ include.p.gen }}" {% endif %}>{{ include.p.name }}</span>
-    {% if include.p.sur %}<span class="sur">{{ include.p.sur }}</span>{% endif %}
-    {% if include.p.born %}<span class="bd">{{ include.p.born }}
-        {% if include.p.died %}–{{ include.p.died }} {% else %}—{% endif %}
+    <span {% if q.gen %} class="{{ q.gen }}" {% endif %}>{{ q.name }}</span>
+    {% if q.sur %}<span class="sur">{{ q.sur }}</span>{% endif %}
+    {% if q.born %}<span class="bd">{{ q.born }}
+        {% if q.died %}–{{ q.died }} {% else %}—{% endif %}
         </span>
-    {% elsif include.p.died %}
-        <span class="bd">†{{ include.p.died }}</span>
+    {% elsif q.died %}
+        <span class="bd">†{{ q.died }}</span>
     {% endif %}
-    {% if include.p.spouse %}
+    {% if q.spouse %}
         <span class="spouse">
-            {% if include.p.spouse.link %}<a href="{{include.p.spouse.link}}">{% endif %}
-                <span {% if include.p.spouse.gen %} class="{{ include.p.spouse.gen }}" {% endif %}>{{ include.p.spouse.name }}</span>
-{% if include.p.spouse.sur %}<span class="sur">{{ include.p.spouse.sur }}</span>{% endif %}
-                {% if include.p.spouse.born %}<span class="bd">{{ include.p.spouse.born }}
-                    {% if include.p.spouse.died %}–{{ include.p.spouse.died }} {% else %}—{% endif %}
+            {% if q.spouse.link %}<a href="{{q.spouse.link}}">{% endif %}
+                <span {% if q.spouse.gen %} class="{{ q.spouse.gen }}" {% endif %}>{{ q.spouse.name }}</span>
+{% if q.spouse.sur %}<span class="sur">{{ q.spouse.sur }}</span>{% endif %}
+                {% if q.spouse.born %}<span class="bd">{{ q.spouse.born }}
+                    {% if q.spouse.died %}–{{ q.spouse.died }} {% else %}—{% endif %}
                     </span>
-                {% elsif include.p.spouse.died %}
-                    <span class="bd">†{{ include.p.spouse.died }}</span>
+                {% elsif q.spouse.died %}
+                    <span class="bd">†{{ q.spouse.died }}</span>
                 {% endif %}
-            {% if include.p.spouse.link %}</a>{% endif %}
+            {% if q.spouse.link %}</a>{% endif %}
         </span>
     {% endif %}
-{% if include.p.children %}</a>
+{% if q.children %}</a>
 {% else %}</span>
 {% endif %}
