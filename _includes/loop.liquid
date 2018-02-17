@@ -11,7 +11,12 @@
     {% elsif q.died %}
         <span class="bd">†{{ q.died }}</span>
     {% endif %}
-    {% if f.spouse %}
+
+    {% if f.children %}</a>
+    {% else %}</span>
+    {% endif %}
+
+    {% if f.spouse %}    
         <span class="spouse">
             {% if f.spouse.link %}<a href="{{f.spouse.link}}">{% endif %}
                 <span {% if f.spouse.gen %} class="{{ f.spouse.gen }}" {% endif %}>{{ f.spouse.name }}</span>
@@ -25,6 +30,3 @@
             {% if f.spouse.link %}</a>{% endif %}
         </span>
     {% endif %}
-{% if f.children %}</a>
-{% else %}</span>
-{% endif %}
