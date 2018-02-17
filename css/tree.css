@@ -178,7 +178,6 @@ a {
 }
 
 .spouse::before {
-  border: none;
 }
 
 q {
@@ -238,8 +237,7 @@ p {
   font-weight: normal;
   font-size: .8em;
   color: #999;
-  white-space: pre;
-;
+  display: inline-block;
 }
 
 .bd::before {
