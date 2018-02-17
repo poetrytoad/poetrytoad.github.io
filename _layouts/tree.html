@@ -30,37 +30,37 @@
         {% include loop.liquid p=h %}
       </h1>
 
-    {% for p1 in site.data.[page.title].family %} {% if forloop.first %}
+    {% for p1 in site.data.[page.title].family.children %} {% if forloop.first %}
     <ul>{% endif %}
       <li>
         {% if p1.import %} {% assign q=site.data.[p1.import] %}
         {% else %} {% assign q=p1 %}
-        {% include loop.liquid p=q %}
-        {% for p2 in q.children %}
+        {% include loop.liquid p=q fam=q.family %}
+        {% for p2 in q.family.children %}
         {% if forloop.first %}<ul>{% endif %}
           <li>
             {% include loop.liquid p=p2 %}
-            {% for p3 in p2.children %}
+            {% for p3 in p2.family.children %}
             {% if forloop.first %}<ul>{% endif %}
               <li>
                 {% include loop.liquid p=p3 %}
-                {% for p4 in p3.children %}
+                {% for p4 in p3.family.children %}
                 {% if forloop.first %} <ul>{% endif %}
                   <li>
                     {% include loop.liquid p=p4%}
-                    {% for p4 in p3.children %}
+                    {% for p4 in p3.family.children %}
                     {% if forloop.first %}<ul>{% endif %}
                       <li>
                         {% include loop.liquid p=p4%}
-                        {% for p5 in p4.children %}
+                        {% for p5 in p4.family.children %}
                         {% if forloop.first %}<ul>{% endif %}
                           <li>
                             {% include loop.liquid p=p5%}
-                            {% for p6 in p5.children %}
+                            {% for p6 in p5.family.children %}
                             {% if forloop.first %}<ul>{% endif %}
                               <li>
                                 {% include loop.liquid p=p6%}
-                                {% for p7 in p6.children %}
+                                {% for p7 in p6.family.children %}
                                 {% if forloop.first %}<ul>{% endif %}
                                   <li>
                                     {% include loop.liquid p=p7%}

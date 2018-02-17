@@ -1,8 +1,5 @@
 name: Balwant
 gen: M
-spouse:
-  name: Pal
-  gen: F
 anc:
   - ref: Isher
     gen: M
@@ -10,83 +7,93 @@ anc:
     gen: M
 
 family:
-  - name: Dilbagh
-    gen: M
-    spouse:
-      name: Surjit
-      gen: F
-    children:
-      - name: Urminder
-        gen: F
-        born: 1955
-        spouse:
-          name: Karanjit
-          sur: Rai
-          gen: M
-          born: 1953
-          link: otherpage
-        children:
-          - name: Jeevan
-            gen: M
-            sur: Chana Rai
-            born: 1987
-          - name: Sajan
-            gen: F
-            sur: Chana Rai
-            born: 1990
-      - name: Iqbal
-        gen: M
-      - name: Jai
-        gen: M
-
-  - name: Ajit
+  spouse:
+    name: Pal
     gen: F
-    spouse:
-      name: Avtar
+  children:
+    - name: Dilbagh
       gen: M
-      sur: Reehal
-    children:
-      - name: Ravinder
-        gen: F
-      - name: Kelly
-        gen: F
-      - name: Harvey
-        gen: M
+      family:
         spouse:
-          name: Maddy
+          name: Surjit
           gen: F
-      - name: Nicky
-        gen: F
         children:
-          - name: Jamie
-
-  - name: Kuldip
-    gen: F
-    spouse:
-      name: Sahib
-      sur: Ahluwalia
-      gen: M
-    children:
-      - name: Anoop
-        gen: M
-      - name: Jasleen
-        gen: F
-        spouse:
-          name: Mahesh
+          - name: Urminder
+            gen: F
+            born: 1955
+            family:
+              spouse:
+                name: Karanjit
+                sur: Rai
+                gen: M
+                born: 1953
+                link: otherpage
+              children:
+                - name: Jeevan
+                  gen: M
+                  sur: Chana Rai
+                  born: 1987
+                - name: Sajan
+                  gen: F
+                  sur: Chana Rai
+                  born: 1990
+        - name: Iqbal
           gen: M
-          sur: Bange
-        children:
-          - name: Aman
-            gen: M
-          - name: Arjun
-            gen: M
+        - name: Jai
+          gen: M
 
-  - name: Amrik
-    gen: M
-    spouse:
-      name: Ritu
-      sur: Bakshi
+    - name: Ajit
       gen: F
-    children:
-      - name: Simran
-        gen: F
+      family:
+        spouse:
+          name: Avtar
+          gen: M
+          sur: Reehal
+        children:
+          - name: Ravinder
+            gen: F
+          - name: Kelly
+            gen: F
+          - name: Harvey
+            gen: M
+            spouse:
+              name: Maddy
+              gen: F
+          - name: Nicky
+            gen: F
+            children:
+              - name: Jamie
+
+    - name: Kuldip
+      gen: F
+      family:
+        spouse:
+          name: Sahib
+          sur: Ahluwalia
+          gen: M
+        children:
+          - name: Anoop
+            gen: M
+          - name: Jasleen
+            gen: F
+            family:
+              spouse:
+                name: Mahesh
+                gen: M
+                sur: Bange
+              children:
+                - name: Aman
+                  gen: M
+                - name: Arjun
+                  gen: M
+
+    - name: Amrik
+      gen: M
+      family:
+        spouse:
+          name: Ritu
+          sur: Bakshi
+          gen: F
+        children:
+          - name: Simran
+            gen: F
