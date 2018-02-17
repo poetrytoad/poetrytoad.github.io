@@ -1,3 +1,3 @@
 ---
-title: isher_singh
+title: Isher
 ---
