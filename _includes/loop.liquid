@@ -1,6 +1,6 @@
 {% assign q=include.p %}
 {% assign f=include.p.family %}
-{% if f.children %}<a style="cursor:pointer;">
+{% if f.children %}<a style="cursor:pointer;" href="include.link">
 {% else %}<span style="display:inline-block;">
 {% endif %}
     <span {% if q.gen %} class="{{ q.gen }}" {% endif %}>{{ q.name }}</span>

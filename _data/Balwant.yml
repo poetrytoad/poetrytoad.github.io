@@ -5,7 +5,7 @@ anc:
     gen: M
   - ref: Sawan
     gen: M
-    
+
 family:
   spouse:
     name: Pal
@@ -97,3 +97,6 @@ family:
         children:
           - name: Simran
             gen: F
+            
+    - name: Harbans
+      gen: F
