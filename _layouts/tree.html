@@ -49,22 +49,22 @@
                 {% if forloop.first %} <ul>{% endif %}
                   <li>
                     {% include loop.liquid p=p4%}
-                    {% for p4 in p3.family.children %}
+                    {% for p5 in p4.family.children %}
                     {% if forloop.first %}<ul>{% endif %}
                       <li>
-                        {% include loop.liquid p=p4%}
-                        {% for p5 in p4.family.children %}
+                        {% include loop.liquid p=p5%}
+                        {% for p6 in p5.family.children %}
                         {% if forloop.first %}<ul>{% endif %}
                           <li>
-                            {% include loop.liquid p=p5%}
-                            {% for p6 in p5.family.children %}
+                            {% include loop.liquid p=p6%}
+                            {% for p7 in p6.family.children %}
                             {% if forloop.first %}<ul>{% endif %}
                               <li>
-                                {% include loop.liquid p=p6%}
-                                {% for p7 in p6.family.children %}
+                                {% include loop.liquid p=p7%}
+                                {% for p8 in p7.family.children %}
                                 {% if forloop.first %}<ul>{% endif %}
                                   <li>
-                                    {% include loop.liquid p=p7%}
+                                    {% include loop.liquid p=p8%}
                                   </li>
                                   {% if forloop.last %}</ul>{% endif %} {% endfor %}
                               </li>
