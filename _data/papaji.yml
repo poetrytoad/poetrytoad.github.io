@@ -3,11 +3,11 @@ gen: M
 spouse:
   name: Pal
   gen: F
-  anc:
-    - ref: Isher
-      gen: M
-    - ref: Sawan
-      gen: M
+anc:
+  - ref: Isher
+    gen: M
+  - ref: Sawan
+    gen: M
 family:
   - name: Dilbagh
     gen: M
