@@ -40,7 +40,7 @@
           {% assign q=p1 %}
           {% assign l=nil %}
         {% endif %}
-        {% include loop.liquid p=q link=l }}" %}
+        {% include loop.liquid p=q }}" %}
         {% for p2 in q.family.children %}
         {% if forloop.first %}<ul>{% endif %}
           <!-- impement this for subnested -->
