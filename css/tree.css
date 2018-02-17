@@ -231,6 +231,18 @@ p {
   margin: 1em 0;
 }
 
+ul li p {
+  line-height: 1.1;
+  font-size: .8em;
+  margin: .167em 0 -.33em 0;
+  opacity: .5;
+}
+
+.branch {
+  border: none !important;
+  font-weight: bold;
+}
+
 .bd {
   font-weight: normal;
   font-size: .8em;
