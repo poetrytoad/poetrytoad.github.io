@@ -14,8 +14,8 @@ family:
     - name: Dilbagh
       gen: M
       family:
-        spouse:
           name: Surjit
+          sur: Matharu
           gen: F
         children:
           - name: Urminder
