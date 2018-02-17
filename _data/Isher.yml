@@ -3,7 +3,7 @@ gen: M
 
 family:
   children:
-    - import: papaji
+    - import: Balwant
     - name: Lachhman
       gen: M
     - name: Niranjan
