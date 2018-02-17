@@ -1,5 +1,5 @@
 {% assign q=include.p %}
-{% assign f=q.family %}
+{% assign f=include.p.family %}
 {% if f.children %}<a style="cursor:pointer;">
 {% else %}<span style="display:inline-block;">
 {% endif %}
