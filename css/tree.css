@@ -92,6 +92,7 @@ ul li:not(.remarry):before {
   content: '+';
   color: #c60;
   font-weight: bold;
+  margin-right: .33em;
 }
 
 .M::after, .F::after {
