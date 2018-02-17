@@ -1,6 +1,6 @@
-{% if include.p.name %} {% assign q=include.p %}
-{% else %} {% assign q=site.data.[include.p] %} {% endif %}
-
+{% if include.p.import %} {% assign q=site.data.[include.p.import] %}
+{% else %} {% assign q=include.p %} {% endif %}
+include.p
 {% if q.children %}<a style="cursor:pointer;">
 {% else %}<span style="display:inline-block;">
 {% endif %}
