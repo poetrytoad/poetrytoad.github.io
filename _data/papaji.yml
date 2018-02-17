@@ -36,10 +36,10 @@ family:
                   gen: F
                   sur: Chana Rai
                   born: 1990
-        - name: Iqbal
-          gen: M
-        - name: Jai
-          gen: M
+          - name: Iqbal
+            gen: M
+          - name: Jai
+            gen: M
 
     - name: Ajit
       gen: F
