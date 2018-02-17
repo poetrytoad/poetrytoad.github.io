@@ -84,7 +84,7 @@ ul li:not(.remarry):before {
 
 .spouse {
   opacity: .5;
-  display: inline-block;
+  display: inline-block !important;
 }
 
 .spouse::before {
