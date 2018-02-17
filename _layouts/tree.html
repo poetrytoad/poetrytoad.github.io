@@ -33,10 +33,8 @@
     {% for p1 in site.data.[page.title].family %} {% if forloop.first %}
     <ul>{% endif %}
       <li>
-        {% if p1.import %} {% assign q=site.data.[p1.import] %}
-          {% else %} {% assign q=p1 %}
-        {% include loop.liquid p=q %}
-        {% for p2 in q.children %}
+        {% include loop.liquid p=p1 %}
+        {% for p2 in p1.children %}
         {% if forloop.first %}<ul>{% endif %}
           <li>
             {% include loop.liquid p=p2 %}
