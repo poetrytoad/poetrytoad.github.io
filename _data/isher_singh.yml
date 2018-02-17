@@ -1,6 +1,5 @@
 name: Isher
 gen: M
-
 family:
   children:
     - import: papaji
