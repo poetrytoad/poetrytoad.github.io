@@ -35,47 +35,35 @@
       <li>
         {% if p1.import %} {% assign q=site.data.[p1.import] %}
         {% else %} {% assign q=p1 %}
-        {% include loop.liquid p=q fam=q.family %}
+        {% include loop.liquid p=q %}
         {% for p2 in q.family.children %}
         {% if forloop.first %}<ul>{% endif %}
           <li>
-            {% if p2.import %} {% assign q=site.data.[p2.import] %}
-            {% else %} {% assign q=p2 %}
-            {% include loop.liquid p=q fam=q.family %}
-            {% for p3 in q.family.children %}
+            {% include loop.liquid p=p2 %}
+            {% for p3 in p2.family.children %}
             {% if forloop.first %}<ul>{% endif %}
               <li>
-                {% if p3.import %} {% assign q=site.data.[p3.import] %}
-                {% else %} {% assign q=p3 %}
-                {% include loop.liquid p=q fam=q.family %}
-                {% for p4 in q.family.children %}
-                {% if forloop.first %}<ul>{% endif %}
+                {% include loop.liquid p=p3 %}
+                {% for p4 in p3.family.children %}
+                {% if forloop.first %} <ul>{% endif %}
                   <li>
-                    {% if p4.import %} {% assign q=site.data.[p4.import] %}
-                    {% else %} {% assign q=p4 %}
-                    {% include loop.liquid p=q fam=q.family %}
-                    {% for p5 in q.family.children %}
+                    {% include loop.liquid p=p4%}
+                    {% for p4 in p3.family.children %}
                     {% if forloop.first %}<ul>{% endif %}
                       <li>
-                        {% if p5.import %} {% assign q=site.data.[p5.import] %}
-                        {% else %} {% assign q=p5 %}
-                        {% include loop.liquid p=q fam=q.family %}
-                        {% for p6 in q.family.children %}
+                        {% include loop.liquid p=p4%}
+                        {% for p5 in p4.family.children %}
                         {% if forloop.first %}<ul>{% endif %}
                           <li>
-                            {% if p6.import %} {% assign q=site.data.[p6.import] %}
-                            {% else %} {% assign q=p6 %}
-                            {% include loop.liquid p=q fam=q.family %}
-                            {% for p7 in q.family.children %}
+                            {% include loop.liquid p=p5%}
+                            {% for p6 in p5.family.children %}
                             {% if forloop.first %}<ul>{% endif %}
                               <li>
-                                {% if p7.import %} {% assign q=site.data.[p7.import] %}
-                                {% else %} {% assign q=p7 %}
-                                {% include loop.liquid p=q fam=q.family %}
-                                {% for p8 in q.family.children %}
+                                {% include loop.liquid p=p6%}
+                                {% for p7 in p6.family.children %}
                                 {% if forloop.first %}<ul>{% endif %}
                                   <li>
-                                    {% include loop.liquid p=p8 %}
+                                    {% include loop.liquid p=p7%}
                                   </li>
                                   {% if forloop.last %}</ul>{% endif %} {% endfor %}
                               </li>
