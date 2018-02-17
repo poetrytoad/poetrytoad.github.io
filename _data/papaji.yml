@@ -97,6 +97,6 @@ family:
         children:
           - name: Simran
             gen: F
-            
+
     - name: Harbans
       gen: F

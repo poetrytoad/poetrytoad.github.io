@@ -33,14 +33,9 @@
     {% for p1 in site.data.[page.title].family.children %} {% if forloop.first %}
     <ul>{% endif %}
       <li>
-        {% if p1.import %}
-          {% assign q=site.data.[p1.import] %}
-          {% assign l=p1.import }
-        {% else %}
-          {% assign q=p1 %}
-          {% assign l=nil %}
-        {% endif %}
-        {% include loop.liquid p=q }}" %}
+        {% if p1.import %} {% assign q=site.data.[p1.import] %}
+        {% else %} {% assign q=p1 %} {% endif %}
+        {% include loop.liquid p=q %}
         {% for p2 in q.family.children %}
         {% if forloop.first %}<ul>{% endif %}
           <!-- impement this for subnested -->
