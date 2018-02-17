@@ -2,8 +2,7 @@ name: Isher
 gen: M
 
 family:
-  - name: Balwant
-    gen: M
+  - site.data.papaji
   - name: Lachhman
     gen: M
   - name: Niranjan

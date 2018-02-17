@@ -8,6 +8,7 @@ anc:
     gen: M
   - ref: Sawan
     gen: M
+
 family:
   - name: Dilbagh
     gen: M
@@ -37,6 +38,7 @@ family:
         gen: M
       - name: Jai
         gen: M
+
   - name: Ajit
     gen: F
     spouse:
@@ -57,6 +59,7 @@ family:
         gen: F
         children:
           - name: Jamie
+
   - name: Kuldip
     gen: F
     spouse:
@@ -77,6 +80,7 @@ family:
             gen: M
           - name: Arjun
             gen: M
+
   - name: Amrik
     gen: M
     spouse:
