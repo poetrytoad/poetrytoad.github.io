@@ -1,0 +1,13 @@
+{% assign n=include.nam %}
+<span {% if n.gen %} class="{{ n.gen }}" {% endif %}>
+  {% if n.name.first %}{% for names in n.name %}{% if forloop.last %}{{ names }}{% else %}
+  <s>{{ names }}</s> {% endif %}{% endfor %}{% else %}{{ n.name }}{% endif %}{% if n.nick %} <q>{{n.nick}}<q>{% endif %}</span>
+{% if n.sur %}<span class="sur">{{ n.sur }}</span>{% endif %}
+{% if n.born or n.died %}
+  <span class="bd">
+    {% if n.born.loc %}{{ n.born.loc }} {% endif %}*{{ n.born.date }}
+    {% if n.died %}
+      †{% if n.died.date %}{{ n.died.date }} {% endif %}{{ n.died.loc }}
+    {% endif %}
+  </span>
+{% endif %}
