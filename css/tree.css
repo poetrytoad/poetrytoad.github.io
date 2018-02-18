@@ -18,7 +18,7 @@ ol, ul {
 }
 
 ul {
-  line-height: 1.1;
+  line-height: 1.2;
   list-style: none;
   padding: 0 0 0 1.33em;
   /* change LEFT */
@@ -34,7 +34,7 @@ article {
   margin: 0 0;
 } */
 
-ul li ul {
+ul :not(:last-child) ul,  ul :not(:last-child) p  {
   border: 1px dashed black;
   border-width: 0 0 0 1px;
 }
@@ -240,10 +240,12 @@ p {
 }
 
 ul li p {
+  font-style: italic;
   line-height: 1.1;
   font-size: .8em;
-  margin: .167em 0 -.33em 0;
-  opacity: .5;
+  margin: .33em 0 0 -1.33rem;  /* change LEFT */
+  color: rgba(0,0,0,.5);
+  padding: 0 0 0 1.33rem; /* change LEFT */
 }
 
 /* .branch {
