@@ -242,10 +242,32 @@ ul li p {
   opacity: .5;
 }
 
-.branch {
+/* .branch {
   border: none !important;
   font-weight: bold;
+} */
+
+
+.branch {
+  border: none !important;
+  /* font-weight: bold; */
+  letter-spacing: .5px;
+  color: white;
+  padding: 0.125em .5em;
+  background: #cde;
+  font-size: .75em;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: .1em .33em -1em .33em;
+  border-radius: 0 1em 1em 0;
 }
+
+.branch:hover {
+  color: white;
+  background-color: #69c;
+}
+
 
 .bd {
   font-weight: normal;
