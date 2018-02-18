@@ -278,13 +278,13 @@ ul li p {
   display: inline-block;
 }
 
-.bd::before {
+/* .bd::before {
   content: "(";
 }
 
 .bd::after {
   content: ")";
-}
+} */
 
 /* this is to make space for path */
 
