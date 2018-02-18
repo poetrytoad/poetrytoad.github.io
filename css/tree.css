@@ -5,7 +5,7 @@ html {
 
 body {
   font-family: 'Source Sans Pro', 'Fira Sans', sans;
-  line-height: 1.1;
+  line-height: 1.33;
   margin: 2em 3em;
   -ms-text-size-adjust: none;
   -moz-text-size-adjust: none;
@@ -44,7 +44,7 @@ ul li:last-child>ul {
 }
 
 ul li {
-  padding: .67em 0 0 0;
+  padding: .33em 0 0 0;
   margin-left: 1.33em;
   /* change LEFT */
   /* cursor: pointer; */
@@ -243,7 +243,7 @@ ul li p {
   font-style: italic;
   line-height: 1.1;
   font-size: .8em;
-  margin: .33em 0 0 -1.33rem;  /* change LEFT */
+  margin: .25rem 0 0 -1.33rem;  /* change LEFT */
   color: rgba(0,0,0,.5);
   padding: 0 0 0 1.33rem; /* change LEFT */
 }
