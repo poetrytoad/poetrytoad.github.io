@@ -1,5 +1,4 @@
 ---
-title: Balwant
 ---
 
 # Additional info
