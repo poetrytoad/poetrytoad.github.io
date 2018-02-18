@@ -34,7 +34,7 @@ article {
   margin: 0 0;
 } */
 
-ul :not(:last-child)>ul,  ul :not(:last-child)>p  {
+ul li:not(:last-child)>ul,  ul li:not(:last-child)>p  {
   border: 1px dashed black;
   border-width: 0 0 0 1px;
 }
