@@ -248,24 +248,26 @@ ul li p {
 } */
 
 
+
 .branch {
+  position: relative;
   border: none !important;
   /* font-weight: bold; */
-  letter-spacing: .5px;
-  color: white;
-  padding: 0.125em .5em;
-  background: #cde;
+  letter-spacing: .05em;
   font-size: .75em;
+  color: #7be;
+  color: white;
+  padding: .125em .25em;
+  background: #cde;
+  text-transform: uppercase;
   display: inline-block;
   vertical-align: top;
   text-align: center;
-  margin: .1em .33em -1em .33em;
-  border-radius: 0 1em 1em 0;
+  margin: .1em .33em -1em .33em; */
 }
-
 .branch:hover {
   color: white;
-  background-color: #69c;
+  background: #69c;
 }
 
 
