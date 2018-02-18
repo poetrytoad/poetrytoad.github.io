@@ -39,7 +39,7 @@ family:
                     date: 1987
                     loc: London
                 - name: Sajan
-                  gen: F
+                  gen: M
                   sur: Chana Rai
                   born:
                     date: 1990
@@ -62,6 +62,7 @@ family:
         children:
           - name: Ravinder
             nick: Ravi
+            died: ''
             gen: F
           - name: Kelly
             gen: F
