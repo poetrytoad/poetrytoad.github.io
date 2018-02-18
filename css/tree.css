@@ -34,7 +34,7 @@ article {
   margin: 0 0;
 } */
 
-ul li:not(:last-child)>ul,  ul li:not(:last-child)>p  {
+ul li:not(:last-child)>ul, ul li:not(:last-child)>p {
   border: 1px dashed black;
   border-width: 0 0 0 1px;
 }
@@ -243,17 +243,17 @@ ul li p {
   font-style: italic;
   line-height: 1.1;
   font-size: .8em;
-  margin: .25rem 0 0 -1.33rem;  /* change LEFT */
-  color: rgba(0,0,0,.5);
-  padding: 0 0 0 1.33rem; /* change LEFT */
+  margin: .25rem 0 0 -1.33rem;
+  /* change LEFT */
+  color: rgba(0, 0, 0, .5);
+  padding: 0 0 0 1.33rem;
+  /* change LEFT */
 }
 
 /* .branch {
   border: none !important;
   font-weight: bold;
 } */
-
-
 
 .branch {
   position: relative;
@@ -269,13 +269,14 @@ ul li p {
   display: inline-block;
   vertical-align: top;
   text-align: center;
-  margin: .1em .33em -1em .33em; */
+  margin: .1em .33em -1em .33em;
+  */
 }
+
 .branch:hover {
   color: white;
   background: #69c;
 }
-
 
 .bd {
   font-weight: normal;
@@ -283,7 +284,6 @@ ul li p {
   color: #999;
   display: inline-block;
 }
-
 
 /*
 .bd::before {
@@ -294,13 +294,11 @@ ul li p {
   content: ")";
 } */
 
-
 /* this is to make space for path */
 
 article, nav {
   margin-left: 5rem;
 }
-
 
 /* name changes  */
 
@@ -310,6 +308,7 @@ s {
   color: inherit;
   position: relative;
 }
+
 s:after {
   font-size: 1em;
   color: #6c9;
@@ -317,6 +316,7 @@ s:after {
   content: '→';
   text-decoration: none;
 }
+
 s:before {
   font-size: 1em;
   border-bottom: .1em solid #6c9;

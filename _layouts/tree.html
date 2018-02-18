@@ -21,7 +21,7 @@
         {% for a in site.data.[page.title].anc reversed %}
         <a href="{{ site.data.[a].name }}"><span class="{{ site.data.[a].gen }}">{{ site.data.[a].name }}</span></a>
         {% endfor %}
-        <a><span class="{{ h.gen }}">{{ site.data.[page.title].name }}</span></a>
+        <a><span class="{{ site.data.[page.title].gen }}">{{ site.data.[page.title].name }}</span></a>
   </nav>
 
   <article>
