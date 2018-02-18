@@ -93,6 +93,10 @@ family:
         children:
           - name: Anoop
             gen: M
+            family:
+              children:
+                - name: Nina
+                  gen: F
           - name: Jasleen
             gen: F
             family:
@@ -117,6 +121,7 @@ family:
         children:
           - name: Simran
             gen: F
-
+          - name: Chandani
+            gen: F
     - name: Harbans
       gen: F
