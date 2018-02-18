@@ -13,14 +13,7 @@
 {% if f.spouse %}
     <span class="spouse">
         {% if f.spouse.link %}<a href="{{f.spouse.link}}">{% endif %}
-            <span {% if f.spouse.gen %} class="{{ f.spouse.gen }}" {% endif %}>{{ f.spouse.name }}</span>
-        {% if f.spouse.sur %}<span class="sur">{{ f.spouse.sur }}</span>{% endif %}
-            {% if f.spouse.born %}<span class="bd">{{ f.spouse.born }}
-                {% if f.spouse.died %}–{{ f.spouse.died }} {% else %}—{% endif %}
-                </span>
-            {% elsif f.spouse.died %}
-                <span class="bd">†{{ f.spouse.died }}</span>
-            {% endif %}
+        {% include name.liquid nam=f.spouse %}
         {% if f.spouse.link %}</a>{% endif %}
     </span>
 {% endif %}
