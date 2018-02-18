@@ -6,6 +6,6 @@
 {% if n.born or n.died %}
   <span class="bd">*{{ n.born.date }}{% if n.born.date and n.born.loc %}
       {% endif %}{{ n.born.loc }}{% if n.born and n.died %}
-    {% if n.died %}†{{ n.died.date }}{% if n.died.date and n.died.loc %}
+      {% endif %}{% if n.died %}†{{ n.died.date }}{% if n.died.date and n.died.loc %}
       {% endif %}{{ n.died.loc }}{% endif %}</span>
 {% endif %}
