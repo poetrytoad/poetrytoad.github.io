@@ -5,7 +5,7 @@ html {
 
 body {
   font-family: 'Source Sans Pro', 'Fira Sans', sans;
-  line-height: 1.33;
+  line-height: 1.1;
   margin: 2em 3em;
   -ms-text-size-adjust: none;
   -moz-text-size-adjust: none;
@@ -18,7 +18,7 @@ ol, ul {
 }
 
 ul {
-  line-height: 1.2;
+  line-height: 1.33;
   list-style: none;
   padding: 0 0 0 1.33em;
   /* change LEFT */
