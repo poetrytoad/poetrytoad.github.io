@@ -284,7 +284,7 @@ s:after {
 }
 s:before {
   border-bottom: .1em solid #6c9;
-  opacity: .75;
+  opacity: .5;
   position: absolute;
   content: "";
   width: 100%;
