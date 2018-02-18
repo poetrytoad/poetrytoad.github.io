@@ -218,7 +218,7 @@ ul a:link:hover, nav a:link:hover span {
 }
 
 ul :not(sup) a:link, nav a:link span {
-  border-bottom: 1px dotted #abc;
+  border-bottom: 1px solid #abc;
 }
 
 sup {
