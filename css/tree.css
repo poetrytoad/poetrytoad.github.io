@@ -263,3 +263,13 @@ ul li p {
 article, nav {
   margin-left: 5rem;
 }
+
+
+
+s {text-decoration: none; color:inherit;}
+s:after {
+  color: #6c9;
+  margin-left: .25em;
+  content: '→';
+  text-decoration:none;
+}
