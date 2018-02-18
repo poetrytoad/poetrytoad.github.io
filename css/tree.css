@@ -39,10 +39,6 @@ ul :not(:last-child) ul,  ul :not(:last-child) p  {
   border-width: 0 0 0 1px;
 }
 
-ul li:last-child>ul {
-  border: none
-}
-
 ul li {
   padding: .67em 0 0 0;
   margin-left: 1.33em;
