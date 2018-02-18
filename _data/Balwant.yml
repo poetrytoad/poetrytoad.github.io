@@ -62,7 +62,7 @@ family:
         children:
           - name: Ravinder
             nick: Ravi
-            died: ''
+            died: true
             gen: F
           - name: Kelly
             gen: F
