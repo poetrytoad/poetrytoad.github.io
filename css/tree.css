@@ -182,6 +182,10 @@ a {
   color: inherit;
 }
 
+ul a {
+  display: inline-block; 
+}
+
 q {
   opacity: .5;
 }
