@@ -18,23 +18,30 @@ family:
         children:
           - name: Urminder
             gen: F
-            born: 1955
+            born:
+              date: 1955
             family:
               spouse:
                 name: Karanjit
                 sur: Rai
                 gen: M
-                born: 1953
+                born:
+                  date: 1953
+                  loc: Pragpur
                 link: otherpage
               children:
                 - name: Jeevan
                   gen: M
                   sur: Chana Rai
-                  born: 1987
+                  born:
+                    date: 1987
+                    loc: London
                 - name: Sajan
                   gen: F
                   sur: Chana Rai
-                  born: 1990
+                  born:
+                    date: 1990
+                    loc: London
           - name: Iqbal
             gen: M
           - name:

@@ -7,11 +7,8 @@
 <span {% if q.gen %} class="{{ q.gen }}" {% endif %}>{% if q.name.first %}{% for names in q.name %}{% if forloop.last %}{{ names }}{% else %}<s>{{ names }}</s> {% endif %}{% endfor %}
   {% else %}{{ q.name }}{% endif %}</span>
 {% if q.sur %}<span class="sur">{{ q.sur }}</span>{% endif %}
-{% if q.born %}<span class="bd">{{ q.born }}
-    {% if q.died %}–{{ q.died }} {% else %}—{% endif %}
-    </span>
-{% elsif q.died %}
-    <span class="bd">†{{ q.died }}</span>
+{% if q.born or q.died %}
+  <span class="bd">{% if q.born.loc %}{{ q.born.loc }} {% endif %}*{{ q.born }} †{% if q.died.date %}{{ q.died.date }} {% endif %}{{ q.died.loc }}</span>
 {% endif %}
 
 {% if f.children %}</a>
