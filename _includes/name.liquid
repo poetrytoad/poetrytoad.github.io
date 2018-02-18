@@ -4,5 +4,5 @@
   <s>{{ names }}</s> {% endif %}{% endfor %}{% else %}{{ n.name }}{% endif %}{% if n.nick %} <q>{{n.nick}}</q>{% endif %}</span>
 {% if n.sur %}<span class="sur">{{ n.sur }}</span>{% endif %}
 {% if n.born or n.died %}
-  <span class="bd">*{{ n.born.date }}{% if n.born.date and n.born.loc %}&nbsp;{% endif %}{{ n.born.loc }}{% if n.born and n.died %}&ensp;{% endif %}{% if n.died %}†{{ n.died.date }}{% if n.died.date and n.died.loc %}&nbsp;{% endif %}{{ n.died.loc }}{% endif %}</span>
+  <span class="bd">{% if n.born %}*{{ n.born.date }}{% if n.born.date and n.born.loc %}&nbsp;{% endif %}{{ n.born.loc }}{% endif %}{% if n.born and n.died %}&ensp;{% endif %}{% if n.died %}†{{ n.died.date }}{% if n.died.date and n.died.loc %}&nbsp;{% endif %}{{ n.died.loc }}{% endif %}</span>
 {% endif %}
