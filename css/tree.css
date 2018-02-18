@@ -272,17 +272,20 @@ article, nav {
 /* name changes  */
 
 s {
+  font-size: 1em;
   text-decoration: none;
   color: inherit;
   position: relative;
 }
 s:after {
+  font-size: 1em;
   color: #6c9;
   margin-left: .33em;
   content: '→';
   text-decoration: none;
 }
 s:before {
+  font-size: 1em;
   border-bottom: .1em solid #6c9;
   opacity: .5;
   position: absolute;
