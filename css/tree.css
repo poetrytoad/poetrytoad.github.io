@@ -328,4 +328,5 @@ s:before {
 .unknown {
   font-weight: bold;
   color: #999;
+  display: none;
 }
