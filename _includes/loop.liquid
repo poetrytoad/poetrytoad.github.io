@@ -11,11 +11,11 @@
 {% endif %}
 
 {% if f.spouse %}
+  {% if f.spouse.link %}<a href="{{f.spouse.link}}">{% endif %}
     <span class="spouse">
-        {% if f.spouse.link %}<a href="{{f.spouse.link}}">{% endif %}
-        {% include name.liquid nam=f.spouse %}
-        {% if f.spouse.link %}</a>{% endif %}
+      {% include name.liquid nam=f.spouse %}
     </span>
+  {% if f.spouse.link %}</a>{% endif %}
 {% endif %}
 
 {% if include.treelink %}
