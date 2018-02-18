@@ -16,6 +16,8 @@
         {% include name.liquid nam=f.spouse %}
         {% if f.spouse.link %}</a>{% endif %}
     </span>
+{% elsif f.children %}
+    <span class="spouse unknown">?</span>
 {% endif %}
 
 {% if include.treelink %}
