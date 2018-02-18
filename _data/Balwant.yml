@@ -17,12 +17,14 @@ family:
           gen: F
         children:
           - name: Urminder
+            nick: Urmi
             gen: F
             born:
               date: 1955
             family:
               spouse:
                 name: Karanjit
+                nick: Kari
                 sur: Rai
                 gen: M
                 born:
@@ -43,6 +45,7 @@ family:
                     date: 1990
                     loc: London
           - name: Iqbal
+            nick: Bali
             gen: M
           - name:
               - Jaipal
@@ -58,6 +61,7 @@ family:
           sur: Reehal
         children:
           - name: Ravinder
+            nick: Ravi
             gen: F
           - name: Kelly
             gen: F
@@ -102,6 +106,7 @@ family:
                   gen: M
 
     - name: Amrik
+      nick: Micky
       gen: M
       family:
         spouse:
