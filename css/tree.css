@@ -78,7 +78,7 @@ ul li:not(.remarry):before {
   display: inline-block;
   width: .67em;
   height: .67em;
-  vertical-align: text-top;
+  vertical-align: top;
   margin: 0em .33em 0 -1.33em;
   /* change LEFT */
   padding: 0 0 0 0em;
