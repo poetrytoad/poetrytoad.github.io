@@ -18,10 +18,12 @@ ol, ul {
 }
 
 ul {
-    line-height: 1.1;
-    list-style: none;
-    padding: 0 0 0 1.33em ; /* change LEFT */
-    margin: 0 0 0 -1.33em; /* change LEFT */
+  line-height: 1.1;
+  list-style: none;
+  padding: 0 0 0 1.33em;
+  /* change LEFT */
+  margin: 0 0 0 -1.33em;
+  /* change LEFT */
 }
 
 article {
@@ -38,14 +40,15 @@ ul li ul {
 }
 
 ul li:last-child>ul {
-  border:none
+  border: none
 }
 
 ul li {
-    padding: .67em 0 0 0;
-    margin-left: 1.33em; /* change LEFT */
-    /* cursor: pointer; */
-    /* white-space: nowrap; */
+  padding: .67em 0 0 0;
+  margin-left: 1.33em;
+  /* change LEFT */
+  /* cursor: pointer; */
+  /* white-space: nowrap; */
 }
 
 /* ul li:before {
@@ -72,15 +75,16 @@ ul li:before {
 } */
 
 ul li:not(.remarry):before {
-    display: inline-block;
-    width: .67em;
-    height: .67em;
-    vertical-align: middle;
-    margin: -.67em .33em 0 -1.33em; /* change LEFT */
-    padding: 0 0 0 0em;
-    content: '';
-    border: 1px solid black;
-    border-width: 0 0 1px 1px;
+  display: inline-block;
+  width: .67em;
+  height: .67em;
+  vertical-align: middle;
+  margin: -.67em .33em 0 -1.33em;
+  /* change LEFT */
+  padding: 0 0 0 0em;
+  content: '';
+  border: 1px solid black;
+  border-width: 0 0 1px 1px;
 }
 
 .spouse {
@@ -265,11 +269,24 @@ article, nav {
 }
 
 
+/* name changes  */
 
-s {text-decoration: none; color:inherit;}
+s {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
 s:after {
   color: #6c9;
-  margin-left: .25em;
+  margin-left: .33em;
   content: '→';
-  text-decoration:none;
+  text-decoration: none;
+}
+s:before {
+  border-bottom: 2px solid #6c9;
+  opacity: .75;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 45%;
 }
