@@ -132,7 +132,6 @@ h1 .path a {}
     color: #ccc;
 } */
 
-nav { color: #777; }
 h2, nav h1 {
   font-size: 1rem;
   text-transform: uppercase;
@@ -180,7 +179,7 @@ nav {
   margin: 1em 0;
 }
 
-:not(sup):not(nav) a:link {
+article :not(sup) a:link {
   border-bottom: 1px dotted #abc;
 }
 
