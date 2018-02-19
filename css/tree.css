@@ -212,13 +212,14 @@ nav a:not(:last-of-type)::after {
   color: #ccc;
 } */
 
-ul a:link:hover, nav a:link:hover span {
-  background: #def;
-}
-
 :not(sup) a:link {
   border-bottom: 1px dotted #abc;
 }
+
+a:link:hover {
+  background: #def;
+}
+
 
 sup {
   padding: 0 1px;
