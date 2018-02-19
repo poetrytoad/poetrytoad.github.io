@@ -1,5 +1,6 @@
-name: test
+name: Testparent
 gen: M
+
 family:
   children:
     import: chana.Balwant.family
