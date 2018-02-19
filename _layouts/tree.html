@@ -16,7 +16,7 @@
   <nav>
     <h1><a href="{{ site.baseurl }}/">Family</a> › <a href="{{ site.baseurl }}/{{ page:collection }}">{{ page:collection }}</a></h1>
     {% for a in site.data.[page:collection].[page.title].anc reversed %}
-    <a href="{{ a }}"><span class="{{ site.data.[page:collection].[a].gen }}">{{ site.data.[page:collection].[a].name }}</span></a> ›
+    <a href="{{ a }}">{{ site.data.[page:collection].[a].name }}</a> ›
     {% endfor %}
     <a><span class="{{ site.data.[page.title].gen }}">{{ site.data.[page:collection].[page.title].name }}</span></a>
   </nav>
