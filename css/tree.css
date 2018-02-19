@@ -134,7 +134,7 @@ ul .fold a:not(:link) {
   border-bottom: 1px solid black;
 }
 
-ul .fold>ul {
+ul .fold>ul, ul .fold>p {
   display: none;
 }
 
