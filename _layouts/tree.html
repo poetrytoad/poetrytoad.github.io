@@ -43,7 +43,14 @@
         {% endif %}
         {% include loop.liquid p=q treelink=l %}
 
-        {% for p2 in q.family.children %}
+        {% if q.family.children.import %}
+          {% assign kids=site.data.[q.family.children.import].children %}
+        {% else %}
+          {% assign kids=q.family.children %}
+        {% endif %}
+
+        {% for p2 in kids %}
+
 
         {% if forloop.first %}<ul>{% endif %}
           <!-- impement this for subnested -->

@@ -1,0 +1,5 @@
+name: test
+gen: M
+family:
+  children:
+    import: chana.Balwant.family.children[1].family
