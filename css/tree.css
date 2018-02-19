@@ -132,6 +132,7 @@ h1 .path a {}
     color: #ccc;
 } */
 
+nav { color: #777; }
 h2, nav h1 {
   font-size: 1rem;
   text-transform: uppercase;
