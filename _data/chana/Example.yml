@@ -1,0 +1,7 @@
+name: Example
+gen: M
+
+family:
+  children:
+    - name: First
+      gen: M
