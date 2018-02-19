@@ -30,9 +30,6 @@ article {
   margin: 0 0 3rem 0;
 }
 
-/* article>ul {
-  margin: 0 0;
-} */
 
 ul li:not(:last-child)>ul, ul li:not(:last-child)>p {
   border: 1px dashed black;
@@ -51,28 +48,6 @@ ul li {
   /* white-space: nowrap; */
 }
 
-/* ul li:before {
-  display: inline-block;
-  width: .5em;
-  height: 0;
-  vertical-align: middle;
-  margin: 0em .5em 0 0;
-  padding: 0 0 0 .5em;
-  content: '';
-  border-top: 1px solid black;
-}
-
-ul li:before {
-    display: inline-block;
-    width: .67em;
-    height: .33em;
-    vertical-align: middle;
-    margin: -.5em .33em 0 2em;
-    padding: 0 0 0 0em;
-    content: '';
-    border: 1px solid black;
-    border-width: 0 0 1px 1px;
-} */
 
 ul li:not(.remarry):before {
   display: inline-block;
@@ -201,16 +176,6 @@ q::after {
 nav {
   margin: 1em 0;
 }
-
-/* nav a::before {
-  content: none;
-  border: none;
-}
-nav a:not(:last-of-type)::after {
-  content: '>';
-  margin: 0 0 0 .25em;
-  color: #ccc;
-} */
 
 :not(sup) a:link {
   border-bottom: 1px dotted #abc;
@@ -343,4 +308,8 @@ s:before {
   font-weight: bold;
   color: #999;
   display: none;
+}
+
+header {
+  margin-bottom: .5rem;
 }

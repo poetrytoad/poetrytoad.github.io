@@ -21,6 +21,8 @@
   </h1>
 {% endif %}
 
-{% if t.note %}<p><b>{{ t.name }}:</b> {{ t.note }}</p>{% endif %}
-{% if s.note %}<p><b>{{ t.name }}:</b> {{ s.note}}</p>{% endif %}
-{% if f.note %}<p>{{ f.note }}</p>{% endif %}
+{% if t.note or s.note or f.note %}<p>
+{% if t.note %}<b>{{ t.name }}:</b> {{ t.note }} {% endif %}
+{% if s.note %}<b>{{ t.name }}:</b> {{ s.note}} {% endif %}
+{% if f.note %}{{ f.note }}{% endif %}
+</p>{% endif %}
