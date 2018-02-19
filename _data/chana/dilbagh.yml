@@ -1,0 +1,20 @@
+name: Dilbagh
+gen: M
+anc:
+  - Balwant
+  - Isher
+
+family:
+  spouse:
+    name: Surjit
+    gen: F
+  children:
+    - import: kari # Urminder
+      from: rai
+    - name: Iqbal
+      nick: Bali
+      gen: M
+    - name:
+        - Jaipal
+        - Jai
+      gen: M
