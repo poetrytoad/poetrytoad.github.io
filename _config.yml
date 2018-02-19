@@ -8,8 +8,15 @@ collections:
 defaults:
     - scope:
         path: ""
-        type: chana
+        type: Chana
       values:
           layout: tree
+    - scope:
+        path: ""
+        type: Rai
+      values:
+          layout: tree
+
+#
 
 #
