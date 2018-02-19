@@ -9,8 +9,7 @@ family:
     name: Surjit
     gen: F
   children:
-    - # Urminder
-      import: kari
+    - import: kari # Urminder
       from: rai
     - name: Iqbal
       nick: Bali
