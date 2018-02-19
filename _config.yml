@@ -1,7 +1,10 @@
 #
 
 collections:
-    chana:
+    Chana:
+        output: true
+        permalink: /:collection/:path
+    Rai:
         output: true
         permalink: /:collection/:path
 
