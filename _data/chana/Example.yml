@@ -3,4 +3,8 @@ gen: M
 
 family:
   children:
-    import: chana.Balwant.family
+    - name: FirstKid
+      gen: M
+      family:
+        children:
+          import: chana.Balwant.family
