@@ -9,7 +9,12 @@
 {% endif %}
 
 <h1>
-<span style="margin-right:.1em">{% include name.liquid nam=t %}</span>
+{% if t.anc %}<a href="{% t.anc[1] %}" style="margin-right:.1em">
+{% else %}<span style="margin-right:.1em">{% endif %}
+{% include name.liquid nam=t %}
+{% if t.anc %}</a>
+{% else %}</span>{% endif %}
+
 {% if s %}
   <span class="spouse">
     {% if s.link or include.from %}<a
