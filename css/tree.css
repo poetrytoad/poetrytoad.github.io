@@ -295,8 +295,8 @@ ul li p {
 
 /* this is to make space for path */
 
-article, nav {
-  margin-left: 5rem;
+body {
+  margin-left: 8rem;
 }
 
 /* name changes  */
