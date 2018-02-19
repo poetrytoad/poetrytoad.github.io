@@ -24,7 +24,7 @@
   <article>
       <header>
         {% assign h=site.data.[page:collection].[page.title] %}
-        {% include loop.liquid p=h %}
+        {% include header.liquid p=h %}
       </header>
 
     {% for p1 in site.data.[page:collection].[page.title].family.children %}
