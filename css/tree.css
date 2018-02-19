@@ -202,16 +202,15 @@ nav {
   margin: 1em 0;
 }
 
-nav a::before {
+/* nav a::before {
   content: none;
   border: none;
 }
-
 nav a:not(:last-of-type)::after {
   content: '>';
   margin: 0 0 0 .25em;
   color: #ccc;
-}
+} */
 
 ul a:link:hover, nav a:link:hover span {
   background: #def;
