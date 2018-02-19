@@ -1,2 +1,14 @@
 ---
+name: Isher
+gen: M
+
+family:
+  children:
+    - import: Balwant
+    - name: Lachhman
+      gen: M
+    - name: Niranjan
+      gen: M
+    - name: Rattan
+      gen: F
 ---
