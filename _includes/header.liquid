@@ -9,6 +9,7 @@
 {% endif %}
 
 <h1 style="margin-right:.1em">{% include name.liquid nam=t %}</h1>
+{% if t.note %}<p>{{ t.note }}</p>{% endif %}
 {% if s %}
   <h1 class="spouse">
     {% if s.link or include.from %}<a
@@ -17,8 +18,7 @@
     {% if s.name %}{% include name.liquid nam=s surfrom=include.from %}{% endif %}
     {% if s.link or include.from %}</a>{% endif %}
   </h1>
+  {% if s.note %}<p>{{ s.note}}</p>{% endif %}
 {% endif %}
 
-{% if t.note or f.note or s.note %}
-<p>{{ t.note }} {{ f.note }}</p>
-{% endif %}
+{% if f.note %}<p>{{ f.note }}</p>{% endif %}
