@@ -296,7 +296,11 @@ ul li p {
 /* this is to make space for path */
 
 body {
+<<<<<<< HEAD
   margin-left: 8rem;
+=======
+  margin-left: 5rem;
+>>>>>>> 9fd0c11a3801f174928872601384ac4e86dfd873
 }
 
 /* name changes  */
