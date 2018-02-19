@@ -1,22 +1,22 @@
 #
 
 collections:
-    Chana:
+    chana:
         output: true
         permalink: /:collection/:path
-    Rai:
+    rai:
         output: true
         permalink: /:collection/:path
 
 defaults:
     - scope:
         path: ""
-        type: Chana
+        type: chana
       values:
           layout: tree
     - scope:
         path: ""
-        type: Rai
+        type: rai
       values:
           layout: tree
 
