@@ -1,6 +1,14 @@
-{% assign q=include.p %}
-{% assign f=include.p.family %}
-{% if f.children or p.note or f.note or f.spouse.note %}<a style="cursor:pointer; margin-right:.1em">
+{% if include.swap %}
+  {% assign q=include.p.family.spouse %}
+  {% assign s=include.p %}
+  {% assign f=include.p.family %}
+{% else %}
+  {% assign q=include.p %}
+  {% assign f=include.p.family %}
+  {% assign s=include.p.family.spouse %}
+{% endif %}
+
+{% if f.children or q.note or f.note or s.note %}<a style="cursor:pointer; margin-right:.1em">
 {% else %}<span style="margin-right:.1em">
 {% endif %}
 
@@ -10,11 +18,11 @@
 {% else %}</span>
 {% endif %}
 
-{% if f.spouse %}
+{% if s %}
   <span class="spouse">
-    {% if f.spouse.link %}<a href="{{f.spouse.link}}">{% endif %}
-    {% if f.spouse.name %}{% include name.liquid nam=f.spouse %}{% endif %}
-    {% if f.spouse.link %}</a>{% endif %}
+    {% if s.link %}<a href="{{f.spouse.link}}">{% endif %}
+    {% if s.name %}{% include name.liquid nam=s %}{% endif %}
+    {% if s.link %}</a>{% endif %}
   </span>
 {% endif %}
 
@@ -22,6 +30,6 @@
   <a class="branch" title="Go to {{ q.name }}’s branch" href="{{ include.treelink }}">View &rarr;</a>
 {% endif %}
 
-{% if p.note or f.note or f.spouse.note %}
-<p>{{ p.note }} {{ f.note }}</p>
+{% if q.note or f.note or s.note %}
+<p>{{ q.note }} {{ f.note }}</p>
 {% endif %}
