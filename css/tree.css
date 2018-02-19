@@ -204,7 +204,7 @@ p {
   margin: 1em 0;
 }
 
-ul li p {
+ul li p, header p {
   font-style: italic;
   line-height: 1.1;
   font-size: .8em;
