@@ -43,15 +43,7 @@
         {% endif %}
         {% include loop.liquid p=q treelink=l %}
 
-        {% if q.family.children.import %}
-        <em>Check {{ site.data.[q.family.children.import].spouse.name }}</em>
-          {% assign kids=site.data.[q.family.children.import].children %}
-        {% else %}
-          {% assign kids=q.family.children %}
-        {% endif %}
-
-        {% for p2 in kids %}
-
+        {% for p2 in q.family.children %}
 
         {% if forloop.first %}<ul>{% endif %}
           <!-- impement this for subnested -->
