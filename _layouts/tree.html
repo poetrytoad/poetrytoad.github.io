@@ -30,7 +30,17 @@
       </h1>
 
     {% for p1 in site.data.[page:collection].[page.title].family.children %}
-        {% include level.liquid lev=p1 %}
+
+      {% if forloop.first %}<ul>{% endif %}
+      <li>
+        {% if p1.import %}
+          {% assign q=site.data.[page:collection].[p1.import] %}
+          {% assign l=p1.import %}
+        {% else %}
+          {% assign q=p1 %}
+          {% assign l=false %}
+        {% endif %}
+        {% include loop.liquid p=q treelink=l %}
 
         {% for p2 in q.family.children %}
 
