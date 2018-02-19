@@ -4,7 +4,6 @@ gen: M
 family:
   children:
     - import: Balwant
-      from: chana
     - name: Lachhman
       gen: M
     - name: Niranjan
