@@ -35,7 +35,7 @@
       <li>
         {% if p1.import %}
           {% assign q=site.data.[page:collection].[p1.import] %}
-          {% if site.[page:collection].[p1.import].path }
+          {% if site.[page:collection].[p1.import].url }
             {% assign l=p1.import %}
           {% else %}
             {% assign l=false %}
