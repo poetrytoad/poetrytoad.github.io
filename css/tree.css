@@ -13,6 +13,12 @@ body {
   -webkit-text-size-adjust: none;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
 ol, ul {
   font-size: inherit;
 }
@@ -154,11 +160,6 @@ a:hover>.path, a.path:hover {
   color: black
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 /* ul a {
   display: inline-block;
 } */
@@ -183,7 +184,7 @@ article :not(sup) a:link {
   border-bottom: 1px dotted #abc;
 }
 
-a:link:hover {
+article a:link:hover {
   background: #def;
 }
 
