@@ -1,0 +1,11 @@
+{% assign r = include.lev }
+{% if forloop.first %}<ul>{% endif %}
+<li>
+  {% if r.import %}
+    {% assign q=site.data.[page:collection].[r.import] %}
+    {% assign l=r.import %}
+  {% else %}
+    {% assign q=r %}
+    {% assign l=false %}
+  {% endif %}
+  {% include loop.liquid p=q treelink=l %}
