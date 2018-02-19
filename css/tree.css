@@ -216,8 +216,8 @@ ul a:link:hover, nav a:link:hover span {
   background: #def;
 }
 
-ul :not(sup) a:link, nav a:link span {
-  border-bottom: 1px solid #abc;
+:not(sup) a:link {
+  border-bottom: 1px dotted #abc;
 }
 
 sup {

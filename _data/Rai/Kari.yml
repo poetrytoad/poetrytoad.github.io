@@ -1,0 +1,30 @@
+name: Karanjit
+nick: Kari
+sur: Rai
+gen: M
+born:
+  date: 1953
+  loc: Pragpur
+
+family:
+  note: Married 1982, started family in Southall.
+  spouse:
+    name: Urminder
+    nick: Urmi
+    gen: F
+    born:
+      date: 1955
+    link: ../Chana/Dilbagh
+  children:
+    - name: Jeevan
+      gen: M
+      sur: Chana Rai
+      born:
+        date: 1987
+        loc: London
+    - name: Sajan
+      gen: M
+      sur: Chana Rai
+      born:
+        date: 1990
+        loc: London
