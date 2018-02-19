@@ -30,13 +30,17 @@
         {% include loop.liquid p=h %}
       </h1>
 
-    {% for p1 in site.data.[page.title].family.children %} {% if forloop.first %}
-    <ul>{% endif %}
+    {% for p1 in site.data.[page.title].family.children %}
+      {% if forloop.first %}<ul>{% endif %}
 
       <li>
         {% if p1.import %}
           {% assign q=site.data.[p1.import] %}
-          {% assign l=p1.import %}
+          {% if site.[page:collection].[p1.import] %}
+            {% assign l=p1.import %}
+          {% else %}
+            {% assign l=false %}
+          {% endif %}
         {% else %}
           {% assign q=p1 %}
           {% assign l=false %}
