@@ -25,7 +25,7 @@
 
   <article>
       <h1>
-        {% assign h=site.data.[page.title] %}
+        {% assign h=site.data.[page:collection].[page.title] %}
         {% include loop.liquid p=h %}
       </h1>
 
