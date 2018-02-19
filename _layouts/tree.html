@@ -45,7 +45,7 @@
           {% assign l=false %}
         {% endif %}
         {% include loop.liquid p=q treelink=l from=swap %}
-
+        {% assign swap=false %}
         {% for p2 in q.family.children %}
 
         {% if forloop.first %}<ul>{% endif %}
