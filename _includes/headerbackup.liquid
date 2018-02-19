@@ -14,19 +14,20 @@
 {% include name.liquid nam=t %}
 {% if t.anc %}</a>
 {% else %}</span>{% endif %}
-</h1>
-{% if t.note %}<p>{{ t.note }}</p>{% endif %}
-
 
 {% if s %}
-  <h1 class="spouse">
+  <span class="spouse">
     {% if s.link or include.from %}<a
       href="{% if include.from %}../{{ include.from }}/{{ include.treelink }}{% else %}{{ f.spouse.link }}{% endif %}"
       >{% endif %}
     {% if s.name %}{% include name.liquid nam=s surfrom=include.from %}{% endif %}
     {% if s.link or include.from %}</a>{% endif %}
+  </span>
   </h1>
 {% endif %}
-{% if s.note %}<p>{{ s.note }}</p>{% endif %}
 
-{% if f.note %}<p>{{ f.note }}</p>{% endif %}
+{% if t.note or s.note or f.note %}<p>
+{% if t.note %}<b>{% if t.nick %}{{ t.nick }}{% else %}{{ t.name }}{% endif %}</b> {{ t.note }} {% endif %}
+{% if s.note %}<b>{% if s.nick %}{{ s.nick }}{% else %}{{ s.name }}{% endif %}</b> {% endif %}
+{% if f.note %}{{ f.note }}{% endif %}
+</p>{% endif %}
