@@ -215,15 +215,6 @@ ul li p {
   /* change LEFT */
 }
 
-header p {
- line-height: 1.1;
- font-size: .88em;
- margin: .25rem 0 0 -1.33rem;
- /* change LEFT */
- color: rgba(0, 0, 0, .5);
- padding: 0 0 0 1.33rem;
- /* change LEFT */
-}
 
 
 /* .branch {
