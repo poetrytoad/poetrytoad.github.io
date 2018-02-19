@@ -9,11 +9,9 @@
 {% endif %}
 
 <h1>
-{% if t.anc %}<a href="{% t.anc[0] %}" style="margin-right:.1em">
-{% else %}<span style="margin-right:.1em">{% endif %}
+<span style="margin-right:.1em">
 {% include name.liquid nam=t %}
-{% if t.anc %}</a>
-{% else %}</span>{% endif %}
+</span>
 
 {% if s %}
   <span class="spouse">
