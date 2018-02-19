@@ -239,7 +239,7 @@ p {
   margin: 1em 0;
 }
 
-ul li p, header p {
+ul li p {
   font-style: italic;
   line-height: 1.1;
   font-size: .8em;
@@ -249,6 +249,17 @@ ul li p, header p {
   padding: 0 0 0 1.33rem;
   /* change LEFT */
 }
+
+header p {
+ line-height: 1.1;
+ font-size: .88em;
+ margin: .25rem 0 0 -1.33rem;
+ /* change LEFT */
+ color: rgba(0, 0, 0, .5);
+ padding: 0 0 0 1.33rem;
+ /* change LEFT */
+}
+
 
 /* .branch {
   border: none !important;
