@@ -3,5 +3,4 @@ gen: M
 
 family:
   children:
-    - name: First
-      gen: M
+    import: chana.Balwant.family
