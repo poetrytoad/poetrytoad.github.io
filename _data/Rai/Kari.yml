@@ -1,6 +1,5 @@
 name: Karanjit
 nick: Kari
-sur: Rai
 gen: M
 born:
   date: 1953
@@ -11,6 +10,7 @@ family:
   spouse:
     name: Urminder
     nick: Urmi
+    sur: Chana
     gen: F
     born:
       date: 1955
