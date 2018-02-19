@@ -1,7 +1,13 @@
-name: Testparent
+name: Papaji
 gen: M
+anc:
+  - Isher
+  - Sawan
 
 family:
+  spouse:
+    name: Pal
+    gen: F
   children:
-    - name: firstKid
+    - name: Dilbagh
       gen: M
