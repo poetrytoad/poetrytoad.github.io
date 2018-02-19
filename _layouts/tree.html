@@ -44,7 +44,7 @@
         {% include loop.liquid p=q treelink=l %}
 
         {% if q.family.children.import %}
-        {{ site.data.[q.family.children.import].children }}
+        <em>{{ site.data.[q.family.children.import].children[1].name }}</em>
           {% assign kids=site.data.[q.family.children.import].children %}
         {% else %}
           {% assign kids=q.family.children %}

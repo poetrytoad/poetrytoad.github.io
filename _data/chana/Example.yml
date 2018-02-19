@@ -3,4 +3,4 @@ gen: M
 
 family:
   children:
-    import: 'chana.Balwant.family'
+    import: chana.Balwant.family
