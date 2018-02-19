@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>{{ page:collection }}: {{ name }}</title>
+  <title>{{ page:collection }}: {{ page.name }}</title>
   <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -17,10 +17,10 @@
       <a href="#" class="path">&larr;</a>
       Family › {{ page:collection }}
     </h1>
-    {% for a in anc reversed %}
+    {% for a in page.anc reversed %}
     <a href="{{ a }}"><span class="{{ site.[page:collection].[a].gen }}">{{ site.[page:collection].[a].name }}</span></a> ›
     {% endfor %}
-    <a><span class="{{ gen }}">{{ name }}</span></a>
+    <a><span class="{{ page.gen }}">{{ page.name }}</span></a>
   </nav>
 
   <article>
@@ -29,7 +29,7 @@
         {% include loop.liquid p=h %}
       </h1>
 
-    {% for p1 in family.children %}
+    {% for p1 in page.family.children %}
 
       {% if forloop.first %}<ul>{% endif %}
       <li>
