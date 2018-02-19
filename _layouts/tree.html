@@ -22,10 +22,10 @@
   </nav>
 
   <article>
-      <h1>
+      <header>
         {% assign h=site.data.[page:collection].[page.title] %}
         {% include loop.liquid p=h %}
-      </h1>
+      </header>
 
     {% for p1 in site.data.[page:collection].[page.title].family.children %}
 
