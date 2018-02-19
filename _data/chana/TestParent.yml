@@ -4,3 +4,4 @@ gen: M
 family:
   children:
     - name: firstKid
+      gen: M
