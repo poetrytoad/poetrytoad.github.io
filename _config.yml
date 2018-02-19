@@ -10,4 +10,4 @@ defaults:
         path: ""
         type: chana
       values:
-          layout: tree
+          layout: tree2

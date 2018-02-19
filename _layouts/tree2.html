@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>{{ page:collection }}: {{ site.data.[page:collection].[page.title].name }}</title>
+  <title>{{ page:collection }}: {{ name }}</title>
   <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -17,24 +17,24 @@
       <a href="#" class="path">&larr;</a>
       Family › {{ page:collection }}
     </h1>
-    {% for a in site.data.[page:collection].[page.title].anc reversed %}
-    <a href="{{ a }}"><span class="{{ site.data.[page:collection].[a].gen }}">{{ site.data.[page:collection].[a].name }}</span></a> ›
+    {% for a in anc reversed %}
+    <a href="{{ a }}"><span class="{{ site.[page:collection].[a].gen }}">{{ site.[page:collection].[a].name }}</span></a> ›
     {% endfor %}
-    <a><span class="{{ site.data.[page.title].gen }}">{{ site.data.[page:collection].[page.title].name }}</span></a>
+    <a><span class="{{ gen }}">{{ name }}</span></a>
   </nav>
 
   <article>
       <h1>
-        {% assign h=site.data.[page:collection].[page.title] %}
+        {% assign h=site.[page:collection].[page.title] %}
         {% include loop.liquid p=h %}
       </h1>
 
-    {% for p1 in site.data.[page:collection].[page.title].family.children %}
+    {% for p1 in family.children %}
 
       {% if forloop.first %}<ul>{% endif %}
       <li>
         {% if p1.import %}
-          {% assign q=site.data.[page:collection].[p1.import] %}
+          {% assign q=site.[page:collection].[p1.import] %}
           {% assign l=p1.import %}
         {% else %}
           {% assign q=p1 %}
