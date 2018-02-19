@@ -35,11 +35,7 @@
       <li>
         {% if p1.import %}
           {% assign q=site.data.[page:collection].[p1.import] %}
-          {% if site.collections.[page:collection].[p1.import] %}
-            {% assign l=p1.import %}
-          {% else %}
-            {% assign l=false %}
-          {% endif %}
+          {% assign l=p1.import %}
         {% else %}
           {% assign q=p1 %}
           {% assign l=false %}
