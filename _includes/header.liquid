@@ -22,7 +22,7 @@
 {% endif %}
 
 {% if t.note or s.note or f.note %}<p>
-{% if t.note %}<b>{{ t.name }}:</b> {{ t.note }} {% endif %}
-{% if s.note %}<b>{{ t.name }}:</b> {{ s.note}} {% endif %}
+{% if t.note %}<b>{% if t.nick %}{{ t.nick }}{% else %}{{ t.name }}{% endif %}</b> {{ t.note }} {% endif %}
+{% if s.note %}<b>{% if s.nick %}{{ s.nick }}{% else %}{{ s.name }}{% endif %}</b> {% endif %}
 {% if f.note %}{{ f.note }}{% endif %}
 </p>{% endif %}
