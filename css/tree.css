@@ -140,6 +140,8 @@ h2, nav h1 {
   font-weight: normal;
   color: #999;
 }
+nav h1 a:hover { color: black; }
+nav :not(h1) a:hover { text-decoration: underline;}
 
 nav h1 a.path {
   font-size: 2em;
@@ -177,7 +179,7 @@ nav {
   margin: 1em 0;
 }
 
-:not(sup) a:link {
+:not(sup):not(nav) a:link {
   border-bottom: 1px dotted #abc;
 }
 
@@ -303,4 +305,11 @@ s:before {
 
 header {
   margin-bottom: .25rem;
+}
+header p {
+  font-size: .88em;
+}
+header p b {
+  font-weight: normal;
+  color: black;
 }
