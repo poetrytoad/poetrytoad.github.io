@@ -18,7 +18,7 @@
       Family : {{ page:collection }}
     </h1>
     {% for a in site.data.[page:collection].[page.title].anc reversed %}
-    <a href="{{ site.[page:collection].[a] }}"><span class="{{ site.data.[page:collection].[a].gen }}">{{ site.data.[page:collection].[a].name }}</span></a>
+    <a href="{{ a }}"><span class="{{ site.data.[page:collection].[a].gen }}">{{ site.data.[page:collection].[a].name }}</span></a>
     {% endfor %}
     <a><span class="{{ site.data.[page.title].gen }}">{{ site.data.[page:collection].[page.title].name }}</span></a>
   </nav>
