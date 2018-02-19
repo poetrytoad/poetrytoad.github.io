@@ -2,4 +2,4 @@ name: test
 gen: M
 family:
   children:
-    import: 'chana.Balwant.family.children[0].family'
+    import: 'chana.Balwant.family'
