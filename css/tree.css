@@ -387,7 +387,6 @@ header+p {
 }
 
 .head {
-  display: inline;
   border-bottom: 1px solid #ccc;
 }
 .head:hover {

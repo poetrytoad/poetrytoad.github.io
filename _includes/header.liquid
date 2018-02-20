@@ -9,9 +9,8 @@
 
 <header>
 {% if include.firstmarriage %}
-  <h1 class="head" style="cursor:pointer;" onclick="allfold();">
-  {% include name.liquid nam=t %}
-  </h1>
+  <h1><span class="head" style="cursor:pointer;" onclick="allfold();">
+  {% include name.liquid nam=t %}</span></h1>
   {% if t.note %}<p>{{ t.note }}</p>{% endif %}
 {% endif %}
 
