@@ -364,11 +364,20 @@ header+p {
   min-width: 20rem;
 }
 #content h1 {
+<<<<<<< HEAD
   font-size: 1.5em;
   font-weight: normal;
   margin: .67em 0;
 }
 #content h2 {
+=======
+  font-weight: normal;
+  font-style: italic;
+  margin: .67em 0;
+}
+#content h2 {
+  color: #b97;
+>>>>>>> 804e930af7476f555f80450dde119036e4765198
   font-size: 1em;
   text-transform: uppercase;
   font-weight: bold;
