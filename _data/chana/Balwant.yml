@@ -83,3 +83,11 @@ family:
                 gen: F
       - name: Harbans
         gen: F
+  - spouse:
+      name: NonExistent
+      gen: F
+    children:
+      - name: Phantom
+        gen: M
+      - name: Phantom2
+        gen: F
