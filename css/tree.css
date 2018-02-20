@@ -341,7 +341,7 @@ header+p {
   content: ")";
 }
 
-*.remarrymark {
+* .remarrymark {
   color: #ccc;
   font-weight: bold;
 }
