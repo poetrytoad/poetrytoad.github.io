@@ -34,14 +34,15 @@
     {% if q.family.first and !swap %}
         {% for thisfam in q.family %}
 
-            {% include loop.liquid p=q treelink=l from=swap fam=thisfam %} <!-- from here -->
-            {% for p2 in thisfam.children %} <!-- to here for each fam IFF NOT SWAP -->
+            {% include loop.liquid p=q treelink=l from=swap fam=thisfam %}
+            {{ thisfam.spouse.name }}
+            {% for p2 in thisfam.children %}
 
                 {% if forloop.first %}<ul>{% endif %}
                     <li>
                     {% include import.liquid arg=p2 %}
-                    {% include loop.liquid p=q treelink=l from=swap%} <!-- from here -->
-                    {% for p3 in q.family.children %}  <!-- to here for each fam IFF NOT SWAP -->
+                    {% include loop.liquid p=q treelink=l from=swap%}
+                    {% for p3 in q.family.children %}
 
                         {% if forloop.first %}<ul>{% endif %}
                         <li>
