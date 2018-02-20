@@ -31,7 +31,7 @@
     <li>
     {% include import.liquid arg=p1 %}
 
-    {% if q.family.first and !swap %}
+    {% if q.family.first %}
         {% for thisfam in q.family %}
 
             {% include loop.liquid p=q treelink=l from=swap fam=thisfam %}
