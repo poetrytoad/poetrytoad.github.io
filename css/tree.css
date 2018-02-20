@@ -233,7 +233,7 @@ ul li p, header p {
   font-weight: bold;
 } */
 
-article .branch {
+article .branch:link {
   position: relative;
   border: none !important;
   /* font-weight: bold; */
