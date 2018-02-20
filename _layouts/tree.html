@@ -23,9 +23,9 @@
 
   <article>
     {% assign h=site.data.[page:collection].[page.title] %}
-    {% include header.liquid p=h %}
+    {% include header.liquid p=h fam=p.family[0] %}
 
-    {% for p1 in site.data.[page:collection].[page.title].family.children %}
+    {% for p1 in site.data.[page:collection].[page.title].family[0].children %}
 
       {% if forloop.first %}<ul>{% endif %}
       <li>
@@ -45,21 +45,21 @@
         {% endif %}
 
         {% include loop.liquid p=q treelink=l from=swap fam=q.family[0] %}
-        {% for p2 in q.family.children %}
+        {% for p2 in q.family[0].children %}
 
         {% if forloop.first %}<ul>{% endif %}
           <!-- impement this for subnested -->
           <li>
             {% include loop.liquid p=p2 %}
-            {% for p3 in p2.family.children %}
+            {% for p3 in p2.family[0].children %}
             {% if forloop.first %}<ul>{% endif %}
               <li>
                 {% include loop.liquid p=p3 %}
-                {% for p4 in p3.family.children %}
+                {% for p4 in p3.family[0].children %}
                 {% if forloop.first %} <ul>{% endif %}
                   <li>
                     {% include loop.liquid p=p4%}
-                    {% for p5 in p4.family.children %}
+                    {% for p5 in p4.family[0].children %}
                     {% if forloop.first %}<ul>{% endif %}
                       <li>
                         {% include loop.liquid p=p5%}

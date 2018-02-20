@@ -1,11 +1,10 @@
+{% assign f=include.fam %}
 {% if include.from %}
-  {% assign t=include.p.family.spouse %}
+  {% assign t=f.spouse %}
   {% assign s=include.p %}
-  {% assign f=include.p.family %}
 {% else %}
   {% assign t=include.p %}
-  {% assign f=include.p.family %}
-  {% assign s=include.p.family.spouse %}
+  {% assign s=f.spouse %}
 {% endif %}
 
 <header>
