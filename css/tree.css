@@ -245,7 +245,7 @@ article .branch:link {
   background: #cde;
   text-transform: uppercase;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   text-align: center;
   margin: .1em .33em -1em .33em;
   */
@@ -342,6 +342,6 @@ header+p {
 }
 
 .remarrymark {
-  color: #ccc;
+  color: #999;
   font-weight: bold;
 }
