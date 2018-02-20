@@ -188,7 +188,7 @@ nav {
   margin: 1em 0;
 }
 
-article :not(sup):not(.branch) a:link {
+article :not(sup) a:link {
   border-bottom: 1px dotted #abc !important;
 }
 
@@ -236,12 +236,13 @@ ul li p, header p {
 .branch {
   position: relative;
   border: none !important;
+  border-bottom: none !important;
   /* font-weight: bold; */
   letter-spacing: .05em;
   font-size: .75em;
   color: #7be;
   color: white;
-  padding: .125em .25em;
+  padding: .125em .33em;
   background: #cde;
   text-transform: uppercase;
   display: inline-block;
