@@ -10,16 +10,16 @@
   {% assign s=f.spouse %}
 {% endif %}
 
-{% if f.children or t.note or f.note or s.note %}<a style="cursor:pointer; margin-right:.1em">
-{% else %}<span style="margin-right:.1em">
-{% endif %}
-    {% if include.firstmarriage %}
-      {% include name.liquid nam=t %}
-    {% else %}
-      <span class="remarrymark">''</span>
-    {% endif %}
-{% if f.children %}</a>
-{% else %}</span>
+{% if include.firstmarriage %}
+  {% if f.children or t.note or f.note or s.note %}<a style="cursor:pointer; margin-right:.1em">
+  {% else %}<span style="margin-right:.1em">
+  {% endif %}
+    {% include name.liquid nam=t %}
+  {% if f.children %}</a>
+  {% else %}</span>
+  {% endif %}
+{% else %}
+  <span class="remarrymark"></span>
 {% endif %}
 
 {% if s %}
