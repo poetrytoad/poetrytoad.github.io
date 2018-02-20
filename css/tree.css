@@ -325,7 +325,7 @@ header p b {
 }
 
 header+p {
-  color: rgba(0,0,0,.4);
+  color: rgba(0,0,0,.67);
   margin: 0.5em 0 ;
 }
 
