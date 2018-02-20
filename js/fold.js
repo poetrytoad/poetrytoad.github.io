@@ -4,7 +4,7 @@ function fold(elem) {
 
     var elements = document.getElementsByTagName('a');
         for(var i = 0, len = elements.length; i < len; i++) {
-            // elements[i].parentElement.classList.add('open');
+            elements[i].parentElement.classList.add('fold');
             if( ! elements[i].getAttribute('href') ) {
                 elements[i].onclick = function () {
                 fold (this);
