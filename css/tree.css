@@ -354,6 +354,9 @@ header+p {
   display: none;
 }
 
+
+
+
 /* CONTENT */
 
 #content {
@@ -362,6 +365,9 @@ header+p {
   border-top: 1px solid #ccc;
   max-width: 32rem;
   min-width: 20rem;
+
+
+  
 }
 #content h1 {
   font-size: 1.33em;
