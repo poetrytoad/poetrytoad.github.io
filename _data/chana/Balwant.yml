@@ -73,8 +73,8 @@ family:
         gen: M
         family:
           - spouse:
-              name: Ritus
-              sur: Bakshi
+              name: Ritu
+              nee: Bakshi
               gen: F
             children:
               - name: Simran

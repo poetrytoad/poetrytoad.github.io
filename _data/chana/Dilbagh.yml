@@ -6,7 +6,9 @@ anc:
 
 family:
   - spouse:
-      name: Surjit
+      name:
+        - Ranjit
+        - Surjit
       nee: Matharu
       gen: F
     children:
