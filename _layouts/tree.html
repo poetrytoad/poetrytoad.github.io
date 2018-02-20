@@ -1,40 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8"/>
-  <title>{{ page:collection }}: {{ site.data.[page:collection].[page.title].name }}</title>
+  <meta charset="utf-8" />
+  <title>
+    {{ page:collection }}: {{ site.data.[page:collection].[page.title].name }}
+  </title>
   <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/tree.css" />
-  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
 </head>
+
 <body>
 
   <nav>
-    <h1><a href="{{ site.baseurl }}/">Family</a> › <a href="{{ site.baseurl }}/{{ page:collection }}">{{ page:collection }}</a></h1>
+    <h1>
+      <a href="{{ site.baseurl }}/">Family</a> ›
+      <a href="{{ site.baseurl }}/{{ page:collection }}">{{ page:collection }}</a>
+    </h1>
     {% for a in site.data.[page:collection].[page.title].anc reversed %}
-    <a href="{{ a }}">{{ site.data.[page:collection].[a].name }}</a> ›
+      <a href="{{ a }}">{{ site.data.[page:collection].[a].name }}</a>:
     {% endfor %}
     <span class="{{ site.data.[page.title].gen }}">{{ site.data.[page:collection].[page.title].name }}</span>
   </nav>
 
-<article>
-{% assign h=site.data.[page:collection].[page.title] %}
+  <article>
+    {% assign h=site.data.[page:collection].[page.title] %}
+    {% for toplevelfam in h.family %}
+      {% include header.liquid p=h fam=toplevelfam firstmarriage=forloop.first %}
+      {% include list.liquid fam=toplevelfam %}
+    {% endfor %}
+  </article>
 
-{% for toplevelfam in h.family %}
-  {% include header.liquid p=h fam=toplevelfam firstmarriage=forloop.first %}
-  {% include list.liquid fam=toplevelfam %}
-{% endfor %}
-</article>
+  <script src="{{ site.baseurl }}/js/fold.js"></script>
 
-<script src="{{ site.baseurl }}/js/fold.js"></script>
-
-<article id="content">
-{{ content }}
-</article>
+  <article id="content">
+    {{ content }}
+  </article>
 
 </body>
 </html>

@@ -1,37 +1,35 @@
 {% for p1 in include.fam.children %}
-
     {% if forloop.first %}<ul>{% endif %}
     {% include import.liquid arg=p1 %}
     {% if q.family %}
         {% for thisfam in q.family %}
         <li class="{% if forloop.first %}{% else %}remarry{% endif %}">
             {% include loop.liquid p=q treelink=l from=swap fam=thisfam firstmarriage=forloop.first %}
+
             {% for p2 in thisfam.children %}
+                {% if forloop.first %}<ul>{% endif %}
+                {% include import.liquid arg=p2 %}
+                {% if q.family %}
+                    {% for thisfam in q.family %}
+                        <li class="{% if forloop.first %}{% else %}remarry{% endif %}">
+                        {% include loop.liquid p=q treelink=l from=swap fam=thisfam firstmarriage=forloop.first %}
 
-                    {% if forloop.first %}<ul>{% endif %}
-                        {% include import.liquid arg=p2 %}
-                        {% if q.family %}
-                            {% for thisfam in q.family %}
-                            <li class="{% if forloop.first %}{% else %}remarry{% endif %}">
-                                {% include loop.liquid p=q treelink=l from=swap fam=thisfam firstmarriage=forloop.first %}
-                                {% for p3 in thisfam.children %}
-
-                                    {% if forloop.first %}<ul>{% endif %}
-                                    {% include import.liquid arg=p3 %}
-                                    <li>
-                                      {% include loop.liquid p=q treelink=l from=swap firstmarriage=true levellimit=true %}
-                                    </li>
-                                    {% if forloop.last %}</ul>{% endif %}
-
-                                {% endfor %}
+                        {% for p3 in thisfam.children %}
+                            {% if forloop.first %}<ul>{% endif %}
+                            {% include import.liquid arg=p3 %}
+                            <li>
+                            {% include loop.liquid p=q treelink=l from=swap firstmarriage=true levellimit=true %}
                             </li>
-                            {% include import.liquid arg=p2 %}
-                            {% endfor %}
-                        {% else %}
-                            <li>{% include loop.liquid p=q firstmarriage=true %}</li>
-                        {% endif %}
+                            {% if forloop.last %}</ul>{% endif %}
+                        {% endfor %}
 
-                    {% if forloop.last %}</ul>{% endif %}
+                        </li>
+                        {% include import.liquid arg=p2 %}
+                    {% endfor %}
+                {% else %}
+                    <li>{% include loop.liquid p=q firstmarriage=true %}</li>
+                {% endif %}
+                {% if forloop.last %}</ul>{% endif %}
 
             {% endfor %}
         </li>
@@ -40,6 +38,5 @@
     {% else %}
         <li>{% include loop.liquid p=q firstmarriage=true %}</li>
     {% endif %}
-
-{% if forloop.last %}</ul>{% endif %}
+    {% if forloop.last %}</ul>{% endif %}
 {% endfor %}
