@@ -22,7 +22,8 @@
   <span class="remarrymark"></span>
 {% endif %}
 
-{% if ! include.levellimit %}
+{% if include.levellimit %}
+{% else %}
     {% if s %}
       <span class="spouse">
         {% if s.link or include.from %}<a
