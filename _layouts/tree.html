@@ -29,6 +29,7 @@
 
     {% if forloop.first %}<ul>{% endif %}
     {% include import.liquid arg=p1 %}
+    {% if !q.family %} {% include loop.liquid p=q %} {% endif %}
     {% for thisfam in q.family %}
     <li>
         {% include loop.liquid p=q treelink=l from=swap fam=thisfam %}
