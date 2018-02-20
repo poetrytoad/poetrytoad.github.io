@@ -392,3 +392,6 @@ header+p {
 .head:hover {
   border-bottom: 1px solid black;
 }
+header h1+h1 {
+  margin-top: 0;
+}
