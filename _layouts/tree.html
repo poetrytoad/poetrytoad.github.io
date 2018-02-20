@@ -45,9 +45,9 @@
 
                                     {% if forloop.first %}<ul>{% endif %}
                                     {% include import.liquid arg=p3 %}
-                                        <li>
-                                        {% include loop.liquid p=q %}
-                                        </li>
+                                    <li>
+                                    {% include loop.liquid p=q %}
+                                    </li>
                                     {% if forloop.last %}</ul>{% endif %}
 
                                 {% endfor %}
