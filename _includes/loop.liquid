@@ -1,5 +1,5 @@
 {% if include.fam %} {% assign f=include.fam %}
-{% else %} {% assign f=include.p.family %}
+{% else %} {% assign f=include.p.family[0] %}
 {% endif %}
 
 {% if include.from %}
@@ -36,6 +36,6 @@
     href="{% if include.from %}../{{ include.from }}/{% endif %}{{ include.treelink }}">View &rarr;</a>
 {% endif %}
 
-{% if t.note s.note %}
+{% if t.note or s.note %}
 <p>{{ t.note }} {{ f.note }}</p>
 {% endif %}
