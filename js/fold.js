@@ -5,14 +5,14 @@ function fold(elem) {
 }
 
 function allfold() {
-    var elements = document.getElementsByTagName('a');
+    var elements = document.getElementsByTagName('li');
     for(var i = 0, len = elements.length; i < len; i++) {
         if (allfolded) {
-          elements[i].parentElement.classList.remove('fold');
+          elements[i].classList.remove('fold');
           allfolded = false;
         }
         else {
-          elements[i].parentElement.classList.add('fold');
+          elements[i].classList.add('fold');
           allfolded = true;
         }
     }
