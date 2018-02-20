@@ -188,7 +188,7 @@ nav {
   margin: 1em 0;
 }
 
-article :not(sup) a:link {
+article :not(sup):not(.branch) a:link {
   border-bottom: 1px dotted #abc !important;
 }
 
