@@ -333,7 +333,7 @@ header+p {
   font-weight: normal;
 }
 .nee::before, .nee::after {
-  color: rgba(0,0,0,.33);
+  color: rgba(0,0,0,.5);
 }
 .nee::before {
   content: "(";
