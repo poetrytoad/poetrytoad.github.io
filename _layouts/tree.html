@@ -36,27 +36,34 @@
             {% for p2 in thisfam.children %}
 
                     {% if forloop.first %}<ul>{% endif %}
-                        <li>
                         {% include import.liquid arg=p2 %}
-                        {% include loop.liquid p=q treelink=l from=swap%}
-                        {% for p3 in q.family.children %}
-
-                            {% if forloop.first %}<ul>{% endif %}
+                        {% if q.family %}
+                            {% for thisfam in q.family %}
                             <li>
-                            {% include loop.liquid p=p3 %}
+                                {% include loop.liquid p=q treelink=l from=swap fam=thisfam %}
+                                {% for p3 in thisfam.children %}
+
+                                    {% if forloop.first %}<ul>{% endif %}
+                                    <li>
+                                    {% include loop.liquid p=p3 %}
+                                    </li>
+                                    {% if forloop.last %}</ul>{% endif %}
+
+                                {% endfor %}
                             </li>
-                            {% if forloop.last %}</ul>{% endif %}
+                            {% endfor %}
+                        {% else %}
+                            <li>{% include loop.liquid p=q %}</li>
+                        {% endif %}
 
-                        {% endfor %}
-                        </li>
-                        {% if forloop.last %}</ul>{% endif %}
+                    {% if forloop.last %}</ul>{% endif %}
 
-                {% endfor %}
-          </li>
-          {% endfor %}
-      {% else %}
-          <li>{% include loop.liquid p=q treelink=l from=swap fam=thisfam %}</li>
-      {% endif %}
+            {% endfor %}
+        </li>
+        {% endfor %}
+    {% else %}
+        <li>{% include loop.liquid p=q %}</li>
+    {% endif %}
 
 {% if forloop.last %}</ul>{% endif %}
 {% endfor %}
