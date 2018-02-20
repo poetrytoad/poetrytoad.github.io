@@ -82,7 +82,6 @@ ul li:not(.remarry):before {
 header .spouse::before {
   position: absolute;
   margin-left: -1rem;
-  font-size: 1.5em;
 }
 
 .M::after, .F::after {
