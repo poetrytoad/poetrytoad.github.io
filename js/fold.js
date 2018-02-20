@@ -6,8 +6,8 @@ function fold(elem) {
 
 var elements = document.getElementsByTagName('a');
     for(var i = 0, len = elements.length; i < len; i++) {
-        elements[i].parentElement.classList.add('fold');
         if( ! elements[i].getAttribute('href') ) {
+            elements[i].parentElement.classList.add('fold');
             elements[i].onclick = function () {
             fold (this);
         }
@@ -15,5 +15,12 @@ var elements = document.getElementsByTagName('a');
 }
 
 function allfold() {
-  
+  var elements = document.getElementsByTagName('a');
+  for(var i = 0, len = elements.length; i < len; i++) {
+    if( ! elements[i].getAttribute('href') ) {
+      if (allfolded) elements[i].parentElement.classList.remove('fold');
+      else elements[i].parentElement.classList.add('fold');
+    }
+  }
+  allfolded = !allfolded;
 }
