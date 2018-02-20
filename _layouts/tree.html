@@ -35,7 +35,6 @@
         {% for thisfam in q.family %}
 
             {% include loop.liquid p=q treelink=l from=swap fam=thisfam %}
-            {{ thisfam.spouse.name }}
             {% for p2 in thisfam.children %}
 
                 {% if forloop.first %}<ul>{% endif %}
