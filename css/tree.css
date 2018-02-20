@@ -189,7 +189,7 @@ nav {
 }
 
 article :not(sup) a:link {
-  border-bottom: 1px dotted #abc;
+  border-bottom: 1px dotted #abc !important;
 }
 
 article a:link:hover {
@@ -253,7 +253,7 @@ ul li p, header p {
 
 .branch:hover {
   color: white;
-  background: #69c;
+  background: #69c !important;
 }
 
 .bd {
