@@ -15,16 +15,14 @@ var elements = document.getElementsByTagName('a');
 }
 
 function allfold() {
-  var elements = document.getElementsByTagName('a');
+  var elements = document.getElementsByTagName('li');
   for(var i = 0, len = elements.length; i < len; i++) {
-    if( ! elements[i].getAttribute('href') ) {
-      if (allfolded) {
-        elements[i].parentElement.classList.remove('fold');
-        allfolded = false;
-      } else {
-        elements[i].parentElement.classList.add('fold');
-        allfolded = true;
-      }
+    if (allfolded) {
+      elements[i].parentElement.classList.remove('fold');
+      allfolded = false;
+    } else {
+      elements[i].parentElement.classList.add('fold');
+      allfolded = true;
     }
   }
 }
