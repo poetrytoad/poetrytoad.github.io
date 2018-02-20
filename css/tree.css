@@ -119,7 +119,7 @@ ul .fold a:not(:link) {
   border-bottom: 1px solid black;
 }
 
-ul .fold>ul, ul .fold>p {
+ul .fold>ul, ul .fold>p, ul .fold:not(.remarry)+.remarry {
   display: none;
 }
 
