@@ -313,7 +313,7 @@ s:after {
 }
 
 header {
-  margin-bottom: 1em 0 .25rem 0;
+  margin: 1em 0 .25rem 0;
 }
 header p {
   font-size: .88em;
