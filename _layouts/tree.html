@@ -30,8 +30,8 @@
       {% if forloop.first %}<ul>{% endif %}
       <li>
       {% include import.liquid arg=p1 %}
-      {% include loop.liquid p=q treelink=l from=swap%}
-      {% for p2 in q.family.children %}
+      {% include loop.liquid p=q treelink=l from=swap%} <!-- from here this  -->
+      {% for p2 in q.family.children %} <!-- to here for each child IFF NOT SWAP -->
 
         {% if forloop.first %}<ul>{% endif %}
           <!-- impement this for subnested -->
@@ -39,7 +39,7 @@
             {% include import.liquid arg=p2 %}
             {% include loop.liquid p=q treelink=l from=swap%}
             {% for p3 in q.family.children %}
-
+              {% if forloop.first %}<ul>{% endif %}
               <li>
                 {% include loop.liquid p=p3 %}
                 {% for p4 in p3.family.children %}
