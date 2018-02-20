@@ -365,6 +365,9 @@ header+p {
   border-top: 1px solid #ccc;
   max-width: 32rem;
   min-width: 20rem;
+
+
+
 }
 
 #content h1 {
@@ -383,7 +386,7 @@ header+p {
   margin: .5rem 0;
 }
 #content p {
-  margin: .67em 0 0 0;
+  margin: .5em 0 0 0;
 }
 #content p+p {
   text-indent: 1em;
