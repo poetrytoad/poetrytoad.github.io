@@ -332,12 +332,14 @@ header+p {
 .nee {
   color: rgba(0,0,0,.5);
 }
-.nee::before {
+.nee::before, .nee::after {
   color: rgba(0,0,0,.33);
+  font-weight: normal;
+}
+.nee::before {
   content: "(née ";
 }
 .nee::after {
-  color: rgba(0,0,0,.33);
   content: ")";
 }
 
