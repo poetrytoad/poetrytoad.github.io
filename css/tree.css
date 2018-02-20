@@ -358,25 +358,23 @@ header+p {
 
 
 
-.content h1 {
+#content h1 {
   font-weight: normal;
   font-size: 1.5em;
-  margin: 1rem 0;
+  margin: .67em 0;
 }
-.content h2 {
+#content h2 {
+  color: #f1a354;
   font-size: 1em;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.05em;
-  margin: .5rem 0;
+  margin: .67em 0;
 }
-.content h1+h2 {
-  margin: 0 0;
-}
-.content p {
+#content p {
   margin: .5em 0;
 }
-.content p+p {
+#content p+p {
   text-indent: 2em;
   margin: 0 0;
 }
