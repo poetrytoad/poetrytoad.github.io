@@ -354,9 +354,6 @@ header+p {
   display: none;
 }
 
-
-
-
 /* CONTENT */
 
 #content {
@@ -367,7 +364,7 @@ header+p {
   min-width: 20rem;
 }
 #content h1 {
-  font-size: 1.5em;
+  font-size: 1.33em;
   font-weight: normal;
   margin: 1em 0 .5em 0;
 }
@@ -382,10 +379,10 @@ header+p {
   margin: .5rem 0;
 }
 #content p {
-  margin: .67em 0;
+  margin: .67em 0 0 0;
 }
 #content p+p {
   text-indent: 1em;
-  margin: 0 0;
-  padding: 0 0;
+  margin: 0 0 !important;
+  padding: 0 0 !important;
 }
