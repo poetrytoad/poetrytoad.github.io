@@ -24,8 +24,11 @@
 <article>
 
 {% assign h=site.data.[page:collection].[page.title] %}
-{% include header.liquid p=h %}
-{% include list.liquid %}
+
+{% for toplevelfam in h.family %}
+  {% include header.liquid p=h fam=toplevelfam %}
+  {% include list.liquid fam=toplevelfam %}
+{% endfor %}
 
 </article>
 

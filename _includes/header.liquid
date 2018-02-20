@@ -1,4 +1,4 @@
-{% assign f=include.p.family[0] %}
+{% assign f=include.fam %}
 {% if include.from %}
   {% assign t=f.spouse %}
   {% assign s=include.p %}
@@ -9,14 +9,9 @@
 
 <header>
 <h1>
-{% if t.anc %}<a href="{{ t.anc[0] }}" title="(Go up a level)" style="margin-right:.1em">
-{% else %}<span style="margin-right:.1em">{% endif %}
 {% include name.liquid nam=t %}
-{% if t.anc %}</a>
-{% else %}</span>{% endif %}
 </h1>
 {% if t.note %}<p>{{ t.note }}</p>{% endif %}
-
 
 {% if s %}
   <h1 class="spouse">

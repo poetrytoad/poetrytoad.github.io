@@ -1,4 +1,4 @@
-{% for p1 in include.fam.children %}
+{% for p1 in h.family[0].children %}
 
     {% if forloop.first %}<ul>{% endif %}
     {% include import.liquid arg=p1 %}
