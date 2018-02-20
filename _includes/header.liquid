@@ -8,10 +8,12 @@
 {% endif %}
 
 <header>
-<h1>
-{% include name.liquid nam=t %}
-</h1>
-{% if t.note %}<p>{{ t.note }}</p>{% endif %}
+{% if include.firstmarriage %}
+  <h1>
+  {% include name.liquid nam=t %}
+  </h1>
+  {% if t.note %}<p>{{ t.note }}</p>{% endif %}
+{% endif %}
 
 {% if s %}
   <h1 class="spouse">
