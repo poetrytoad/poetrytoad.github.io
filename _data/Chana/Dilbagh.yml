@@ -10,7 +10,9 @@ family:
     nee: Matharu
     gen: F
   children:
-    - import: Kari # Urminder
+
+    - # Urminder
+      import: Kari
       from: Rai
     - name: Iqbal
       nick: Bali
