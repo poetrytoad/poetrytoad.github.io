@@ -31,8 +31,8 @@
     {% include import.liquid arg=p1 %}
     {% if q.family %}
         {% for thisfam in q.family %}
-        <li>
-            {% include loop.liquid p=q treelink=l from=swap fam=thisfam %}
+        <li {% if !forloop.first %}class="remarry"{% endif %}>
+            {% include loop.liquid p=q treelink=l from=swap fam=thisfam firstmarriage=forloop.first %}
             {% for p2 in thisfam.children %}
 
                     {% if forloop.first %}<ul>{% endif %}
