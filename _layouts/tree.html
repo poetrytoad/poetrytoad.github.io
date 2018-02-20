@@ -44,9 +44,8 @@
                                 {% for p3 in thisfam.children %}
 
                                     {% if forloop.first %}<ul>{% endif %}
-                                    {% include import.liquid arg=p3 %}
                                     <li>
-                                    {% include loop.liquid p=q %}
+                                    {% include loop.liquid p=p3 %}
                                     </li>
                                     {% if forloop.last %}</ul>{% endif %}
 
