@@ -32,7 +32,7 @@
     {% include import.liquid arg=p1 %}
 
     {% if !swap and q.family.first %}
-        {% for each thisfam in q.family %}
+        {% for thisfam in q.family %}
 
             {% include loop.liquid p=q treelink=l from=swap fam=thisfam %} <!-- from here -->
             {% for p2 in thisfam.children %} <!-- to here for each fam IFF NOT SWAP -->
