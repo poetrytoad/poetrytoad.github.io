@@ -372,11 +372,6 @@ header+p {
   margin: .67em 0;
 }
 #content h2 {
-  font-weight: normal;
-  font-style: italic;
-  margin: .67em 0;
-}
-#content h2 {
   font-size: 1em;
   text-transform: uppercase;
   font-weight: bold;
@@ -384,7 +379,7 @@ header+p {
   margin: .67em 0;
 }
 #content p {
-  margin: .5em 0;
+  margin: .67em 0;
 }
 #content p+p {
   text-indent: 1em;
