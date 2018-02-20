@@ -233,10 +233,9 @@ ul li p, header p {
   font-weight: bold;
 } */
 
-.branch {
+article .branch {
   position: relative;
   border: none !important;
-  border-bottom: none !important;
   /* font-weight: bold; */
   letter-spacing: .05em;
   font-size: .75em;
