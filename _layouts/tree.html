@@ -44,8 +44,7 @@
           {% assign swap=false %}
         {% endif %}
 
-        {% for families in p1.family %}
-        {% include loop.liquid p=q treelink=l from=swap first=forloop.first %}
+        {% include loop.liquid p=q treelink=l from=swap fam=q.family[0] %}
         {% for p2 in q.family.children %}
 
         {% if forloop.first %}<ul>{% endif %}
@@ -71,7 +70,7 @@
               </li>
               {% if forloop.last %}</ul>{% endif %} {% endfor %}
           </li>
-          {% if forloop.last %}</ul>{% endif %} {% endfor %}{% endfor %}
+          {% if forloop.last %}</ul>{% endif %} {% endfor %}
       </li>
       {% if forloop.last %}</ul>{% endif %} {% endfor %}
   </article>
