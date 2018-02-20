@@ -328,3 +328,15 @@ header+p {
   color: rgba(0,0,0,.4);
   margin: 0.167em 0 .33em 0;
 }
+
+.nee {
+  color: rgba(0,0,0,.4);
+}
+.nee::before {
+  color: rgba(0,0,0,.33);
+  content: "(née "
+}
+.nee::after {
+  color: rgba(0,0,0,.33)
+  content: ")"
+}
