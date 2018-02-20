@@ -21,52 +21,79 @@
     <span class="{{ site.data.[page.title].gen }}">{{ site.data.[page:collection].[page.title].name }}</span>
   </nav>
 
-  <article>
-    {% assign h=site.data.[page:collection].[page.title] %}
-    {% include header.liquid p=h %}
+<article>
+{% assign h=site.data.[page:collection].[page.title] %}
+{% include header.liquid p=h %}
 
-    {% for p1 in site.data.[page:collection].[page.title].family.children %}
+{% for p1 in site.data.[page:collection].[page.title].family.children %}
 
-      {% if forloop.first %}<ul>{% endif %}
-      <li>
-      {% include import.liquid arg=p1 %}
-      {% include loop.liquid p=q treelink=l from=swap%} <!-- from here this  -->
-      {% for p2 in q.family.children %} <!-- to here for each child IFF NOT SWAP -->
+    {% if forloop.first %}<ul>{% endif %}
+    <li>
+    {% include import.liquid arg=p1 %}
 
-        {% if forloop.first %}<ul>{% endif %}
-          <!-- impement this for subnested -->
-          <li>
-            {% include import.liquid arg=p2 %}
-            {% include loop.liquid p=q treelink=l from=swap%}
-            {% for p3 in q.family.children %}
-              {% if forloop.first %}<ul>{% endif %}
-              <li>
-                {% include loop.liquid p=p3 %}
-                {% for p4 in p3.family.children %}
-                {% if forloop.first %} <ul>{% endif %}
-                  <li>
-                    {% include loop.liquid p=p4%}
-                    {% for p5 in p4.family.children %}
+    {% if !swap and q.family.first %}
+        {% for each thisfam in q.family %}
+
+            {% include loop.liquid p=q treelink=l from=swap fam=thisfam %} <!-- from here -->
+            {% for p2 in thisfam.children %} <!-- to here for each fam IFF NOT SWAP -->
+
+                {% if forloop.first %}<ul>{% endif %}
+                    <li>
+                    {% include import.liquid arg=p2 %}
+                    {% include loop.liquid p=q treelink=l from=swap%} <!-- from here -->
+                    {% for p3 in q.family.children %}  <!-- to here for each fam IFF NOT SWAP -->
+
+                        {% if forloop.first %}<ul>{% endif %}
+                        <li>
+                        {% include loop.liquid p=p3 %}
+                        </li>
+                        {% if forloop.last %}</ul>{% endif %}
+
+                    {% endfor %}
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
+
+            {% endfor %}
+            </li>
+            {% if forloop.last %}</ul>{% endif %}
+
+        {% endfor %}
+    {% else %}
+
+        {% include loop.liquid p=q treelink=l from=swap %} <!-- from here -->
+        {% for p2 in q.family.children %} <!-- to here for each fam IFF NOT SWAP -->
+
+            {% if forloop.first %}<ul>{% endif %}
+                <li>
+                {% include import.liquid arg=p2 %}
+                {% include loop.liquid p=q treelink=l from=swap%} <!-- from here -->
+                {% for p3 in q.family.children %}  <!-- to here for each fam IFF NOT SWAP -->
+
                     {% if forloop.first %}<ul>{% endif %}
-                      <li>
-                        {% include loop.liquid p=p5%}
-                      </li>
-                      {% if forloop.last %}</ul>{% endif %} {% endfor %}
-                  </li>
-                  {% if forloop.last %}</ul>{% endif %} {% endfor %}
-              </li>
-              {% if forloop.last %}</ul>{% endif %} {% endfor %}
-          </li>
-          {% if forloop.last %}</ul>{% endif %} {% endfor %}
-      </li>
-      {% if forloop.last %}</ul>{% endif %} {% endfor %}
-  </article>
+                    <li>
+                    {% include loop.liquid p=p3 %}
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
 
-  <script src="{{ site.baseurl }}/js/fold.js"></script>
+                {% endfor %}
+                </li>
+                {% if forloop.last %}</ul>{% endif %}
 
-  <article>
-    {{ content }}
-  </article>
+        {% endfor %}
+        </li>
+        {% if forloop.last %}</ul>{% endif %}
+
+    {% endif %}
+
+
+{% endfor %}
+</article>
+
+<script src="{{ site.baseurl }}/js/fold.js"></script>
+
+<article>
+{{ content }}
+</article>
 
 </body>
 </html>
