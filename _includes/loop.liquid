@@ -11,11 +11,13 @@
 {% endif %}
 
 {% if include.firstmarriage %}
-  {% if f.children or t.note or f.note or s.note %}<a style="cursor:pointer; margin-right:.1em">
+  {% if include.levellimit %}<span style="margin-right:.1em">
+  {% elsif f.children or t.note or f.note or s.note %}<a style="cursor:pointer; margin-right:.1em">
   {% else %}<span style="margin-right:.1em">
   {% endif %}
     {% include name.liquid nam=t %}
-  {% if f.children %}</a>
+  {% if include.levellimit %}</span>
+  {% if f.children or t.note or f.note or s.note %}</a>
   {% else %}</span>
   {% endif %}
 {% else %}
@@ -23,6 +25,7 @@
 {% endif %}
 
 {% if include.levellimit %}
+  {% if t.note %}<p>{{ t.note }}</p>{% endif %}
 {% else %}
     {% if s %}
       <span class="spouse">
