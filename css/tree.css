@@ -330,14 +330,13 @@ header+p {
 }
 
 .nee {
-  color: rgba(0,0,0,.5);
   font-weight: normal;
 }
 .nee::before, .nee::after {
   color: rgba(0,0,0,.33);
 }
 .nee::before {
-  content: "(née ";
+  content: "(";
 }
 .nee::after {
   content: ")";
@@ -345,5 +344,9 @@ header+p {
 
 .remarrymark {
   color: #999;
+  font-weight: bold;
+}
+
+.spouse .sur {
   font-weight: bold;
 }
