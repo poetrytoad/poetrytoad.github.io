@@ -7,26 +7,26 @@ born:
   loc: Pragpur
 
 family:
-  note: Married 1982, started family in Southall.
-  spouse:
-    name: Urminder
-    nick: Urmi
-    sur: Chana
-    note: Born Nairobi, moved to London in 1963.
-    gen: F
-    born:
-      date: 1955
-    link: ../Chana/Dilbagh
-  children:
-    - name: Jeevan
-      gen: M
-      sur: Chana Rai
+  - note: Married 1982, started family in Southall.
+    spouse:
+      name: Urminder
+      nick: Urmi
+      sur: Chana
+      note: Born Nairobi, moved to London in 1963.
+      gen: F
       born:
-        date: 1987
-        loc: London
-    - name: Sajan
-      gen: M
-      sur: Chana Rai
-      born:
-        date: 1990
-        loc: London
+        date: 1955
+      link: ../Chana/Dilbagh
+    children:
+      - name: Jeevan
+        gen: M
+        sur: Chana Rai
+        born:
+          date: 1987
+          loc: London
+      - name: Sajan
+        gen: M
+        sur: Chana Rai
+        born:
+          date: 1990
+          loc: London
