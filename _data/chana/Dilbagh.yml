@@ -5,17 +5,17 @@ anc:
   - Isher
 
 family:
-  - spouse:
-      name: Surjit
-      nee: Matharu
-      gen: F
-    children:
-      - import: Kari # Urminder
-        from: Rai
-      - name: Iqbal
-        nick: Bali
-        gen: M
-      - name:
-          - Jaipal
-          - Jai
-        gen: M
+  spouse:
+    name: Surjit
+    nee: Matharu
+    gen: F
+  children:
+    - import: Kari # Urminder
+      from: Rai
+    - name: Iqbal
+      nick: Bali
+      gen: M
+    - name:
+        - Jaipal
+        - Jai
+      gen: M

@@ -5,81 +5,81 @@ anc:
   - Sawan
 
 family:
-  - spouse:
-      name: Pal
+  spouse:
+    name: Pal
+    gen: F
+  children:
+    - import: Dilbagh
+    - name: Ajit
       gen: F
-    children:
-      - import: Dilbagh
-      - name: Ajit
-        gen: F
-        family:
-          - spouse:
-              name: Avtar
-              gen: M
-              sur: Reehal
-            children:
-              - name: Ravinder
-                nick: Ravi
-                died: true
+      family:
+        spouse:
+          name: Avtar
+          gen: M
+          sur: Reehal
+        children:
+          - name: Ravinder
+            nick: Ravi
+            died: true
+            gen: F
+          - name: Kelly
+            gen: F
+          - name: Harvey
+            gen: M
+            family:
+              spouse:
+                name: Maddy
                 gen: F
-              - name: Kelly
-                gen: F
-              - name: Harvey
-                gen: M
-                family:
-                  spouse:
-                    name: Maddy
-                    gen: F
-                  children:
-                    - name: Josie
-                      gen: F
-                    - name: Nyona
-                      gen: F
-              - name: Nicky
-                gen: F
-                family:
-                  children:
-                    - name: Jamie
+              children:
+                - name: Josie
+                  gen: F
+                - name: Nyona
+                  gen: F
+          - name: Nicky
+            gen: F
+            family:
+              children:
+                - name: Jamie
 
-      - name: Kuldip
-        gen: F
-        family:
-          - spouse:
-              name: Sahib
-              sur: Ahluwalia
-              gen: M
-            children:
-              - name: Anoop
+    - name: Kuldip
+      gen: F
+      family:
+        spouse:
+          name: Sahib
+          sur: Ahluwalia
+          gen: M
+        children:
+          - name: Anoop
+            gen: M
+            family:
+              children:
+                - name: Nina
+                  gen: F
+          - name: Jasleen
+            gen: F
+            family:
+              spouse:
+                name: Mahesh
                 gen: M
-                family:
-                  children:
-                    - name: Nina
-                      gen: F
-              - name: Jasleen
-                gen: F
-                family:
-                  spouse:
-                    name: Mahesh
-                    gen: M
-                    sur: Bange
-                  children:
-                    - name: Aman
-                      gen: M
-                    - name: Arjun
-                      gen: M
+                sur: Bange
+              children:
+                - name: Aman
+                  gen: M
+                - name: Arjun
+                  gen: M
 
-      - name: Amrik
-        nick: Micky
-        gen: M
-        family:
-          - spouse:
-              name: Ritus
-              sur: Bakshi
-              gen: F
-            children:
-              - name: Simran
-                gen: F
-              - name: Chandani
-                gen: F
-      - name: Harbans
-        gen: F
+    - name: Amrik
+      nick: Micky
+      gen: M
+      family:
+        spouse:
+          name: Ritus
+          sur: Bakshi
+          gen: F
+        children:
+          - name: Simran
+            gen: F
+          - name: Chandani
+            gen: F
+    - name: Harbans
+      gen: F

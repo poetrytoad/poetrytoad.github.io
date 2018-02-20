@@ -1,4 +1,4 @@
-{% assign f=include.fam %}
+{% assign f=include.p.family %}
 {% if include.from %}
   {% assign t=f.spouse %}
   {% assign s=include.p %}
@@ -6,7 +6,6 @@
   {% assign t=include.p %}
   {% assign s=f.spouse %}
 {% endif %}
-
 
 {% if f.children or t.note or f.note or s.note %}<a style="cursor:pointer; margin-right:.1em">
 {% else %}<span style="margin-right:.1em">
