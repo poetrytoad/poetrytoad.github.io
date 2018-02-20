@@ -64,7 +64,7 @@
         {% include import.liquid arg=p1 %}
         {% endfor %}
     {% else %}
-        <li>{% include loop.liquid p=q %}</li>
+        <li>{% include loop.liquid p=q firstmarriage=true %}</li>
     {% endif %}
 
 {% if forloop.last %}</ul>{% endif %}
