@@ -29,7 +29,20 @@
 
       {% if forloop.first %}<ul>{% endif %}
       <li>
-      {% include import.liquid arg=p1 %}
+        {% if p1.import %}
+          {% if p1.from %}
+            {% assign q=site.data.[p1.from].[p1.import] %}
+            {% assign swap=p1.from %}
+          {% else %}
+            {% assign q=site.data.[page:collection].[p1.import] %}
+            {% assign swap=false %}
+          {% endif %}
+          {% assign l=p1.import %}
+        {% else %}
+          {% assign q=p1 %}
+          {% assign l=false %}
+          {% assign swap=false %}
+        {% endif %}
 
         {% include loop.liquid p=q treelink=l from=swap%}
         {% for p2 in q.family.children %}

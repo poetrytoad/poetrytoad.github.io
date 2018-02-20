@@ -10,7 +10,6 @@ family:
     nee: Matharu
     gen: F
   children:
-
     - # Urminder
       import: Kari
       from: Rai
