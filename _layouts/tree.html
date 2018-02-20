@@ -46,7 +46,7 @@
                                     {% if forloop.first %}<ul>{% endif %}
                                     {% include import.liquid arg=p3 %}
                                     <li>
-                                      {% include loop.liquid p=q %}
+                                      {% include loop.liquid p=q treelink=l from=swap %}
                                     </li>
                                     {% if forloop.last %}</ul>{% endif %}
 
