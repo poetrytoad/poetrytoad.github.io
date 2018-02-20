@@ -60,8 +60,8 @@
                     {% if forloop.last %}</ul>{% endif %}
 
             {% endfor %}
-        </li>
         {% endfor %}
+      </li>
     {% else %}
         <li>{% include loop.liquid p=q %}</li>
     {% endif %}
