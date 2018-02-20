@@ -25,7 +25,7 @@
 {% assign h=site.data.[page:collection].[page.title] %}
 {% include header.liquid p=h %}
 
-{% for p1 in site.data.[page:collection].[page.title].family.children %}
+{% for p1 in site.data.[page:collection].[page.title].family[0].children %}
 
     {% if forloop.first %}<ul>{% endif %}
     <li>
@@ -57,7 +57,7 @@
             {% if forloop.last %}</ul>{% endif %}
 
         {% endfor %}
-    
+
 
 {% endfor %}
 </article>
