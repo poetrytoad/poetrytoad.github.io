@@ -330,13 +330,13 @@ header+p {
 }
 
 .nee {
-  color: rgba(0,0,0,.4);
+  color: rgba(0,0,0,.5);
 }
 .nee::before {
   color: rgba(0,0,0,.33);
-  content: "(née "
+  content: "(née ";
 }
 .nee::after {
-  color: rgba(0,0,0,.33)
-  content: ")"
+  color: rgba(0,0,0,.33);
+  content: ")";
 }
