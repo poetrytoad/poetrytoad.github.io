@@ -315,3 +315,7 @@ header p b {
   font-weight: normal;
   color: black;
 }
+
+header+p {
+  color: rgba(0,0,0,.4)
+}

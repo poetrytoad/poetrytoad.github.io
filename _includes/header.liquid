@@ -8,6 +8,7 @@
   {% assign s=include.p.family.spouse %}
 {% endif %}
 
+<header>
 <h1>
 {% if t.anc %}<a href="{{ t.anc[0] }}" title="(Go up a level)" style="margin-right:.1em">
 {% else %}<span style="margin-right:.1em">{% endif %}
@@ -28,5 +29,6 @@
   </h1>
 {% endif %}
 {% if s.note %}<p>{{ s.note }}</p>{% endif %}
+</header>
 
 {% if f.note %}<p>{{ f.note }}</p>{% endif %}

@@ -22,10 +22,8 @@
   </nav>
 
   <article>
-      <header>
-        {% assign h=site.data.[page:collection].[page.title] %}
-        {% include header.liquid p=h %}
-      </header>
+    {% assign h=site.data.[page:collection].[page.title] %}
+    {% include header.liquid p=h %}
 
     {% for p1 in site.data.[page:collection].[page.title].family.children %}
 
