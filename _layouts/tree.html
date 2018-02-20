@@ -22,19 +22,17 @@
   </nav>
 
 <article>
-
 {% assign h=site.data.[page:collection].[page.title] %}
 
 {% for toplevelfam in h.family %}
   {% include header.liquid p=h fam=toplevelfam firstmarriage=forloop.first %}
   {% include list.liquid fam=toplevelfam %}
 {% endfor %}
-
 </article>
 
 <script src="{{ site.baseurl }}/js/fold.js"></script>
 
-<article>
+<article id="content">
 {{ content }}
 </article>
 

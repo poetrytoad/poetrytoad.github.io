@@ -12,7 +12,7 @@
 
 {% if include.firstmarriage %}
   {% if include.levellimit %}<span style="margin-right:.1em">
-  {% elsif f.children or t.note or f.note or s.note %}<a style="cursor:pointer; margin-right:.1em">
+  {% elsif f.children or t.note or f.note or s.note %}<a class="fold" style="cursor:pointer; margin-right:.1em">
   {% else %}<span style="margin-right:.1em">
   {% endif %}
     {% include name.liquid nam=t %}
