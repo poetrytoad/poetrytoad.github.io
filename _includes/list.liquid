@@ -6,7 +6,7 @@
     {% if q.family %}
         {% for thisfam in q.family %}
         <li class="{% if forloop.first %}{% else %}remarry{% endif %}">
-            {% include loop.liquid p=q treelink=l from=swap fam=thisfam firstmarriage=forloop.first %}
+            {% include loop.liquid p=q treelink=l from=swap fam=thisfam firstmarriage=forloop.first bio=true %}
             {% for p2 in thisfam.children %}
 
                     {% if forloop.first %}<ul>{% endif %}
@@ -14,7 +14,7 @@
                         {% if q.family %}
                             {% for thisfam in q.family %}
                             <li class="{% if forloop.first %}{% else %}remarry{% endif %}">
-                                {% include loop.liquid p=q treelink=l from=swap fam=thisfam firstmarriage=forloop.first %}
+                                {% include loop.liquid p=q treelink=l from=swap fam=thisfam firstmarriage=forloop.first bio=true %}
                                 {% for p3 in thisfam.children %}
 
                                     {% if forloop.first %}<ul>{% endif %}

@@ -38,6 +38,8 @@
     href="{% if include.from %}../{{ include.from }}/{% endif %}{{ include.treelink }}">View &rarr;</a>
 {% endif %}
 
-{% if t.note or s.note %}
-<p>{{ t.note }} {{ f.note }}</p>
+{% if include.bio %}
+  {% if t.note or s.note %}
+  <p>{{ t.note }} {{ f.note }}</p>
+  {% endif %}
 {% endif %}
