@@ -31,8 +31,7 @@
     <li>
     {% include import.liquid arg=p1 %}
 
-    {% if q.family.first %}
-        {% for thisfam in q.family %}
+    {% for thisfam in q.family %}
 
             {% include loop.liquid p=q treelink=l from=swap fam=thisfam %}
             {% for p2 in thisfam.children %}
@@ -58,33 +57,7 @@
             {% if forloop.last %}</ul>{% endif %}
 
         {% endfor %}
-    {% else %}
-
-        {% include loop.liquid p=q treelink=l from=swap %} <!-- from here -->
-        {% for p2 in q.family.children %} <!-- to here for each fam IFF NOT SWAP -->
-
-            {% if forloop.first %}<ul>{% endif %}
-                <li>
-                {% include import.liquid arg=p2 %}
-                {% include loop.liquid p=q treelink=l from=swap%} <!-- from here -->
-                {% for p3 in q.family.children %}  <!-- to here for each fam IFF NOT SWAP -->
-
-                    {% if forloop.first %}<ul>{% endif %}
-                    <li>
-                    {% include loop.liquid p=p3 %}
-                    </li>
-                    {% if forloop.last %}</ul>{% endif %}
-
-                {% endfor %}
-                </li>
-                {% if forloop.last %}</ul>{% endif %}
-
-        {% endfor %}
-        </li>
-        {% if forloop.last %}</ul>{% endif %}
-
-    {% endif %}
-
+    
 
 {% endfor %}
 </article>
