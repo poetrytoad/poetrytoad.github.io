@@ -17,12 +17,7 @@ var elements = document.getElementsByTagName('a');
 function allfold() {
   var elements = document.getElementsByTagName('li');
   for(var i = 0, len = elements.length; i < len; i++) {
-    if (allfolded) {
-      elements[i].parentElement.classList.remove('fold');
-      allfolded = false;
-    } else {
-      elements[i].parentElement.classList.add('fold');
-      allfolded = true;
-    }
+      elements[i].parentElement.classList.toggle('fold');
+      allfolded = !allfolded;
   }
 }
