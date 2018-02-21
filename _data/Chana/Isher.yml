@@ -21,8 +21,7 @@ family:
       note: 'Widow of <a href="#">Ganga</a>'
     children:
       - import: Balwant
-      - name: Lachhman
-        gen: S
+      - import: Lachhman
       - name: Niranjan
         gen: S
       - name: Rattan

@@ -1,0 +1,100 @@
+name: Lachhman
+gen: S
+
+family:
+  - spouse: 
+      name: Amar
+      gen: K
+      nee: Kalsi
+      born:
+        loc: Dhesian
+
+    children:
+
+      - name: Jagdev
+        gen: S
+        family:
+          - spouse:
+              name: Diane
+              nee: Middleton
+              gen: F
+            children:
+              - name: Tenzi
+              - name: Emeel
+      - name: Saroop
+        gen: S
+        family:
+          - spouse:
+              name: Satpal
+              gen: K
+              nee: Sehmbi
+              born:
+                loc: Kamam
+            children:
+              - name: Tajinder
+                gen: K
+              - name: Ranjit
+              - name: ?
+              - name: ?
+
+      - name: Tarlok
+        gen: S
+        family:
+          - spouse:
+              name: Satpal
+              gen: K
+              nee: Sagoo
+              born:
+                loc: Jallander
+            children:
+              - name: Deepu
+              - name: Gursharan
+                gen: K
+              - name: Anita
+
+      - name: Satbachan
+        gen: S
+        family:
+          - spouse:
+              name: Gurdev
+              gen: K
+              nee: Nagi
+            children:
+              - name: Rishi
+              - name: Sharan
+
+      - name: Kirpal
+        gen: S
+        family:
+          - spouse:
+              name: Kulwinder
+              gen: K
+              nee: Sandhu
+            children:
+              - name: Rajpal
+              - name: Kirpal
+              - name: Tejpal
+      - name: Tara
+        gen: S
+        family:
+          - spouse:
+              name: Surita
+              gen: K
+              nee: Bhandari
+            children:
+              - name: Prya
+              - name: Amrita
+              - name: Simran
+
+      - name: Balbir
+        gen: K
+        family:
+          - spouse:
+              name: Harjinder
+              gen: S
+              sur: Flora
+              born:
+                loc: Loharpartapra
+        
+      - name: Harpal
+        gen: S
