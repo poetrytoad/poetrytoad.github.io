@@ -265,7 +265,8 @@ ul li p, header p {
   letter-spacing: .05em;
   font-size: .75em;
   color: white !important;
-  padding: .03125em .33em;
+  /* padding: .03125em .33em; */
+  padding: .5px 4px;
   background: #cde;
   background: #ddc;
   text-transform: uppercase;
