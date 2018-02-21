@@ -96,7 +96,66 @@ family:
 
       - name: Santokh
         gen: S
-
+        family:
+          - spouse:
+              name: Piar
+              gen: K
+              born:
+                loc: Mithra
+            children:
+              - name: Devinder
+                gen: S
+                family:
+                  - spouse:
+                      name: Balwant
+                      gen: K
+                      nee: Bhambra
+                      born:
+                        loc: Jandiala
+                    children:
+                      - name: Gurdip
+                        gen: K
+                      - name: Raj
+                        gen: S
+          - spouse:
+              name: Dial
+              gen: K
+              note: Widow of Jaswant
+              born:
+                loc: Kotefatuhi
+            children:
+              - name: Harjit
+                gen: K
+              - name: Bhupinder
+                gen: K
+              - name: Amarjit
+                gen: S
+                family:
+                  - spouse: Daljit
+                    gen: K
+                    born:
+                      loc: Kundi
+              - name: Suminder
+                gen: K
+              - name: Gurdip
+                gen: S
+                family:
+                  - spouse:
+                      name: Saran
+                      gen: K
+              - name: Paramnjit
+                gen: K
+                family:
+                  - spouse:
+                      sur: Matharu
+                      born:
+                        loc: Haripur
 
       - name: Jaswant
         gen: S
+        family:
+          - spouse:
+              name: Dial
+              gen: K
+              born:
+                loc: Kotefatuhi
