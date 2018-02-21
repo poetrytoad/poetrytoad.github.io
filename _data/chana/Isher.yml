@@ -10,7 +10,7 @@ family:
       born:
         loc: Loharan
     children:
-      - name: Udham
+      - import: Udham
 
   - spouse:
       name: Indi

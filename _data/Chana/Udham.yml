@@ -1,0 +1,93 @@
+name: Udham
+gen: S
+
+family:
+
+  - spouse:
+      name: Gurdei
+      gen: K
+      nee: Devgun
+      born:
+        loc: Chak
+    children:
+
+      - name: Milha
+        gen: S
+        family:
+          - spouse:
+              name: Amar
+              gen: K
+              nee: Virdee
+              born:
+                loc: Umrapura
+            children:
+
+              - name: Gurnam
+                gen: S
+                family:
+                  - spouse:
+                      name: Balwant
+                      gen: K
+                      nee: Ubhi
+                      born:
+                        loc: Pasla
+                    children:
+                      - name: Surinder
+                        gen: K
+                      - name: Parminder
+                        gen: S
+                      - name: Charanjit
+                        gen: K
+                      - name: Paramjit
+                        gen: K
+
+              - name: Daljit
+                gen: S
+                family:
+                  - spouse:
+                      name: Pavittar
+                      gen: K
+                      nee: Bhambra
+                      born:
+                        loc: Ahmadpur
+                    children:
+                      - name: Narinder
+                        gen: K
+                      - name: Ravinder
+                        gen: S
+
+              - name: Joginder
+                gen: S
+                family:
+                  - spouse:
+                      name: Ravinder
+                      gen: K
+                      nee: Saund
+                      born:
+                        loc: Barapind
+                    children:
+                      - name: Taranjit
+                        gen: S
+                      - name: Ruby
+
+              - name: Papinder
+                gen: S
+                family:
+                  - spouse:
+                      name: Jaswinder
+                      gen: K
+                      nee: Jheeta
+                      born:
+                        loc: Sohalkhurd
+              - name: Manjit
+                gen: K
+              - name: Gian
+                gen: S
+
+
+      - name: Santokh
+        gen: S
+
+
+      - name: Jaswant
+        gen: S
