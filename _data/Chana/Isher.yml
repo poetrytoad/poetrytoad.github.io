@@ -2,7 +2,24 @@ name: Isher
 gen: S
 
 family:
-  - children:
+
+  - spouse:
+      name: Juali
+      gen: K
+      nee: Sagoo
+      born:
+        loc: Loharan
+    children:
+      - name: Udham
+
+  - spouse:
+      name: Indi
+      gen: K
+      nee: Sehmi
+      born:
+        loc: Sultanpur
+      note: 'Widow of <a href="#">Ganga</a>'
+    children:
       - import: Balwant
       - name: Lachhman
         gen: S

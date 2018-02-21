@@ -8,6 +8,9 @@ family:
   - spouse:
       name: Pal
       gen: K
+      nee: Chaggar
+      born:
+        loc: Jhander
     children:
       - import: Dilbagh
       - name: Ajit
@@ -17,6 +20,8 @@ family:
               name: Avtar
               gen: S
               sur: Reehal
+              born:
+                loc: Rurkee
             children:
               - name: Ravinder
                 nick: Ravi
