@@ -7,7 +7,10 @@
     {% assign q=site.data.[page:collection].[pp.import] %}
     {% assign swap=false %}
   {% endif %}
-  {% assign l=pp.import %}
+  {% if ! q.import.hidden %}
+    {% assign l=pp.import %}
+  {% else %}
+    {% assign l=false %}
 {% else %}
   {% assign q=pp %}
   {% assign l=false %}
