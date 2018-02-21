@@ -1,5 +1,7 @@
 name: Lachhman
 gen: S
+anc:
+  - Isher
 
 family:
   - spouse: 
