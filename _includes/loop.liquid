@@ -44,10 +44,11 @@
     {% endif %}
 
     {% if t.note or s.note or f.note %}
-    {% if include.firstmarriage %}
-    <p>{{ t.note }} {{ f.note }}</p>
-    {% else %}
-    <p>{{ s.note }} {{ f.note }}</p>
+      {% if include.firstmarriage %}
+      <p>{{ t.note }} {{ f.note }}</p>
+      {% else %}
+      <p>{{ s.note }} {{ f.note }}</p>
+      {% endif %}
     {% endif %}
 
 {% endif %}
