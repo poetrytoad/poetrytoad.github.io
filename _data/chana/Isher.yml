@@ -18,7 +18,7 @@ family:
       nee: Sehmi
       born:
         loc: Sultanpur
-      note: 'Widow of <a href="#">Ganga</a>'
+      note: 'widow of <a href="#">Ganga</a>'
     children:
       - import: Balwant
       - name: Lachhman
