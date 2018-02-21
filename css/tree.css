@@ -197,8 +197,8 @@ article :not(sup) a:link, article :not(sup) a:visited {
 }
 
 article a:not(.branch):link:hover {
-  border-bottom: 1px solid #38a !important;
-  background: #d9eaf0;
+  border-bottom: 1px solid #08a !important;
+  /* background: #d9eaf0; */
 }
 
 
