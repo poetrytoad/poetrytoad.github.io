@@ -193,12 +193,12 @@ nav {
 }
 
 article :not(sup) a:link, article :not(sup) a:visited {
-  border-bottom: 1px dotted #abc !important;
+  border-bottom: 1px dotted #9cd !important;
   border-color: #abc !important;
 }
 
 article a:link:hover {
-  background: #def;
+  border-bottom: 1px solid #9cd !important;
 }
 
 
@@ -247,6 +247,7 @@ ul li p, header p {
   color: white !important;
   padding: .03125em .33em;
   background: #cde;
+  background: #ddc;
   text-transform: uppercase;
   display: inline-block;
   vertical-align: middle;
@@ -259,6 +260,7 @@ ul li p, header p {
   color: white;
   /* background: #69c !important; */
   background: #7be !important;
+  background: #9cb !important;
 }
 
 .bd {
