@@ -237,7 +237,7 @@ ul li p, header p {
   font-weight: bold;
 } */
 
-article a.branch:link {
+article .branch {
   position: relative;
   border: none !important;
   /* font-weight: bold; */
