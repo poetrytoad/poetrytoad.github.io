@@ -237,15 +237,15 @@ ul li p, header p {
   font-weight: bold;
 } */
 
-article .branch:link {
+article a.branch:link {
   position: relative;
   border: none !important;
   /* font-weight: bold; */
   letter-spacing: .05em;
   font-size: .75em;
-  color: #7be;
   color: white;
   padding: .03125em .33em;
+  background: #7be;
   background: #cde;
   text-transform: uppercase;
   display: inline-block;
