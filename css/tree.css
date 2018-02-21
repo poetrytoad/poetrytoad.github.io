@@ -392,9 +392,3 @@ header+p {
 .head:hover {
   border-bottom: 1px solid #aaa;
 }
-
-
-header h1 {
-  font-weight: normal;
-font-family: 'Source Serif Pro';
-}
