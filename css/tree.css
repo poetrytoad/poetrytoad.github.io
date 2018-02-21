@@ -375,14 +375,14 @@ header+p {
 #content h1 {
   font-size: 1.2em;
   font-weight: normal;
-  margin: 1em 0 0 0;
+  margin: 1.33em 0 0 0;
 }
 #content h2 {
   font-size: .92em;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.05em;
-  margin: 1em 0 0 0;
+  margin: 1.33em 0 0 0;
   color: inherit;
 }
 
