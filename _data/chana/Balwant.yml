@@ -1,5 +1,5 @@
 name: Balwant
-gen: M
+gen: S
 anc:
   - Isher
   - Sawan
@@ -7,78 +7,79 @@ anc:
 family:
   - spouse:
       name: Pal
-      gen: F
+      gen: K
     children:
       - import: Dilbagh
       - name: Ajit
-        gen: F
+        gen: K
         family:
           - spouse:
               name: Avtar
-              gen: M
+              gen: S
               sur: Reehal
             children:
               - name: Ravinder
                 nick: Ravi
                 died: true
-                gen: F
+                gen: K
               - name: Kelly
-                gen: F
+                gen: K
               - name: Harvey
-                gen: M
+                gen: S
                 family:
                   - spouse:
                       name: Maddy
                       gen: F
                     children:
                       - name: Josie
-                        gen: F
+                        gen: K
                       - name: Nyona
-                        gen: F
+                        gen: K
               - name: Nicky
-                gen: F
+                gen: K
                 family:
                   - children:
                       - name: Jamie
+                        gen: M
       - name: Kuldip
-        gen: F
+        gen: K
         family:
           - spouse:
               name: Sahib
               sur: Ahluwalia
-              gen: M
+              gen: S
             children:
               - name: Anoop
-                gen: M
+                gen: S
                 family:
                   - children:
                       - name: Nina
-                        gen: F
+                        gen: K
               - name: Jasleen
-                gen: F
+                gen: K
                 family:
                   - spouse:
                       name: Mahesh
-                      gen: M
+                      gen: S
                       sur: Bange
                     children:
                       - name: Aman
-                        gen: M
+                        gen: S
                       - name: Arjun
-                        gen: M
+                        gen: S
 
       - name: Amrik
         nick: Micky
-        gen: M
+        gen: S
         family:
           - spouse:
               name: Ritu
               nee: Bakshi
-              gen: F
+              gen: K
             children:
               - name: Simran
-                gen: F
+                gen: K
               - name: Chandani
-                gen: F
+                gen: K
       - name: Harbans
-        gen: F
+        gen: K

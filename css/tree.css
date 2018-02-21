@@ -86,20 +86,34 @@ header h1.spouse::before {
   margin-left: -1rem;
 }
 
-.M::after, .F::after {
+.S::after, .K::after, .M::after, .F::after {
   font-size: .8em;
   font-weight: bold;
   margin: 0 .1rem 0 .3rem;
 }
 
-.M::after {
+.S::after {
   color: #abc;
   content: "S";
 }
 
-.F::after {
+.K::after {
   color: #cab;
   content: "K";
+}
+
+.M::after, .F::after {
+  font-family: 'Source Code Pro', 'Andale Mono', monospace;
+}
+
+.M::after {
+  color: #abc;
+  content: "♂";
+}
+
+.F::after {
+  color: #cab;
+  content: "♀";
 }
 
 .path {
@@ -197,7 +211,7 @@ article :not(sup) a:link, article :not(sup) a:visited {
 }
 
 article a:not(.branch):link:hover {
-  border-bottom: 1px solid #08a !important;
+  border-bottom: 1px solid #089 !important;
   /* background: #d9eaf0; */
 }
 
@@ -291,14 +305,14 @@ body {
 s {
   font-size: 1em;
   text-decoration: none;
-  color: inherit;
+  color: #654;
   position: relative;
 }
 
 s:after {
   font-size: 1em;
   color: #6c9;
-  margin-left: .33em;
+  margin-left: .1em;
   content: '→';
   text-decoration: none;
 }

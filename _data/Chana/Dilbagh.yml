@@ -1,5 +1,5 @@
 name: Dilbagh
-gen: M
+gen: S
 anc:
   - Balwant
   - Isher
@@ -10,15 +10,15 @@ family:
         - Ranjit
         - Surjit
       nee: Matharu
-      gen: F
+      gen: K
     children:
       - # Urminder
         import: Kari
         from: Rai
       - name: Iqbal
         nick: Bali
-        gen: M
+        gen: S
       - name:
           - Jaipal
           - Jai
-        gen: M
+        gen: S

@@ -1,6 +1,6 @@
 name: Karanjit
 nick: Kari
-gen: M
+gen: S
 born:
   date: 1953
   loc: Pragpur
@@ -13,20 +13,20 @@ family:
       name: Urminder
       nick: Urmi
       sur: Chana
-      gen: F
+      gen: K
       born:
         date: 1955
         loc: Nairobi
       link: ../Chana/Dilbagh
     children:
       - name: Jeevan
-        gen: M
+        gen: S
         sur: Chana Rai
         born:
           date: 1987
           loc: London
       - name: Sajan
-        gen: M
+        gen: S
         sur: Chana Rai
         born:
           date: 1990

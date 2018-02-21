@@ -1,16 +1,16 @@
 hidden: true
 
 name: Manjit
-gen: M
+gen: S
 
 family:
   - children:
       - name: Gurpreet
         nick: Gopi
-        gen: M
+        gen: S
       - name: Harpreet
         nick: Hapi
-        gen: M
+        gen: S
       - name: Manpreet
         nick: Mani
-        gen: F
+        gen: K

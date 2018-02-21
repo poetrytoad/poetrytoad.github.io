@@ -1,12 +1,12 @@
 name: Isher
-gen: M
+gen: S
 
 family:
   - children:
       - import: Balwant
       - name: Lachhman
-        gen: M
+        gen: S
       - name: Niranjan
-        gen: M
+        gen: S
       - name: Rattan
-        gen: F
+        gen: K
