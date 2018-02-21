@@ -117,7 +117,7 @@ header h1.spouse::before {
   color: #bbb;
 }
 
-ul .fold a:not(:link) {
+ul .fold a.foldable {
   border-bottom: 1px solid black;
 }
 
