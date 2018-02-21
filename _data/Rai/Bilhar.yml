@@ -8,24 +8,22 @@ family:
       gen: F
       died: true
     children:
-      - name: Manjit
-        gen: M
-        family:
-          - children:
-              - name: Gurpreet
-                nick: Gopi
-                gen: M
-              - name: Harpreet
-                nick: Hapi
-                gen: M
-              - name: Manpreet
-                nick: Mani
-                gen: F
+      - import: Manjit
       - import: Kari
       - name: Daljit
         gen: F
       - name: Rani
         gen: F
+        family:
+          - spouse:
+              name: Jan
+              gen: M
+              sur: Quantrill
+            children:
+              - name: Max
+                gen: M
+              - name: Arne
+                gen: M
       - name: Govi
         gen: F
       - name: Suki

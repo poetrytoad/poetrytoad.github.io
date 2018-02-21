@@ -1,0 +1,14 @@
+name: Manjit
+gen: M
+
+family:
+  - children:
+      - name: Gurpreet
+        nick: Gopi
+        gen: M
+      - name: Harpreet
+        nick: Hapi
+        gen: M
+      - name: Manpreet
+        nick: Mani
+        gen: F
