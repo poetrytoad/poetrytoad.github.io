@@ -243,9 +243,8 @@ article a.branch:link {
   /* font-weight: bold; */
   letter-spacing: .05em;
   font-size: .75em;
-  color: white;
+  color: white !important;
   padding: .03125em .33em;
-  background: #7be;
   background: #cde;
   text-transform: uppercase;
   display: inline-block;
@@ -257,7 +256,8 @@ article a.branch:link {
 
 .branch:hover {
   color: white;
-  background: #69c !important;
+  /* background: #69c !important; */
+  background: #7be !important;
 }
 
 .bd {
