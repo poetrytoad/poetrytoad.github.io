@@ -1,0 +1,38 @@
+name: Bilhar
+gen: M
+died: true
+
+family:
+  - spouse:
+      name: Surjit
+      gen: F
+      died: true
+    children:
+      - name: Manjit
+        gen: M
+        family:
+          - children:
+              - name: Gurpreet
+                nick: Gopi
+                gen: M
+              - name: Harpreet
+                nick: Hapi
+                gen: M
+              - name: Manpreet
+                nick: Mani
+                gen: F
+      - import: Kari
+      - name: Daljit
+        gen: F
+      - name: Rani
+        gen: F
+      - name: Govi
+        gen: F
+      - name: Suki
+        gen: F
+        family:
+          - children:
+              - name: Jaiya
+                gen: F
+              - name: Nihal
+                gen: M

@@ -40,7 +40,6 @@ family:
                 family:
                   - children:
                       - name: Jamie
-
       - name: Kuldip
         gen: F
         family:
@@ -82,12 +81,4 @@ family:
               - name: Chandani
                 gen: F
       - name: Harbans
-        gen: F
-  - spouse:
-      name: NonExistent
-      gen: F
-    children:
-      - name: Phantom
-        gen: M
-      - name: Phantom2
         gen: F

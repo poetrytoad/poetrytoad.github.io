@@ -22,11 +22,3 @@ family:
           - Jaipal
           - Jai
         gen: M
-  - spouse:
-      name: MadeUp!
-      gen: F
-    children:
-      - name: Phant4
-        gen: M
-      - name: Phant5
-        gen: F

@@ -1,10 +1,11 @@
 name: Karanjit
 nick: Kari
 gen: M
-note: Studied graphic design at university.
 born:
   date: 1953
   loc: Pragpur
+anc:
+  - Bilhar
 
 family:
   - note: Married 1982, started family in Southall.
@@ -12,10 +13,10 @@ family:
       name: Urminder
       nick: Urmi
       sur: Chana
-      note: Born Nairobi, moved to London in 1963.
       gen: F
       born:
         date: 1955
+        loc: Nairobi
       link: ../Chana/Dilbagh
     children:
       - name: Jeevan
