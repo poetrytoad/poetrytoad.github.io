@@ -1,19 +1,19 @@
 name: Bilhar
-gen: M
+gen: S
 died: true
 
 family:
   - spouse:
       name: Surjit
-      gen: F
+      gen: K
       died: true
     children:
       - import: Manjit
       - import: Kari
       - name: Daljit
-        gen: F
+        gen: K
       - name: Rani
-        gen: F
+        gen: K
         family:
           - spouse:
               name: Jan
@@ -25,12 +25,12 @@ family:
               - name: Arne
                 gen: M
       - name: Govi
-        gen: F
+        gen: K
       - name: Suki
-        gen: F
+        gen: K
         family:
           - children:
               - name: Jaiya
-                gen: F
+                gen: K
               - name: Nihal
-                gen: M
+                gen: S
