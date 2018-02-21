@@ -1,7 +1,5 @@
 {% assign pp = include.arg %}
-
 {% if pp.import %}
-
     {% if pp.from %}
         {% assign q=site.data.[pp.from].[pp.import] %}
         {% assign swap=pp.from %}
@@ -9,17 +7,13 @@
         {% assign q=site.data.[page:collection].[pp.import] %}
         {% assign swap=false %}
     {% endif %}
-
-    {% if ! q.hidden %}
-        {% assign l=pp.import %}
-    {% else %}
+    {% if q.hidden %}
         {% assign l=false %}
+    {% else %}
+        {% assign l=pp.import %}
     {% endif %}
-
 {% else %}
-
     {% assign q=pp %}
     {% assign l=false %}
     {% assign swap=false %}
-
 {% endif %}
