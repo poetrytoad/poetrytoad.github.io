@@ -192,7 +192,7 @@ nav {
   margin: 1em 0;
 }
 
-article :not(sup) a:link, article :not(sup) a:link a:visited {
+article :not(sup) a:link, article :not(sup) a:visited {
   border-bottom: 1px dotted #abc !important;
   border-color: #abc !important;
 }
