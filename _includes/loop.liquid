@@ -37,7 +37,7 @@
       </span>
     {% endif %}
 
-    {% if include.treelink and include.treelink %}
+    {% if include.treelink %}
       <a class="branch"
         title="Go to {% if t.nick %}{{ t.nick }}{% else %}{{ t.name }}{% endif %}’s branch"
         href="{% if include.from %}../{{ include.from }}/{% endif %}{{ include.treelink }}">View &rarr;</a>
