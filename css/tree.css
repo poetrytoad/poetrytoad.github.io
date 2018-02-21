@@ -197,7 +197,7 @@ article :not(sup) a:link, article :not(sup) a:visited {
 }
 
 article a:not(.branch):link:hover {
-  border-bottom: 1px solid #08a !important;
+  border-bottom: 1px solid #089 !important;
   /* background: #d9eaf0; */
 }
 
@@ -291,14 +291,14 @@ body {
 s {
   font-size: 1em;
   text-decoration: none;
-  color: inherit;
+  color: #654;
   position: relative;
 }
 
 s:after {
   font-size: 1em;
   color: #6c9;
-  margin-left: .33em;
+  margin-left: .1em;
   content: '→';
   text-decoration: none;
 }
