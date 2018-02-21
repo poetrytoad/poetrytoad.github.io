@@ -103,6 +103,7 @@ header h1.spouse::before {
 }
 
 .M::after, .F::after {
+  font-size: 1em;
   font-family: 'Source Code Pro', 'Andale Mono', monospace;
 }
 
