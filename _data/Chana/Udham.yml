@@ -81,8 +81,17 @@ family:
                         loc: Sohalkhurd
               - name: Manjit
                 gen: K
+                family:
+                  - spouse:
+                      sur: Flora
+                      born:
+                        loc: Nangal
               - name: Gian
                 gen: S
+                family:
+                  - spouse:
+                      name: Rajinder
+                      gen: K
 
 
       - name: Santokh
