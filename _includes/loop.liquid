@@ -45,9 +45,9 @@
 
     {% if t.note or s.note or f.note %}
     {% if include.firstmarriage %}
-    <p>{{ t.note }} {{ f.note }}</p>
+    <p>{{ t.note }} {% if s.note %}(<b>{{ s.name }}</b>: {{ s.note }}){% endif %} {{ f.note }}</p>
     {% else %}
     <p>{{ s.note }} {{ f.note }}</p>
     {% endif %}
-    
+
 {% endif %}
