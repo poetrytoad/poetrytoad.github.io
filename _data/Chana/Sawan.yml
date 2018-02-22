@@ -5,7 +5,7 @@ gen: S
 anc:
   - Sahib
   - Labh
-  
+
 family:
   - spouse:
       name: Bholi
@@ -18,29 +18,29 @@ family:
       - name: Ganga
         gen: S
         family:
-          spouse:
-            name: Indi
-            nee: Sehmbi
-            born:
-              loc: Sultanpur
+          - spouse:
+              name: Indi
+              nee: Sehmbi
+              born:
+                loc: Sultanpur
       - name: Utti
         gen: K
         family:
-          spouse:
-            sur: Chaggar
-            born:
-              loc: Mulapota
+          - spouse:
+              sur: Chaggar
+              born:
+                loc: Mulapota
       - name: Gangi
         gen: K
         family:
-          spouse:
-            sur: Sagoo
-            born:
-              loc: Jalandhar
+          - spouse:
+              sur: Sagoo
+              born:
+                loc: Jalandhar
       - name: Ishri
         gen: K
         family:
-          spouse:
-            sur: Chaggar
-            born:
-              loc: Mulapota
+          - spouse:
+              sur: Chaggar
+              born:
+                loc: Mulapota
