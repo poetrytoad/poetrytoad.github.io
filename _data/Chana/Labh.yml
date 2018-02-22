@@ -1,0 +1,24 @@
+name: Labh
+gen: S
+
+family:
+  children:
+
+    - name: Wazir
+      gen: S
+
+    - import: Sawan
+
+    - name: Hira
+      gen: S
+
+    - name: Bhagwan
+      gen: S
+
+    - name: Haro
+      gen: K
+      family:
+        spouse:
+          sur: Ryatt
+          born:
+            loc: Malupota
