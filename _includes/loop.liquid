@@ -32,7 +32,7 @@
         {% if s.link or include.from %}<a
           href="{% if include.from %}../{{ include.from }}/{{ include.treelink }}{% else %}{{ f.spouse.link }}{% endif %}"
           >{% endif %}
-        {% if s.name %}{% include name.liquid nam=s surfrom=include.from %}{% endif %}
+        {% include name.liquid nam=s surfrom=include.from %}
         {% if s.link or include.from %}</a>{% endif %}
       </span>
     {% endif %}
