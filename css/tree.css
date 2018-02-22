@@ -246,7 +246,7 @@ ul li p, header p {
   font-size: .8em;
   margin: .25rem 0 0 -1.33rem;
   /* change LEFT */
-  color: rgba(0, 0, 0, .5);
+  color: #777
   padding: 0 0 0 1.33rem;
   /* change LEFT */
 }
@@ -353,15 +353,16 @@ header p b {
 }
 
 header+p {
-  color: rgba(0,0,0,.67);
+  color: #333;
   margin: 0.5em 0 ;
 }
 
 .nee {
   font-weight: normal;
+  color: #333;
 }
 .nee::before, .nee::after {
-  color: rgba(0,0,0,.33);
+  color: #ccc;
 }
 .nee::before {
   content: "(";
