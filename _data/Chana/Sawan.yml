@@ -14,7 +14,12 @@ family:
       - import: Isher
       - name: Ganga
         gen: S
-        Indi Sehmbi Sultanpur
+        family:
+          spouse:
+            name: Indi
+            nee: Sehmbi
+            born:
+              loc: Sultanpur
       - name: Utti
         gen: K
         family:
