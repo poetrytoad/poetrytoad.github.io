@@ -5,7 +5,9 @@ gen: S
 anc:
   - Isher
   - Sawan
-
+  - Sahib
+  - Labh
+  
 family:
   - spouse:
       name: Amar
