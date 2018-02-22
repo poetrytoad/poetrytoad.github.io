@@ -1,0 +1,88 @@
+hidden: true
+
+name: Niranjan
+gen: S
+anc:
+  - Isher
+
+family:
+  - spouse:
+      name: Amar
+      gen: K
+      nee: Thethi
+      born:
+        loc: Shadipur
+
+    children:
+
+      - name: Dhian
+        gen: K
+        family:
+          - spouse:
+              name: Harminder
+              gen: S
+              sur: Duper
+              born:
+                loc: Mathade
+
+
+      - name: Parminder
+        gen: K
+        family:
+          - spouse:
+              name: Devinder
+              gen: S
+              sur: Sagoo
+              born:
+                loc: Benapur
+
+
+      - name: Raghbir
+        gen: S
+        family:
+          - spouse:
+              name: Roberta
+              gen: F
+   
+
+      - name: Amarjit
+        gen: K
+        family:
+          - spouse:
+              name: Mohni
+              gen: S
+              sur: Bhachu
+              born:
+                loc: Dherian
+
+      - name: Harcharan
+        gen: K
+
+
+      - name: Dhian
+        gen: K
+        family:
+          - spouse:
+              name: Harminder
+              gen: M
+              sur: Duper
+              born:
+                loc: Mathade
+
+
+      - name: Harminder
+        nick: Kati
+        gen: S
+        family:
+          - spouse:
+              name: Rupinder
+              gen: K
+              nee: Bassan
+              born:
+                loc: Mahadipur
+            children:
+              - name: Rashpal
+                nick: Ricky
+                gen: S
+              - name: Rashmita
+                gen: K

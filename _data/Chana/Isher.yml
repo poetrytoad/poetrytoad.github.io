@@ -22,7 +22,13 @@ family:
     children:
       - import: Balwant
       - import: Lachhman
-      - name: Niranjan
-        gen: S
+      - import: Niranjan
       - name: Rattan
         gen: K
+        family:
+          - spouse: 
+              name: Dalip
+              gen: S
+              sur: Dalip
+              born:
+                loc: Lassara
