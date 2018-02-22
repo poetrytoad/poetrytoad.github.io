@@ -2,9 +2,10 @@ name: Lachhman
 gen: S
 anc:
   - Isher
+  - Sawan
 
 family:
-  - spouse: 
+  - spouse:
       name: Amar
       gen: K
       nee: Kalsi
@@ -47,7 +48,7 @@ family:
               gen: K
               nee: Sagoo
               born:
-                loc: Jallander
+                loc: Jalandhar
             children:
               - name: Deepu
               - name: Gursharan
@@ -97,6 +98,6 @@ family:
               sur: Flora
               born:
                 loc: Loharpartapra
-        
+
       - name: Harpal
         gen: S

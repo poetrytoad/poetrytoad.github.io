@@ -1,5 +1,7 @@
 name: Isher
 gen: S
+anc:
+  - Sawan
 
 family:
 
@@ -26,7 +28,7 @@ family:
       - name: Rattan
         gen: K
         family:
-          - spouse: 
+          - spouse:
               name: Dalip
               gen: S
               sur: Dalip

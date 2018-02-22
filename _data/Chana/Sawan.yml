@@ -1,0 +1,38 @@
+hidden: true
+
+name: Sawan
+gen: S
+
+family:
+  - spouse:
+      name: Bholi
+      gen: K
+      nee: Lall
+      born:
+        loc: Urapur
+    children:
+      - import: Isher
+      - name: Ganga
+        gen: S
+        Indi Sehmbi Sultanpur
+      - name: Utti
+        gen: K
+        family:
+          spouse:
+            sur: Chaggar
+            born:
+              loc: Mulapota
+      - name: Gangi
+        gen: K
+        family:
+          spouse:
+            sur: Sagoo
+            born:
+              loc: Jalandhar
+      - name: Ishri
+        gen: K
+        family:
+          spouse:
+            sur: Chaggar
+            born:
+              loc: Mulapota

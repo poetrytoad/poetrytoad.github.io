@@ -4,6 +4,7 @@ name: Niranjan
 gen: S
 anc:
   - Isher
+  - Sawan
 
 family:
   - spouse:
@@ -47,7 +48,7 @@ family:
               - name: Rajpal
                 gen: S
               - name: Punam
-   
+
 
       - name: Amarjit
         gen: K
