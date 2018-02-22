@@ -43,6 +43,10 @@ family:
           - spouse:
               name: Roberta
               gen: F
+            children:
+              - name: Rajpal
+                gen: S
+              - name: Punam
    
 
       - name: Amarjit

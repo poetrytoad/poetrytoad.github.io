@@ -21,7 +21,9 @@
       <a href="{{ site.baseurl }}/{{ page:collection }}">{{ page:collection }}</a>
     </h1>
     {% for a in site.data.[page:collection].[page.title].anc reversed %}
-      <a href="{{ a }}">{{ site.data.[page:collection].[a].name }}</a> ›
+      {% if ! site.data.[page:collection].[a].hidden %}<a href="{{ a }}">{% endif %}
+        {{ site.data.[page:collection].[a].name }}
+      {% if ! site.data.[page:collection].[a].hidden %}</a>{% endif %} ›
     {% endfor %}
     <span class="{{ site.data.[page.title].gen }}">{{ site.data.[page:collection].[page.title].name }}</span>
   </nav>
