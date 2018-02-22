@@ -1,7 +1,9 @@
 {% assign n=include.nam %}
-<span {% if n.gen %} class="{{ n.gen }}" {% endif %}>
-  {% if n.name.first %}{% for names in n.name %}{% if forloop.last %}{{ names }}{% else %}
-  <s>{{ names }}</s> {% endif %}{% endfor %}{% else %}{{ n.name }}{% endif %}{% if n.nick %} <q>{{n.nick}}</q>{% endif %}</span>
+{% if n.name or n.nick %}
+  <span {% if n.gen %} class="{{ n.gen }}" {% endif %}>
+    {% if n.name.first %}{% for names in n.name %}{% if forloop.last %}{{ names }}{% else %}
+    <s>{{ names }}</s> {% endif %}{% endfor %}{% else %}{{ n.name }}{% endif %}{% if n.nick %} <q>{{n.nick}}</q>{% endif %}</span>
+{% endif %}
 {% if include.surfrom %}<span class="sur">{{ include.surfrom }}</span>
 {% elsif n.sur %}<span class="sur">{{ n.sur }}</span>
 {% elsif n.nee %}<span class="nee">{{ n.nee }}</span>
