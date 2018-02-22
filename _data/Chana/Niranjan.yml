@@ -7,7 +7,7 @@ anc:
   - Sawan
   - Sahib
   - Labh
-  
+
 family:
   - spouse:
       name: Amar
@@ -64,18 +64,6 @@ family:
 
       - name: Harcharan
         gen: K
-
-
-      - name: Dhian
-        gen: K
-        family:
-          - spouse:
-              name: Harminder
-              gen: M
-              sur: Duper
-              born:
-                loc: Mathade
-
 
       - name: Harminder
         nick: Kati
