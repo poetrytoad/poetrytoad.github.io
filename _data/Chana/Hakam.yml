@@ -1,0 +1,82 @@
+name: Hakam
+gen: S
+anc:
+  - Uttam
+  - Wazir
+  - Sahib
+  - Labh
+
+family:
+  - spouse:
+      name: Dhanti
+      gen: K
+      nee: Matharu
+      born:
+        loc: Bhullarai
+    children:
+      - name: Achal
+        gen: S
+        family:
+          - spouse: Channan
+            gen: K
+            nee: Panesar
+            born:
+              loc: Bhootan
+            children:
+              - name: Nirmal
+                gen: K
+                family:
+                  - spouse:
+                      sur: Sehmbi
+                      gen: S
+                      born:
+                        loc: Nawanpind
+              - name: Manjit
+                gen: K
+                family:
+                  - spouse:
+                      sur: Flora
+                      gen: S
+                      born:
+                        loc: Khusrapur
+              - name: Manmohan
+                gen: S
+                family:
+                  - spouse:
+                      name: Harjinder
+                      gen: K
+                      nee: Matharu
+                      born:
+                        loc:
+                          Jalandhar
+                    children:
+                      - name: Satmeet
+                        gen: S
+                      - name: Gurpreet
+                        gen: K
+                      - name: Gursaran
+                        gen: K
+              - name: Dhogo
+                gen: K
+                family:
+                  - spouse:
+                      sur: Nandra
+                      born:
+                        loc: Loharpartapra
+              - name: Harvinder
+                gen: S
+                family:
+                  - spouse:
+                      name: Kamaljit
+                      gen: K
+                    children:
+                      name: Harpreet
+                      gen: K
+              - name: Kuldip
+                gen: S
+                family:
+                  - spouse:
+                      name: Neeto
+                      nee: Bansal
+                      born:
+                        loc: Sarhalkazian

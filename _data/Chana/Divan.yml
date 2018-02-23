@@ -1,10 +1,11 @@
 name: Divan
 gen: S
 anc:
+  - Uttam
   - Wazir
   - Sahib
   - Labh
-  
+
 family:
   - spouse:
       name: Banti

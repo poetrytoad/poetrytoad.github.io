@@ -1,0 +1,27 @@
+hidden: true
+
+name: Uttam
+gen: S
+anc:
+  - Wazir
+  - Sahib
+  - Labh
+
+family:
+  - spouse:
+      name: Puran
+      nee: Devi
+      gen: K
+      born:
+        loc: Ranthua
+    children:
+      - import: Divan
+      - import: Hakam
+      - name: Parmesree
+        gen: K
+        family:
+          - spouse:
+              sur: Panesar
+              gen: S
+              born:
+                loc: Maheroo

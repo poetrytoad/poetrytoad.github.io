@@ -7,26 +7,7 @@ anc:
 family:
   - children:
 
-      - name: Uttam
-        gen: S
-        family:
-          - spouse:
-              name: Puran
-              nee: Devi
-              gen: K
-              born:
-                loc: Ranthua
-            children:
-              - import: Divan
-              - name: Hakam
-              - name: Parmesree
-                gen: K
-                family:
-                  - spouse:
-                      sur: Panesar
-                      gen: S
-                      born:
-                        loc: Maheroo
+      - import: Uttam
 
       - name: Mahant
         gen: S
