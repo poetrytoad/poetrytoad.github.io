@@ -5,9 +5,7 @@ family:
   -
     children:
 
-      - name: Wazir
-        gen: S
-
+      - import: Wazir
       - import: Sawan
 
       - name: Hira
