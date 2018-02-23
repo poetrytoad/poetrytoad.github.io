@@ -45,8 +45,9 @@ family:
               - name: Nicky
                 gen: K
                 family:
-                  - children:
+                    children:
                       - name: Jamie
+                        sur: Faith
                         gen: M
       - name: Kuldip
         gen: K

@@ -1,0 +1,38 @@
+name: Wazir
+gen: S
+anc:
+  - Sahib
+  - Labh
+
+family:
+  - children:
+
+      - name: Uttam
+        gen: S
+        family:
+          - spouse:
+              name: Puran
+              nee: Devi
+              born:
+                loc: Ranthua
+            children:
+              - name: Divan
+              - name: Hakam
+              - name: Parmesree
+                gen: K
+                family:
+                  - spouse:
+                      sur: Panesar
+                      born:
+                        loc: Maheroo
+
+      - name: Mahant
+        gen: S
+
+      - name: Runna
+        gen: K
+        family:
+          - spouse:
+              sur: Ryatt
+              born:
+                loc: Mankan
