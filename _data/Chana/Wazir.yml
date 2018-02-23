@@ -13,16 +13,18 @@ family:
           - spouse:
               name: Puran
               nee: Devi
+              gen: K
               born:
                 loc: Ranthua
             children:
-              - name: Divan
+              - import: Divan
               - name: Hakam
               - name: Parmesree
                 gen: K
                 family:
                   - spouse:
                       sur: Panesar
+                      gen: S
                       born:
                         loc: Maheroo
 
@@ -34,5 +36,6 @@ family:
         family:
           - spouse:
               sur: Ryatt
+              gen: S
               born:
                 loc: Mankan

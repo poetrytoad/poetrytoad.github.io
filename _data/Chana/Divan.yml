@@ -1,0 +1,83 @@
+name: Divan
+gen: S
+
+family:
+  - spouse:
+      name: Banti
+      nee: Bahra
+      born:
+        loc: Cheema
+    children:
+
+      - name: Manso
+        gen: K
+        family:
+          - spouse:
+              sur: Ryatt
+              born:
+                loc: Mankan
+
+      - name: Santokh
+        gen: S
+        family:
+          - spouse:
+              name: Balbir
+              gen: K
+              nee: Phull
+              born:
+                loc: Johalbalena
+            children:
+              - name: Disho
+                gen: K
+                family:
+                  spouse:
+                    sur: Chaggar
+                    born:
+                      loc: Maloopota
+              - name: Satnam
+                gen: S
+                family:
+                  - spouse:
+                      name: Gurmit
+                      gen: K
+                      nee: Rooprai
+                      born:
+                        loc: Gadipur
+                    children:
+                      - name: Amardip
+                        gen: S
+                      - name: Kuldip
+                        gen: K
+              - name: Resham
+                gen: S
+                family:
+                  - spouse:
+                      name: Ravinder
+                      gen: K
+                      nee: Rupra
+                      born:
+                        loc: Phagwara
+                    children:
+                      - name: Manjir
+                        gen: K
+              - name: Darshan
+                gen: K
+              - name: Gurbax
+                gen: K
+
+      - name: Piari
+        gen: K
+        family:
+          - spouse:
+              sur: Panesar
+              gen: S
+              born:
+                loc: Kukarpind
+      - name: Sansari
+        gen: K
+        family:
+          - spouse:
+              sur: Flora
+              gen: S
+              born:
+                loc: Khusrapur
