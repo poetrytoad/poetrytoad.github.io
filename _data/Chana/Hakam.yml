@@ -70,8 +70,8 @@ family:
                       name: Kamaljit
                       gen: K
                     children:
-                      name: Harpreet
-                      gen: K
+                      - name: Harpreet
+                        gen: K
               - name: Kuldip
                 gen: S
                 family:
