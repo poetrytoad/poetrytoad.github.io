@@ -4,8 +4,8 @@ born:
   loc: Badala
 
 family:
-  note: Settled in Chachrari
-  children:
-    - import: Labh
-    - name: Megh
-    - name: Naudh
+  - note: Settled in Chachrari
+    children:
+      - import: Labh
+      - name: Megh
+      - name: Naudh
