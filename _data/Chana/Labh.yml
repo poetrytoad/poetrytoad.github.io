@@ -11,8 +11,7 @@ family:
       - import: Wazir
       - import: Sawan
 
-      - name: Hira
-        gen: S
+      - import: Hira
 
       - name: Bhagwan
         gen: S
