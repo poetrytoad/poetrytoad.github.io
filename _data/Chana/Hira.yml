@@ -1,0 +1,12 @@
+name: Hira
+gen: S
+anc:
+  - Sahib
+  - Labh
+  - Karam
+
+family:
+  - children:
+    - name: Battan
+    - name: Harnam
+    - name: Bassant
