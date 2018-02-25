@@ -1,0 +1,184 @@
+name: Harnam
+gen: S
+anc:
+  - Hira
+  - Sahib
+  - Labh
+  - Karam
+
+family:
+  - spouse:
+      name: Dhan
+      gen: K
+      nee: Ryatt
+      born:
+        loc: Bhullarai
+    children:
+
+      - name: Pritam
+        gen: S
+        family:
+          - spouse: Harbans
+            gen: K
+            nee: Matharu
+            born:
+              loc: Rasulpur
+            children:
+              - name: Mohinder
+                gen: S
+                family:
+                  - spouse:
+                      name: '?'
+                      born:
+                        loc: Sariala
+              - name: Nasib
+                gen: S
+                family:
+                  - spouse:
+                      name: Surinder
+                      gen: K
+              - name: Amrik
+                gen: S
+                family:
+                  - spouse:
+                      name: Jagdish
+                      gen: K
+              - name: Dial
+                gen: K
+                family:
+                  - spouse:
+                      sur: Nandhra
+                      born:
+                        loc: Khajurla
+              - name: Joginder
+                gen: K
+              - name: Santokh
+                gen: K
+              - name: Satnam
+                gen: K
+
+      - name: Mohan
+        gen: S
+        family:
+          - spouse:
+              name: Gurmej
+              gen: K
+              nee: Sehmbi
+              born:
+                loc: Nawapind
+            children:
+              - name: Ravinder
+                gen: K
+                family:
+                  - spouse:
+                      name: '?'
+                      born:
+                        loc: Kartarpur
+              - name: Kuldip
+                gen: S
+                family:
+                  - spouse:
+                      name: Charanjit
+                      gen: K
+                      born:
+                        loc: Guran
+
+      - name: Chanan
+        gen: S
+        family:
+          - spouse:
+              name: Amar
+              gen: K
+              nee: Bahra
+              born:
+                loc: Duggan
+            children:
+              - name: Paramnjit
+                gen: S
+                family:
+                  - spouse:
+                      name: Talvinder
+                      gen: K
+                      nee: Bhambra
+                      born:
+                        loc: Ghuman
+                    children:
+                      - name: Harpreet
+                        gen: K
+                      - name: Sandip
+                        gen: K
+              - name: Avtar
+                gen: S
+                family:
+                  - spouse:
+                      name: Surinder
+                      gen: K
+                      nee: Bansal
+                      born:
+                        loc: Nangal
+              - name: Narinder
+                gen: K
+                family:
+                  - spouse:
+                      sur: Sagoo
+                      born:
+                        loc: Loharan
+              - name: Manjit
+                gen: S
+
+      - name: Swaran
+        gen: S
+        family:
+          - spouse: Ajit
+            gen: K
+            nee: Bhogal
+            born:
+              loc: Nangal
+            children:
+              - name: Rashpal
+                gen: S
+                family:
+                  - spouse:
+                      nee: Bahra
+                      born:
+                        loc: Chachoki
+              - name: Jaswinder
+                gen: S
+                family:
+                  - spouse:
+                      name: '?'
+                      born:
+                        loc: Bharoli
+              - name: Ravinder
+                gen: K
+                family:
+                  - spouse:
+                      name: '?'
+              - name: Ravinder
+                gen: S
+                family:
+                  - spouse:
+                      name: '?'
+                      born:
+                        loc: Jalandhar
+              - name: Kuldip
+                gen: S
+              - name: Ranbir
+                gen: S
+                died:
+                  age: 19
+
+      - name: Shiv
+        gen: K
+        family:
+          - spouse:
+              name: '?'
+              born:
+                loc: Latenda
+      - name: Guro
+        gen: K
+        family:
+          - spouse:
+              sur: Panesar
+              born:
+                loc: Maheru

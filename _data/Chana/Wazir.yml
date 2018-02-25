@@ -7,12 +7,9 @@ anc:
 
 family:
   - children:
-
       - import: Uttam
-
       - name: Mahant
         gen: S
-
       - name: Runna
         gen: K
         family:
