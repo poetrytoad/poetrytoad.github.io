@@ -1,0 +1,11 @@
+hidden: true
+
+name: Ram
+gen: S
+anc:
+  - Nand
+
+family:
+  - children:
+    - import: Karam
+    - import: Harsoo
