@@ -1,0 +1,139 @@
+name: Teja
+gen: S
+anc:
+  - Bhagwan
+  - Sahib
+  - Labh
+  - Karam
+
+family:
+  -
+    spouse:
+      name: Bant
+      gen: K
+      nee: Sehmi
+      born:
+        loc: Mirpurlakha
+
+    children:
+      -
+        name: Gurdial
+        gen: S
+        family:
+          -
+            spouse:
+              name: Gurdev
+              gen: K
+              nee: Bharaj
+              born:
+                loc: Sahni
+            children:
+              - name: Inderjit
+                gen: S
+                family:
+                  - spouse:
+                      name: Tarlochan
+                      gen: K
+                      nee: Phull
+                      born:
+                        loc: Akalpura
+                    children:
+                      - name: Satpal
+                        gen: S
+                      - nam: Charanjit
+                        gen: S
+              - name: Surinder
+                gen: K
+                family:
+                  - spouse:
+                      sur: Sagoo
+                      born:
+                        loc: Jalandhar
+              - name: Baldev
+                gen: S
+                family:
+                  - spouse:
+                      name: Pinkpal
+                      gen: K
+                      nee: Ghatnaura
+                      born:
+                        loc: Boparai
+                    children:
+                      - name: Pritpal
+                        gen: S
+                      - name: Mandip
+                        gen: S
+                      - name: Sharandip
+                        gen: K
+              -
+                name: Tarlochan
+              -
+                name: Charanjit
+              -
+                name: Kulwinder
+
+      -
+        name: Gian
+        gen: K
+        family:
+          -
+            spouse:
+              sur: Dhepu
+              born:
+                loc: Khatkaran
+      -
+        name: Amar
+        gen: K
+        family:
+          -
+            spouse:
+              sur: Bansal
+              born:
+                loc: Bharoli
+      -
+        name: Ranjit
+        gen: S
+        family:
+          -
+            spouse:
+              name: Perminder
+              gen: K
+              nee: Seehra
+              born:
+                loc: Sarhialarunua
+            children:
+              -
+                name: Paramnjit
+              -
+                name: Jagdev
+
+              - name: Kuldip
+                gen: S
+              - name: Hardip
+                gen: K
+              - name: Harminder
+                gen: S
+
+      - name: Raghbir
+        gen: S
+        family:
+          - spouse:
+              name: Mohinder
+              gen: K
+              nee: Ghataora
+              born:
+                loc: Cheema
+            children:
+              - name: Narbhinder
+                gen: S
+              - name: Tajinder
+                gen: K
+              - name: Malkit
+                gen: S
+      - name: Avtar
+        gen: K
+        family:
+          - spouse:
+              sur: Jagdev
+              born:
+                loc: Bhanoki
