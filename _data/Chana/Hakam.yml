@@ -6,14 +6,16 @@ anc:
   - Sahib
   - Labh
   - Karam
-  
+
 family:
+
   - spouse:
       name: Dhanti
       gen: K
       nee: Matharu
       born:
         loc: Bhullarai
+
     children:
       - name: Achal
         gen: S

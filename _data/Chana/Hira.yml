@@ -7,10 +7,79 @@ anc:
 
 family:
   - children:
-
     - import: Battan
     - import: Harnam
+
     - name: Bassant
+      gen: S
+      family:
+        - spouse:
+            name: Karam
+            gen: K
+            born:
+              loc: Dialpur
+          children:
+            - name: Amar
+              gen: S
+              family:
+                - spouse: Swaran
+                  gen: K
+                  born:
+                    loc: Jindowal
+                  children:
+                    - name: Mohinder
+                      gen: S
+                      family:
+                        - spouse:
+                            name: '?'
+            - name: Inder
+              gen: S
+              family:
+                - spouse:
+                    name: Harbans
+                    gen: K
+                    nee: Lotey
+                    born:
+                      loc: Ludhiana
+            - name: Sohan
+              gen: S
+              family:
+                - spouse: Pritan
+                  gen: K
+                  nee: Ubhi
+                  born:
+                    loc: Pasla
+            - name: Tara
+              gen: S
+              family:
+                - spouse: Mohan
+                  gen: K
+                  nee: Panesar
+                  born:
+                    loc: Bains
+            - name: Harmit
+              gen: S
+              family:
+                - spouse:
+                    name: Sarabjit
+                    gen: K
+                    nee: Panesar
+                    born:
+                      loc: Bhootan
+            - name: Jeeto
+              gen: K
+              family:
+                - spouse:
+                    sur: Marwaha
+                    born:
+                      loc: Kattan
+            - name: Bhopinder
+              gen: K
+              family:
+                - spouse:
+                    name: '?'
+                    born:
+                      loc: Navanshehar
 
     - name: Khemi
       gen: K
@@ -19,6 +88,7 @@ family:
             name: '?'
             born:
               loc: Mathade
+
     - name: Premi
       gen: K
       family:

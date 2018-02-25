@@ -7,12 +7,14 @@ anc:
   - Karam
 
 family:
+  
   - spouse:
       name: Dhan
       gen: K
       nee: Ryatt
       born:
         loc: Bhullarai
+
     children:
 
       - name: Pritam
@@ -175,6 +177,7 @@ family:
               name: '?'
               born:
                 loc: Latenda
+
       - name: Guro
         gen: K
         family:
