@@ -26,6 +26,48 @@ family:
               born:
                 loc: Ptara
 
+            children:
+              - name: Joginder
+                gen: K
+                family:
+                  - spouse:
+                      sur: Seehra
+                      born:
+                        loc: Kultham
+              - name: Satnam
+                gen: S
+                family:
+                  - spouse:
+                      name: Manjit
+                      gen: K
+                      nee: Lall
+                      born:
+                        loc: Bararurka
+                    children:
+                      - name: Dipakraj
+                        gen: S
+                      - name: Jaskamal
+                        gen: K
+              - name: Kuldip
+                gen: K
+                family:
+                  - spouse:
+                      sur: Bhogal
+                      born:
+                        loc: Phagwara
+              - name: Gurnam
+                gen: S
+                family:
+                  - spouse:
+                      name: Narinder
+                      gen: K
+                      nee: Reehal
+                      born:
+                        loc: Phillaur
+                    children:
+                      - name: Satgurdev
+                        gen: S
+
       - name: Bakhshish
         gen: S
         family:
@@ -35,6 +77,15 @@ family:
               nee: Bhambra
               born:
                 loc: Jandiala
+            children:
+              - name: Surinder
+                gen: K
+              - name: Jaswinder
+                gen: S
+              - name: Inderjit
+                gen: K
+              - name: Surinder
+                gen: S
 
       - name: Chain
         gen: S
@@ -45,6 +96,17 @@ family:
               nee: Virdee
               born:
                 loc: Umarpura
+            children:
+              - name: Ranjit
+                gen: K
+              - name: Narinder
+                gen: K
+              - name: Paramjit
+                gen: S
+              - name: Gurdeep
+                gen: S
+              - name: Inderjit
+                gen: S
 
       - name: Gian
         gen: K
