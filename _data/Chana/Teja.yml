@@ -7,8 +7,7 @@ anc:
   - Karam
 
 family:
-  -
-    spouse:
+  - spouse:
       name: Bant
       gen: K
       nee: Sehmi
@@ -16,16 +15,10 @@ family:
         loc: Mirpurlakha
 
     children:
-      -
-        name: Gurdial
+      - name: Gurdial
         gen: S
         family:
-<<<<<<< HEAD
-          -
-            spouse:
-=======
           - spouse:
->>>>>>> fa53ac6a9b7781a52f37fdb9ed164edb952711f7
               name: Gurdev
               gen: K
               nee: Bharaj
@@ -44,11 +37,7 @@ family:
                     children:
                       - name: Satpal
                         gen: S
-<<<<<<< HEAD
-                      - nam: Charanjit
-=======
                       - name: Charanjit
->>>>>>> fa53ac6a9b7781a52f37fdb9ed164edb952711f7
                         gen: S
               - name: Surinder
                 gen: K
@@ -73,39 +62,6 @@ family:
                         gen: S
                       - name: Sharandip
                         gen: K
-<<<<<<< HEAD
-              -
-                name: Tarlochan
-              -
-                name: Charanjit
-              -
-                name: Kulwinder
-
-      -
-        name: Gian
-        gen: K
-        family:
-          -
-            spouse:
-              sur: Dhepu
-              born:
-                loc: Khatkaran
-      -
-        name: Amar
-        gen: K
-        family:
-          -
-            spouse:
-              sur: Bansal
-              born:
-                loc: Bharoli
-      -
-        name: Ranjit
-        gen: S
-        family:
-          -
-            spouse:
-=======
               - name: Tarlochan
                 gen: K
                 family:
@@ -141,19 +97,12 @@ family:
         gen: S
         family:
           - spouse:
->>>>>>> fa53ac6a9b7781a52f37fdb9ed164edb952711f7
               name: Perminder
               gen: K
               nee: Seehra
               born:
                 loc: Sarhialarunua
             children:
-<<<<<<< HEAD
-              -
-                name: Paramnjit
-              -
-                name: Jagdev
-=======
               - name: Paramnjit
                 gen: K
                 family:
@@ -167,7 +116,6 @@ family:
                   - spouse:
                       name: Veena
                       nee: Thakur
->>>>>>> fa53ac6a9b7781a52f37fdb9ed164edb952711f7
 
               - name: Kuldip
                 gen: S
