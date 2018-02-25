@@ -26,4 +26,4 @@ family:
               born:
                 loc: Nangal
 
-      - name: Teja
+      - import: Teja
