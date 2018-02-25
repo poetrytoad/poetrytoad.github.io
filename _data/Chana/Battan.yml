@@ -19,7 +19,7 @@ family:
         died:
           age: 14
 
-      - name: Jagat
+      - import: Jagat
 
       - name: Harbans
         gen: S
@@ -32,11 +32,48 @@ family:
                 loc: Ghumanan
             children:
               - name: Gurmit
+                gen: S
+                family:
+                  - spouse:
+                      name: Gurdev
+                      gen: K
+                      born:
+                        loc: Janoha
               - name: Rattan
+                gen: S
+                family:
+                  - spouse:
+                      name: Parkash
+                      gen: K
+                      nee: Ubhi
+                      born:
+                        loc: Hardaspur
               - name: Avtar
+                gen: S
+                family:
+                  - spouse:
+                      name: Dev
+                      gen: K
+                      nee: Thethi
+                      born:
+                        loc: Shadipur
               - name: Kehar
+                gen: S
+                family:
+                  - spouse:
+                      name: '?'
               - name: Sawaran
+                gen: K
+                family:
+                  - spouse:
+                      sur: Reehal
+                      born:
+                        loc: Rurkee
               - name: Sohan
+                gen: S
+                family:
+                  - spouse:
+                      name: '?'
 
       - name: Shiv
         gen: S

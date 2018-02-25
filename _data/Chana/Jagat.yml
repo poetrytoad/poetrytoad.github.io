@@ -1,0 +1,71 @@
+name: Jagat
+gen: S
+anc:
+  - Battan
+  - Hira
+  - Sahib
+  - Labh
+  - Karam
+
+family:
+  - spouse:
+      name: Rattan
+      gen: K
+      nee: Ryatt
+      born:
+        loc: Bhullarai
+    children:
+
+      - name: Piara
+        gen: S
+        family:
+          - spouse:
+              name: Naranjan
+              gen: K
+              nee: Ubhi
+              born:
+                loc: Ptara
+
+      - name: Bakhshish
+        gen: S
+        family:
+          - spouse:
+              name: Gurmit
+              gen: K
+              nee: Bhambra
+              born:
+                loc: Jandiala
+
+      - name: Chain
+        gen: S
+        family:
+          - spouse:
+              name: Harved
+              gen: K
+              nee: Virdee
+              born:
+                loc: Umarpura
+
+      - name: Gian
+        gen: K
+        family:
+          - spouse:
+              sur: Jagdev
+              born:
+                loc: Bhanokee
+
+      - name: Gurmit
+        gen: K
+        family:
+          - spouse:
+              sur: Matharu
+              born:
+                loc: Mehman
+
+      - name: Parminder
+        gen: K
+        family:
+          - spouse:
+              sur: Nandhra
+              born:
+                loc: Khajurla
