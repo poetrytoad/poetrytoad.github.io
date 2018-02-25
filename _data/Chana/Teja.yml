@@ -39,7 +39,7 @@ family:
                     children:
                       - name: Satpal
                         gen: S
-                      - nam: Charanjit
+                      - name: Charanjit
                         gen: S
               - name: Surinder
                 gen: K
