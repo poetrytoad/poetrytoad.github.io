@@ -421,3 +421,9 @@ header+p {
 .head:hover {
   border-bottom: 1px solid #aaa;
 }
+
+.ellip {
+  font-weight: bold;
+  color: #ccc;
+  margin-left: .1em;
+}
