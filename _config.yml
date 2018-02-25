@@ -1,10 +1,13 @@
-#
+collections_dir: tree
 
 collections:
     Chana:
         output: true
         permalink: /:collection/:path
     Rai:
+        output: true
+        permalink: /:collection/:path
+    Matharu:
         output: true
         permalink: /:collection/:path
 
@@ -17,5 +20,10 @@ defaults:
     - scope:
         path: ""
         type: Rai
+      values:
+          layout: tree
+    - scope:
+        path: ""
+        type: Matharu
       values:
           layout: tree
