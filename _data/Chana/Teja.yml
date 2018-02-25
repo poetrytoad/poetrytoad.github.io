@@ -20,8 +20,7 @@ family:
         name: Gurdial
         gen: S
         family:
-          -
-            spouse:
+          - spouse:
               name: Gurdev
               gen: K
               nee: Bharaj
@@ -65,47 +64,60 @@ family:
                         gen: S
                       - name: Sharandip
                         gen: K
-              -
-                name: Tarlochan
-              -
-                name: Charanjit
-              -
-                name: Kulwinder
+              - name: Tarlochan
+                gen: K
+                family:
+                  - spouse:
+                      sur: Bahra
+                      born:
+                        loc: Bahua
+              - name: Charanjit
+                gen: K
+                family:
+                  - spouse:
+                      sur: Ubhi
+                      born:
+                        loc: Ptara
+              - name: Kulwinder
+                gen: K
 
-      -
-        name: Gian
+      - name: Gian
         gen: K
         family:
-          -
-            spouse:
+          - spouse:
               sur: Dhepu
               born:
                 loc: Khatkaran
-      -
-        name: Amar
+      - name: Amar
         gen: K
         family:
-          -
-            spouse:
+          - spouse:
               sur: Bansal
               born:
                 loc: Bharoli
-      -
-        name: Ranjit
+      - name: Ranjit
         gen: S
         family:
-          -
-            spouse:
+          - spouse:
               name: Perminder
               gen: K
               nee: Seehra
               born:
                 loc: Sarhialarunua
             children:
-              -
-                name: Paramnjit
-              -
-                name: Jagdev
+              - name: Paramnjit
+                gen: K
+                family:
+                  - spouse:
+                      sur: Bhachu
+                      born:
+                        loc: SarinhShanker
+              - name: Jagdev
+                gen: S
+                family:
+                  - spouse:
+                      name: Veena
+                      nee: Thakur
 
               - name: Kuldip
                 gen: S
