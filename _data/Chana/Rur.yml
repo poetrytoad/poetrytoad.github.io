@@ -7,13 +7,14 @@ anc:
   - Karam
   - Ram
   - Nand
-  
+
 family:
-  - spouse: Rakhi
-    gen: K
-    nee: Sehmi
-    born:
-      loc: Paddi
+  - spouse:
+      name: Rakhi
+      gen: K
+      nee: Sehmi
+      born:
+        loc: Paddi
 
     children:
       - name: Sohan
