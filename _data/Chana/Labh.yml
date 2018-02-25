@@ -12,13 +12,13 @@ family:
               - import: Wazir
               - import: Sawan
               - import: Hira
-              - name: Bhagwan
+              - import: Bhagwan
                 gen: S
               - name: Haro
                 gen: K
                 family:
-                  spouse:
-                    sur: Ryatt
-                    born:
-                      loc: Malupota
+                  - spouse:
+                      sur: Ryatt
+                      born:
+                        loc: Malupota
       - name: Jiwa
