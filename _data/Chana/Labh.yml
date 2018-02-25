@@ -1,25 +1,24 @@
 name: Labh
 gen: S
-
 anc:
   - Karam
 
 family:
-  -
-    children:
-
-      - import: Wazir
-      - import: Sawan
-
-      - import: Hira
-
-      - name: Bhagwan
+  - children:
+      - name: Sahib
         gen: S
-
-      - name: Haro
-        gen: K
         family:
-          spouse:
-            sur: Ryatt
-            born:
-              loc: Malupota
+          - children:
+              - import: Wazir
+              - import: Sawan
+              - import: Hira
+              - name: Bhagwan
+                gen: S
+              - name: Haro
+                gen: K
+                family:
+                  spouse:
+                    sur: Ryatt
+                    born:
+                      loc: Malupota
+      - name: Jiwa

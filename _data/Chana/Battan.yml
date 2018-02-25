@@ -1,0 +1,61 @@
+name: Battan
+gen: S
+anc:
+  - Hira
+  - Sahib
+  - Labh
+  - Karam
+
+family:
+  - spouse: 
+      name: Partapi
+      gen: K
+      nee: Chaggar
+      born:
+        loc: Jhanderan
+    children:
+      - name: Jagat
+        gen: S
+        died:
+          age: 14
+
+      - name: Jagat
+
+      - name: Harbans
+        gen: S
+        family:
+          - spouse:
+              name: Karam
+              gen: K
+              nee: Chaggar
+              born:
+                loc: Ghumanan
+            children:
+              - name: Gurmit
+              - name: Rattan
+              - name: Avtar
+              - name: Kehar
+              - name: Sawaran
+              - name: Sohan
+
+      - name: Shiv
+        gen: S
+        family:
+          - spouse: 
+              name: Pritam
+              gen: K
+      - name: Bhago
+        gen: K
+        family:
+          - spouse:
+              sur: Seehra
+              born:
+                loc: Mansulpur
+      - name: Channo
+        gen: K
+        family:
+          - spouse:
+              sur: Seehra
+              born:
+                loc: Mansulpur
+  

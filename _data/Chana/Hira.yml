@@ -7,6 +7,22 @@ anc:
 
 family:
   - children:
+
     - name: Battan
     - name: Harnam
     - name: Bassant
+
+    - name: Khemi
+      gen: K
+      family:
+        - spouse:
+            name: '?'
+            born:
+              loc: Mathade
+    - name: Premi
+      gen: K
+      family:
+        - spouse:
+            sur: Lall
+            born:
+              loc: Bharomzara
