@@ -12,7 +12,7 @@ family:
               - import: Wazir
               - import: Sawan
               - import: Hira
-              - name: Bhagwan
+              - import: Bhagwan
                 gen: S
               - name: Haro
                 gen: K
