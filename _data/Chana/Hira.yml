@@ -9,7 +9,7 @@ family:
   - children:
 
     - import: Battan
-    - name: Harnam
+    - import: Harnam
     - name: Bassant
 
     - name: Khemi
