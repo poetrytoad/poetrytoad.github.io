@@ -2,6 +2,9 @@ name: Karam
 gen: S
 born:
   loc: Badala
+anc:
+  - Ram
+  - Nand
 
 family:
   - note: Settled in Chachrari

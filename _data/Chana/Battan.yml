@@ -5,9 +5,11 @@ anc:
   - Sahib
   - Labh
   - Karam
-
+  - Ram
+  - Nand
+  
 family:
-  - spouse: 
+  - spouse:
       name: Partapi
       gen: K
       nee: Chaggar
@@ -78,7 +80,7 @@ family:
       - name: Shiv
         gen: S
         family:
-          - spouse: 
+          - spouse:
               name: Pritam
               gen: K
       - name: Bhago
@@ -95,4 +97,3 @@ family:
               sur: Seehra
               born:
                 loc: Mansulpur
-  

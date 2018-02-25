@@ -4,7 +4,9 @@ anc:
   - Sahib
   - Labh
   - Karam
-
+  - Ram
+  - Nand
+  
 family:
   - children:
       - import: Uttam

@@ -3,7 +3,9 @@ gen: S
 anc:
   - Ram
   - Nand
-  
+  - Ram
+  - Nand
+
 family:
   - children:
       - name: Tehla

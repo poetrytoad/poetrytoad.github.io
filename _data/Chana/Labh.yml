@@ -2,7 +2,9 @@ name: Labh
 gen: S
 anc:
   - Karam
-
+  - Ram
+  - Nand
+  
 family:
   - children:
       - name: Sahib

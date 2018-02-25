@@ -4,6 +4,8 @@ name: Ram
 gen: S
 anc:
   - Nand
+  - Ram
+  - Nand
 
 family:
   - children:
