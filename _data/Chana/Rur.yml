@@ -1,0 +1,141 @@
+name: Rur
+gen: S
+anc:
+  - Bhagwan
+  - Sahib
+  - Labh
+  - Karam
+
+family:
+  - spouse: Rakhi
+    gen: K
+    nee: Sehmi
+    born:
+      loc: Paddi
+
+    children:
+      - name: Sohan
+        gen: S
+        family:
+          - spouse:
+              name: Nirmal
+              gen: K
+              nee: Nandhra
+              born:
+                loc: Nattan
+            children:
+              - name: Malkit
+                gen: S
+                family:
+                  - spouse:
+                      name: Satnam
+                      gen: K
+                      nee: Soor
+                      born:
+                        loc: Raapur
+                    children:
+                      - name: Amritpal
+                        gen: S
+                      - name: Pavanjit
+                        gen: K
+                      - name: Dharaminder
+                        gen: S
+              - name: Ravinder
+                gen: K
+                family:
+                  - spouse:
+                      sur: Sagoo
+                      born:
+                        loc: Jalandhar
+              - name: Bhupinder
+                gen: K
+                family:
+                  - spouse:
+                      sur: Bhogal
+                      born:
+                        loc: Bhilowal
+              - name: Kuldip
+                gen: S
+                family:
+                  - spouse:
+                      name: Devinder
+                      gen: K
+                      nee: Ubhi
+                      born:
+                        loc:
+                          Mahlian
+                    children:
+                      - name: Rapinder
+                        gen: K
+                      - name: Rajkamar
+                        gen: S
+              - name: Jaswinder
+                gen: K
+                family:
+                  - spouse:
+                      sur: Lall
+                      born:
+                        loc: Khankhana
+              - name: Rajinder
+                gen: K
+                family:
+                  - spouse:
+                      sur: Hunjan
+                      born:
+                        loc: Patlan
+              - name: Kulwinder
+                gen: S
+                family:
+                  - spouse:
+                      name: Surjit
+                      gen: K
+                      nee: Gore
+
+      - name: Darbara
+        gen: S
+        family:
+          - spouse:
+              name: Tej
+              gen: K
+              nee: Lall
+              born:
+                loc: Lakhpur
+            children:
+              - name: Gian
+                gen: S
+                family:
+                  - spouse:
+                      name: Jaswinder
+                      gen: K
+                      nee: Bharaj
+              - name: Gian
+                gen: K
+                family:
+                  - spouse:
+                      nee: Kalsi
+                      born:
+                        loc: Radhawa
+
+      - name: Kartar
+        gen: K
+        family:
+          - spouse:
+              sur: Seehra
+              born:
+                loc: Mansulpur
+
+      - name: Kishan
+        gen: K
+        family:
+          - spouse:
+              sur: Bhamra
+              born:
+                loc: Nagar
+
+      - name: Mohinder
+        gen: K
+        family:
+          - spouse:
+              sur: Seehra
+              born:
+                loc: Badala

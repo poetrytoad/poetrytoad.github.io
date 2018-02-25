@@ -1,0 +1,29 @@
+name: Bhagwan
+gen: S
+anc:
+  - Sahib
+  - Labh
+  - Karam
+
+family:
+  -
+    children:
+      - import: Rur
+
+      - name: Ruri
+        gen: K
+        family:
+          - spouse:
+              sur: Flora
+              born:
+                loc: Bharomzara
+
+      - name: Bassanti
+        gen: K
+        family:
+          - spouse:
+              sur: Phull
+              born:
+                loc: Nangal
+
+      - name: Teja
