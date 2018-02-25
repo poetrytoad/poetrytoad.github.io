@@ -5,4 +5,9 @@ note: The earliest known ancestor in this Chana family tree.
 
 family:
   - children:
-    - import: Ram
+    - name: Ram
+      gen: S
+      family:
+        - children:
+          - import: Karam
+          - import: Harsoo
