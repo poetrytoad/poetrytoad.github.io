@@ -6,7 +6,6 @@ note: The earliest known ancestor in this Chana family tree.
 family:
   - children:
     - name: Ram
-      expand: true
       gen: S
       family:
         - children:

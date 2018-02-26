@@ -12,8 +12,10 @@
     {% else %}
         {% assign l=pp.import %}
     {% endif %}
+    {% assign texpand=page.expand.[pp.import] %}
 {% else %}
     {% assign q=pp %}
     {% assign l=false %}
     {% assign swap=false %}
+    {% assign texpand=page.expand.[pp.name] %}
 {% endif %}
