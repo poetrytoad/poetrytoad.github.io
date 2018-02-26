@@ -48,10 +48,10 @@ family:
               - name: Nicky
                 gen: K
                 family:
-                    children:
-                      - name: Jamie
-                        sur: Faith
-                        gen: M
+                    - children:
+                        - name: Jamie
+                          sur: Faith
+                          gen: M
       - name: Kuldip
         gen: K
         family:
