@@ -15,10 +15,10 @@
 
 <body>
 
-  <nav>
+  <nav style="background: #{{ page.colour }}">
     <h1>
       <a href="{{ site.baseurl }}/">Family</a>:
-      <a href="{{ site.baseurl }}/{{ page:collection }}">{{ page:collection }}</a>
+      <a href="{{ site.baseurl }}/{{ page:collection }}"><b>{{ page:collection }}</b></a>
     </h1>
     {% for a in site.data.[page:collection].[page.title].anc reversed %}
       {% if site.data.[page:collection].[a] %}

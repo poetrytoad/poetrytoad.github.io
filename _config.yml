@@ -15,11 +15,13 @@ defaults:
         type: Chana
       values:
           layout: tree
+          colour: c66
     - scope:
         path: ""
         type: Rai
       values:
           layout: tree
+          color: 48b
     - scope:
         path: ""
         type: Matharu

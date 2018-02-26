@@ -9,7 +9,7 @@ html {
 body {
   font-family: 'Source Sans Pro', sans;
   line-height: 1.33;
-  margin: 2em 3em;
+  margin: 0 3em 2em 3em;
   -ms-text-size-adjust: none;
   -moz-text-size-adjust: none;
   -o-text-size-adjust: none;
@@ -181,9 +181,10 @@ h2, nav h1 {
 nav {
   margin: 0 -3em 1em -8em;
   padding: 1em 3em 1em 8em;
-  background: #c66;
+  background: #999;
   color: rgba(255,255,255,.5);
 }
+nav h1 { color: inherit; }
 
 
 nav a { color: rgba(255,255,255,.75); }
