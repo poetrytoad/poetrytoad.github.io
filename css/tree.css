@@ -130,7 +130,7 @@ header h1.spouse::before {
   position: absolute;
   left: 2rem;
   width: 5rem;
-  /* display: inline-block; */
+  display: none;
   text-align: left;
   font-family: 'Source Code Pro', monospace;
   font-weight: 100;
@@ -461,8 +461,14 @@ a.foldable:hover {
     margin: 0 -2em;
   }
 
-  * .path, * a.path, .path *, *.path>* {
+  .path {
     display: none !important;
   }
 
+}
+
+@media only screen and (min-width: 500px) {
+  .path {
+    display: inline;
+  }
 }
