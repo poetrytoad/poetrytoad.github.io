@@ -8,7 +8,7 @@ anc:
   - Karam
   - Ram
   - Nand
-  
+
 family:
 
   - spouse:
@@ -22,11 +22,12 @@ family:
       - name: Achal
         gen: S
         family:
-          - spouse: Channan
-            gen: K
-            nee: Panesar
-            born:
-              loc: Bhootan
+          - spouse:
+              name: Channan
+              gen: K
+              nee: Panesar
+              born:
+                loc: Bhootan
             children:
               - name: Nirmal
                 gen: K
