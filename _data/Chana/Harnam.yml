@@ -5,9 +5,11 @@ anc:
   - Sahib
   - Labh
   - Karam
-
-family:
+  - Ram
+  - Nand
   
+family:
+
   - spouse:
       name: Dhan
       gen: K

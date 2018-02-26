@@ -211,11 +211,11 @@ nav {
   margin: 1em 0;
 }
 
- :not(sup) a:link,  :not(sup) a:visited {
+.tree :not(sup) a:link, .tree :not(sup) a:visited {
   border-bottom: 1px dotted #9cd !important;
 }
 
- a:not(.branch):link:hover {
+ .tree a:not(.branch):link:hover {
   border-bottom: 1px solid #3ac !important;
   /* background: #d9eaf0; */
 }

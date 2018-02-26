@@ -33,7 +33,7 @@
     <span class="{{ site.data.[page.title].gen }}">{{ site.data.[page:collection].[page.title].name }}</span>
   </nav>
 
-  <article>
+  <article class="tree">
     {% assign h=site.data.[page:collection].[page.title] %}
     {% for toplevelfam in h.family %}
       {% include header.liquid p=h fam=toplevelfam firstmarriage=forloop.first %}
