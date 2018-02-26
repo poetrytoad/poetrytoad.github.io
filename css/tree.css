@@ -423,9 +423,7 @@ header+p {
 }
 
 .ellip {
-  font-weight: bold;
   color: #ccc;
-  margin-left: .1em;
 }
 
 a.foldable:hover { border-bottom: 1px solid #ddd; }
