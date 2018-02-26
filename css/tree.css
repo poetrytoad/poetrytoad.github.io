@@ -445,7 +445,7 @@ a.foldable:hover {
 
 
 
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 480px) {
 
   html {
     font-size: 13px;
@@ -455,7 +455,7 @@ a.foldable:hover {
     margin: 0 1em 1em 1em;
     padding-left: 0;
   }
-  
+
   nav {
     padding: .5em 1em;
   }
