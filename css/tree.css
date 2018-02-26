@@ -461,7 +461,7 @@ a.foldable:hover {
     margin: 0 -2em;
   }
 
-  * *.path * {
+  * .path {
     display: none !important;
   }
 
