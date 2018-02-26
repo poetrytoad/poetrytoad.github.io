@@ -121,14 +121,14 @@ header h1.spouse::before {
   position: absolute;
   left: 2rem;
   width: 5rem;
-  display: inline-block;
+  /* display: inline-block; */
   text-align: left;
   font-family: 'Source Code Pro', monospace;
   font-weight: 100;
-  font-size: .8rem;
-  padding-top: .25rem;
-  vertical-align: middle;
-  letter-spacing: .5px;
+  /* font-size: .8rem; */
+  /* padding-top: .25rem; */
+  /* vertical-align: middle; */
+  /* letter-spacing: .5px; */
   color: #bbb;
 }
 
