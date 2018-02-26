@@ -4,10 +4,11 @@ anc:
   - Karam
   - Ram
   - Nand
-  
+
 family:
   - children:
       - name: Sahib
+        expand: true
         gen: S
         family:
           - children:

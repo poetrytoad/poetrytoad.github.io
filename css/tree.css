@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:400,400i,600,600i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&text=%E2%86%90|%E2%86%92');
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&text=%E2%99%80|%E2%99%82');
-
 html {
   font-size: 15px;
 }
@@ -21,7 +20,6 @@ a {
   color: inherit;
 }
 
-
 ol, ul {
   font-size: inherit;
 }
@@ -39,7 +37,6 @@ article {
   margin: 0 0 3rem 0;
 }
 
-
 ul li:not(:last-child)>ul, ul li:not(:last-child)>p {
   border: 1px dashed black;
   border-width: 0 0 0 1px;
@@ -56,7 +53,6 @@ ul li {
   /* cursor: pointer; */
   /* white-space: nowrap; */
 }
-
 
 ul li:not(.remarry):before {
   display: inline-block;
@@ -154,6 +150,7 @@ h1 {
   font-size: 1.2rem;
   margin: 1.5rem 0 1rem 0;
 }
+
 header h1 {
   margin: .167em 0 0 0;
 }
@@ -177,18 +174,25 @@ h2, nav h1 {
   color: #999;
 }
 
-
 nav {
   margin: 0 -3em 1em -8em;
   padding: 1em 3em 1em 8em;
   background: #999;
-  color: rgba(255,255,255,.5);
+  color: rgba(255, 255, 255, .5);
 }
-nav h1 { color: inherit; }
 
+nav h1 {
+  color: inherit;
+}
 
-nav a { color: rgba(255,255,255,.75); }
-nav a:hover { color: white; text-decoration: none; }
+nav a {
+  color: rgba(255, 255, 255, .75);
+}
+
+nav a:hover {
+  color: white;
+  text-decoration: none;
+}
 
 nav h1 a.path {
   font-size: 2em;
@@ -200,10 +204,6 @@ nav h1 a.path {
 a:hover>.path, a.path:hover {
   color: black
 }
-
-/* ul a {
-  display: inline-block;
-} */
 
 q {
   opacity: .5;
@@ -225,7 +225,6 @@ q::after {
   border-bottom: 1px solid #3ac !important;
   /* background: #d9eaf0; */
 }
-
 
 sup {
   padding: 0 1px;
@@ -255,13 +254,6 @@ ul li p, header p {
   padding: 0 0 0 1.33rem;
   /* change LEFT */
 }
-
-
-
-/* .branch {
-  border: none !important;
-  font-weight: bold;
-} */
 
 .tree .branch, .tree .branch:link {
   position: relative;
@@ -296,21 +288,11 @@ ul li p, header p {
   display: inline-block;
 }
 
-/*
-.bd::before {
-  content: "(";
-}
-
-.bd::after {
-  content: ")";
-} */
-
 /* this is to make space for path */
 
 body {
   padding-left: 5rem;
 }
-
 
 /* name changes  */
 
@@ -348,10 +330,12 @@ s:after {
 header {
   margin: 1rem 0 .25rem 0;
 }
+
 header p {
   font-size: .88em;
   margin-top: .167em;
 }
+
 header p b {
   font-weight: normal;
   color: black;
@@ -359,19 +343,22 @@ header p b {
 
 header+p {
   color: #333;
-  margin: 0.5em 0 ;
+  margin: 0.5em 0;
 }
 
 .nee {
   font-weight: normal;
   color: #333;
 }
+
 .nee::before, .nee::after {
   color: #ccc;
 }
+
 .nee::before {
   content: "(";
 }
+
 .nee::after {
   content: ")";
 }
@@ -384,12 +371,10 @@ header+p {
 .spouse .sur {
   font-weight: bold;
 }
+
 .spouse s {
   display: none;
 }
-
-
-
 
 /* CONTENT */
 
@@ -400,7 +385,6 @@ header+p {
   font-size: .92em;
   /* padding-top: 1rem;
   border-top: 1px solid #ccc; */
-
 }
 
 #content h1 {
@@ -408,6 +392,7 @@ header+p {
   font-weight: normal;
   margin: 1.5em 0 0 0;
 }
+
 #content h2 {
   font-size: .92em;
   text-transform: uppercase;
@@ -424,6 +409,7 @@ header+p {
 .head {
   border-bottom: 1px solid #ddd;
 }
+
 .head:hover {
   border-bottom: 1px solid #aaa;
 }
@@ -432,4 +418,6 @@ header+p {
   color: #ccc;
 }
 
-a.foldable:hover { border-bottom: 1px solid #ddd; }
+a.foldable:hover {
+  border-bottom: 1px solid #ddd;
+}
