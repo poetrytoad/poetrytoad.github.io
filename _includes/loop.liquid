@@ -19,6 +19,7 @@
   {% if include.levellimit or include.expand %}</span>
   {% elsif f.children or t.note or f.note or s.note %}</a>
   {% else %}</span>
+  <span class="path">{{ t.id }}</span>
   {% endif %}
 {% else %}
   <span class="remarrymark"></span>
