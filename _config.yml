@@ -21,7 +21,7 @@ defaults:
         type: Rai
       values:
           layout: tree
-          color: 48b
+          colour: 48b
     - scope:
         path: ""
         type: Matharu
