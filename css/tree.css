@@ -462,7 +462,7 @@ a.foldable:hover {
   }
 
   .path {
-    display: none;
+    display: none !important;
   }
 
 
