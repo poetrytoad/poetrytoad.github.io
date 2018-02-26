@@ -8,7 +8,6 @@ anc:
 family:
   - children:
       - name: Sahib
-        expand: true
         gen: S
         family:
           - children:
