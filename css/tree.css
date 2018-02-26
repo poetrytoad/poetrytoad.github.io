@@ -68,7 +68,7 @@ ul li:not(.remarry):before {
 }
 
 ul li.remarry:before {
-  margin: 0em .33em 0 -1.33em;
+  margin: 0em 1.33em 0 -1.33em;
   /* change LEFT */
   padding: 0 0 0 0em;
   content: '';
