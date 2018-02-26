@@ -211,11 +211,11 @@ nav {
   margin: 1em 0;
 }
 
-article :not(sup) a:link, article :not(sup) a:visited {
+ :not(sup) a:link,  :not(sup) a:visited {
   border-bottom: 1px dotted #9cd !important;
 }
 
-article a:not(.branch):link:hover {
+ a:not(.branch):link:hover {
   border-bottom: 1px solid #3ac !important;
   /* background: #d9eaf0; */
 }
