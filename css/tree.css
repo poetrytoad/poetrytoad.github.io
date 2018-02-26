@@ -263,7 +263,7 @@ ul li p, header p {
   font-weight: bold;
 } */
 
-.branch, .branch:link {
+.tree .branch, .tree .branch:link {
   position: relative;
   border: none !important;
   /* font-weight: bold; */
