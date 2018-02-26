@@ -430,3 +430,36 @@ header+p {
 a.foldable:hover {
   border-bottom: 1px solid #ddd;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 786px) {
+
+  html {
+    font-size: 13px;
+  }
+
+  body {
+    margin: 0 2em 2em 2em;
+    padding-left: 0;
+  }
+
+  .path {
+    display: none;
+  }
+
+
+
+}
