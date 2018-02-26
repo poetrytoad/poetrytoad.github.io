@@ -445,8 +445,7 @@ a.foldable:hover {
 
 
 
-@media only screen and (max-width: 480px),
-@media only and (max-device-width: 736px) {
+@media only screen and (max-width: 500px) {
 
   html {
     font-size: 13px;
