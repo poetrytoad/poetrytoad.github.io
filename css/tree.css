@@ -445,7 +445,10 @@ a.foldable:hover {
 
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px),
+@media only and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait)  {
 
   html {
     font-size: 13px;
