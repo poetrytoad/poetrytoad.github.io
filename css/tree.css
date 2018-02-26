@@ -452,13 +452,13 @@ a.foldable:hover {
   }
 
   body {
-    margin: 0 1em 1em 1em;
+    margin: 0 2em 1em 2em;
     padding-left: 0;
   }
 
   nav {
-    padding: .5em 1em;
-    margin: 0 0 1em 0;
+    padding: .5em 2em;
+    margin: 0 -2em;
   }
 
   .path {
