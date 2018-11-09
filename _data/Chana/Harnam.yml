@@ -22,11 +22,12 @@ family:
       - name: Pritam
         gen: S
         family:
-          - spouse: Harbans
-            gen: K
-            nee: Matharu
-            born:
-              loc: Rasulpur
+          - spouse: 
+              name: Harbans
+              gen: K
+              nee: Matharu
+              born:
+                loc: Rasulpur
             children:
               - name: Mohinder
                 gen: S
