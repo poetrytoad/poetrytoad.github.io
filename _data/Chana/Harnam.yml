@@ -133,11 +133,12 @@ family:
       - name: Swaran
         gen: S
         family:
-          - spouse: Ajit
-            gen: K
-            nee: Bhogal
-            born:
-              loc: Nangal
+          - spouse: 
+              name: Ajit
+              gen: K
+              nee: Bhogal
+              born:
+                loc: Nangal
             children:
               - name: Rashpal
                 gen: S
