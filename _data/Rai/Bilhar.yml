@@ -6,6 +6,7 @@ family:
   - spouse:
       name: Surjit
       gen: K
+      born: 1932
       died: true
       link: ../Sahota/Bishan
     children:
