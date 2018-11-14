@@ -8,9 +8,38 @@ family:
       - name: Gurpreet
         nick: Gopi
         gen: S
+        family:
+          - spouse:
+              name: Suki
+              gen: K
       - name: Harpreet
         nick: Hapi
         gen: S
+        family:
+          - spouse:
+              name: Sallinder
+              nick: Sall
+              gen: K
+            children:
+              - name: Manvir
+                gen: S
+              - name: Manav
+                gen: S
+              - name: Kivvi
+                gen: K
       - name: Manpreet
         nick: Mani
         gen: K
+        family:
+          - spouse:
+              name: '?'
+              nick: Shandi
+            children:
+              - name: Riya
+                gen: K
+              - name: '?'
+                gen: K
+              - name: Avina
+                gen: K
+                
+

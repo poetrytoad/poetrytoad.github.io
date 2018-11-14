@@ -7,6 +7,7 @@ family:
       name: Surjit
       gen: K
       died: true
+      link: ../Sahota/Bishan
     children:
       - import: Manjit
       - import: Kari
