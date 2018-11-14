@@ -2,7 +2,9 @@
 {% if pp.import %}
     {% if pp.from %}
         {% assign q=site.data.[pp.from].[pp.import] %}
-        {% assign swap=pp.from %}
+        {% if pp.swap %}
+            {% assign swap=pp.from %}
+        {% endif %}
     {% else %}
         {% assign q=site.data.[page:collection].[pp.import] %}
         {% assign swap=false %}

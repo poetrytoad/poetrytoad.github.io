@@ -18,6 +18,7 @@ family:
         loc: Jhander
     children:
       - import: Dilbagh
+        from: Chana
       - name: Ajit
         gen: K
         family:
