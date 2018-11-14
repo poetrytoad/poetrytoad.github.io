@@ -1,10 +1,13 @@
-hidden: true
-
 name: Manjit
 gen: S
+anc:
+  - Bilhar
 
 family:
-  - children:
+  - spouse: 
+      name: Therith
+      gen: K
+    children:
       - name: Gurpreet
         nick: Gopi
         gen: S
