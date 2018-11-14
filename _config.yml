@@ -1,11 +1,11 @@
 collections:
-  - Chana:
+    Chana:
       output: true
       permalink: /:collection/:path
-  - Rai:
+    Rai:
       output: true
       permalink: /:collection/:path
-  - Sahota:
+    Sahota:
       output: true
       permalink: /:collection/:path
 
