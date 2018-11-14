@@ -9,8 +9,8 @@ family:
     children:
       - name: '?'
         gen: S
-      - name: Surjit
-        gen: K
+      - import: Bilhar
+        from: Rai
       - name: Kashmir
         gen: S
         family:
