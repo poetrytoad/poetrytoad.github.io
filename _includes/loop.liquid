@@ -2,11 +2,11 @@
 {% else %} {% assign f=include.p.family[0] %}
 {% endif %}
 
-{% if p.gen == "F" or p.gen == "K" %}
-  {% assign fem = true %}
+{% if p.gen == "M" or p.gen == "S" %}
+  {% assign male = true %}
 {% endif %}
 
-{% if include.from and fem %}
+{% if include.from and male %}
   {% assign t=f.spouse %}
   {% assign s=include.p %}
 {% else %}
