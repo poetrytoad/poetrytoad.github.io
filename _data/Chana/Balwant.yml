@@ -63,10 +63,16 @@ family:
               - name: Anoop
                 gen: S
                 family:
-                  - children:
+                  - spouse:
+                      name: Devinder
+                      gen: K
+                      nick: Dee
+                    children:
                       - name: Nina
                         gen: K
-              - name: Jasleen
+                      - name: Niah
+                        gen: K
+              - name: Jusleen
                 gen: K
                 family:
                   - spouse:

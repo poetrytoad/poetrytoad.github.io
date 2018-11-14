@@ -8,6 +8,9 @@ collections:
     Matharu:
         output: true
         permalink: /:collection/:path
+    Sahota:
+        output: true
+        permalink: /:collection/:path
 
 defaults:
     - scope:
