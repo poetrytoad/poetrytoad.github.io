@@ -11,8 +11,7 @@ family:
       died: true
       link: ../Sahota/Bishan
     children:
-      - swap: false
-        import: Manjit
+      - import: Manjit
         from: Rai
       - import: Kari
         from: Rai
