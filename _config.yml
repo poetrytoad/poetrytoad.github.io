@@ -17,16 +17,23 @@ defaults:
         path: ""
         type: Chana
       values:
-          layout: tree
-          colour: c66
+        layout: tree
+        colour: c66
     - scope:
         path: ""
         type: Rai
       values:
-          layout: tree
-          colour: 58b
+        layout: tree
+        colour: 58b
     - scope:
         path: ""
         type: Matharu
       values:
-          layout: tree
+        layout: tree
+        colour: c66
+    - scope:
+        path: ""
+        type: Sahota
+      values:
+        layout: tree
+        colour: 58b
