@@ -1,18 +1,23 @@
 ---
 ---
 
-# Empty
+# Families
 
 Test
 
+<p>RAI
 {% for item in site.Rai %}
-  <p><a href="{{ item.url }}"> {{ item.title }} </a></p>
+• <a href="{{ item.url }}">{{ item.title }} </a> 
 {% endfor %}
+</p>
 
+<p>SAHOTA
 {% for item in site.Sahota %}
-  <p><a href="{{ item.url }}"> {{ item.title }} </a></p>
+• <a href="{{ item.url }}"> {{ item.title }} </a>
 {% endfor %}
 
+<p>CHANA
 {% for item in site.Chana %}
-  <p><a href="{{ item.url }}"> {{ item.title }} </a></p>
+• <a href="{{ item.url }}"> {{ item.title }} </a>
 {% endfor %}
+</p>
