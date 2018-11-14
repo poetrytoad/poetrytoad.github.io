@@ -4,6 +4,7 @@ died: true
 swap: false
 
 family:
+  swap: false
   - spouse:
       name: Surjit
       gen: K
@@ -12,7 +13,8 @@ family:
       died: true
       link: ../Sahota/Bishan
     children:
-      - import: Manjit
+      - swap: false
+        import: Manjit
         from: Rai
       - import: Kari
         from: Rai
