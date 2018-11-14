@@ -13,6 +13,7 @@ family:
     children:
       - import: Manjit
         from: Rai
+        swap: false
       - import: Kari
         from: Rai
       - name: Daljit
