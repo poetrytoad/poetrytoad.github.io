@@ -4,8 +4,8 @@ died: true
 swap: false
 
 family:
-  swap: false
-  - spouse:
+  - swap: false
+    spouse:
       name: Surjit
       gen: K
       born: 
