@@ -2,10 +2,10 @@ collections:
   Chana:
     output: true
     permalink: /:collection/:path
-  Rai:
+  Sahota:
     output: true
     permalink: /:collection/:path
-  Sahota:
+  Rai:
     output: true
     permalink: /:collection/:path
 
