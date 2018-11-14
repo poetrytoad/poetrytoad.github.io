@@ -1,0 +1,29 @@
+name: Bishan
+gen: S
+died: true
+
+# family:
+#   - spouse: 
+#       name: Chanan
+#       gen: K
+#     children:
+#       - name: '?'
+#         gen: S
+#       - name: Surjit
+#         gen: K
+#       - name: Kashmir
+#         gen: S
+#         family:
+#           - spouse:
+#               name: Kuldip
+#               gen: K
+#             children:
+#               - name: Kanwarjit
+#                 nick: Kamal
+#                 gen: S
+#               - name: Harkireth
+#                 gen: K
+#                 nick: Kithe
+#       - name: '?'
+#         gen: S
+
