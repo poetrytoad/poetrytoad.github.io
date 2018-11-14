@@ -11,9 +11,9 @@ family:
       died: true
       link: ../Sahota/Bishan
     children:
-      - import: Manjit
+      - swap: false
+        import: Manjit
         from: Rai
-        swap: false
       - import: Kari
         from: Rai
       - name: Daljit
