@@ -1,4 +1,2 @@
 ---
 ---
-
-Collection test page
