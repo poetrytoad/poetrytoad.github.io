@@ -21,7 +21,6 @@ family:
       - # Urminder
         import: Kari
         from: Rai
-        swap: true
       - name: Iqbal
         nick: Bali
         gen: S

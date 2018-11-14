@@ -2,7 +2,11 @@
 {% else %} {% assign f=include.p.family[0] %}
 {% endif %}
 
-{% if include.from %}
+{% if p.gen == "F" or p.gen == "K" %}
+  {% assign fem = true %}
+{% endif %}
+
+{% if include.from and fem %}
   {% assign t=f.spouse %}
   {% assign s=include.p %}
 {% else %}
