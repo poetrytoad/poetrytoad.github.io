@@ -1,11 +1,9 @@
 name: Bilhar
 gen: S
 died: true
-swap: false
 
 family:
-  - swap: false
-    spouse:
+  - spouse:
       name: Surjit
       gen: K
       born: 
@@ -13,8 +11,7 @@ family:
       died: true
       link: ../Sahota/Bishan
     children:
-      - swap: false
-        import: Manjit
+      - import: Manjit
         from: Rai
       - import: Kari
         from: Rai
