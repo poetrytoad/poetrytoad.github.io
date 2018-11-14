@@ -11,7 +11,9 @@ family:
       link: ../Sahota/Bishan
     children:
       - import: Manjit
+        from: Rai
       - import: Kari
+        from: Rai
       - name: Daljit
         gen: K
       - name: Rani

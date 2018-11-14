@@ -15,6 +15,7 @@ Test
 {% for item in site.Sahota %}
 • <a href="{{ item.url }}"> {{ item.title }} </a>
 {% endfor %}
+</p>
 
 <p>CHANA
 {% for item in site.Chana %}
