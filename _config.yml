@@ -1,13 +1,13 @@
 collections:
-    Chana:
-        output: true
-        permalink: /:collection/:path
-    Rai:
-        output: true
-        permalink: /:collection/:path
-    Sahota:
-        output: true
-        permalink: /:collection/:path
+  - Chana:
+      output: true
+      permalink: /:collection/:path
+  - Rai:
+      output: true
+      permalink: /:collection/:path
+  - Sahota:
+      output: true
+      permalink: /:collection/:path
 
 defaults:
     - scope:
