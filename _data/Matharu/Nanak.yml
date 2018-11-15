@@ -1,0 +1,14 @@
+name: Nanak
+gen: S
+
+family:
+  - spouse:
+      name: '?'
+    children:
+      - name: Gian
+        gen: S
+      - # Ranjit > Surjit
+        import: Dilbagh
+        from: Chana
+        swap: true
+

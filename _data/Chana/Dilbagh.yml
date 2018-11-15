@@ -17,8 +17,9 @@ family:
         - Surjit
       nee: Matharu
       gen: K
+      link: ../Matharu/Nanak
     children:
-      - # Urminder
+      - # Urmi
         swap: true
         import: Kari
         from: Rai

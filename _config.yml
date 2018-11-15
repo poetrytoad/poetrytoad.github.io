@@ -8,6 +8,9 @@ collections:
   Rai:
     output: true
     permalink: /:collection/:path
+  Matharu:
+    output: true
+    permalink: /:collection/:path
 
 defaults:
     - scope:

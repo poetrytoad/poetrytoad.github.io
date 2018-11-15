@@ -11,7 +11,9 @@ anc:
 
 family:
   - spouse:
-      name: Pal
+      name: 
+        - Melo
+        - Pal
       gen: K
       nee: Chaggar
       born:
